@@ -18,6 +18,9 @@ class Animal
     #[ORM\Column(type: 'string', length: 255)]
     private $name;
 
+    #[ORM\ManyToOne(targetEntity: Owner::class, inversedBy: 'animals')]
+    private $owner;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -31,6 +34,18 @@ class Animal
     public function setName(string $name): self
     {
         $this->name = $name;
+
+        return $this;
+    }
+
+    public function getOwner(): ?Owner
+    {
+        return $this->owner;
+    }
+
+    public function setOwner(?Owner $owner): self
+    {
+        $this->owner = $owner;
 
         return $this;
     }
