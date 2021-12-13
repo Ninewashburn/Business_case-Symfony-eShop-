@@ -32,6 +32,18 @@ class Owner implements UserInterface
     #[ORM\OneToMany(mappedBy: 'owner', targetEntity: Animal::class)]
     private $animals;
 
+    #[ORM\Column(type: 'string', length: 255)]
+    private $gender;
+
+    #[ORM\Column(type: 'string', length: 255)]
+    private $email;
+
+    #[ORM\Column(type: 'string', length: 30, nullable: true)]
+    private $telephone;
+
+    #[ORM\Column(type: 'string', length: 50)]
+    private $password;
+
     public function __construct()
     {
         $this->animals = new ArrayCollection();
@@ -170,6 +182,49 @@ class Owner implements UserInterface
                 $animal->setOwner(null);
             }
         }
+
+        return $this;
+    }
+
+    public function getGender(): ?string
+    {
+        return $this->gender;
+    }
+
+    public function setGender(string $gender): self
+    {
+        $this->gender = $gender;
+
+        return $this;
+    }
+
+    public function getEmail(): ?string
+    {
+        return $this->email;
+    }
+
+    public function setEmail(string $email): self
+    {
+        $this->email = $email;
+
+        return $this;
+    }
+
+    public function getTelephone(): ?string
+    {
+        return $this->telephone;
+    }
+
+    public function setTelephone(?string $telephone): self
+    {
+        $this->telephone = $telephone;
+
+        return $this;
+    }
+
+    public function setPassword(string $password): self
+    {
+        $this->password = $password;
 
         return $this;
     }
