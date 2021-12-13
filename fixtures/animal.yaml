@@ -1,0 +1,6 @@
+#App\Entity\Animal:
+#  animal{1..100}:
+#    name: '<firstName()>'
+#    species: '@species*'
+#    owner: '80%? @owner*'
+#    gender: '<randomElement(["f", "m", "o"])>'
