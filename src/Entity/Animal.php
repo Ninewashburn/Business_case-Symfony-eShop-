@@ -7,7 +7,7 @@ use App\Repository\AnimalRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: AnimalRepository::class)]
-#[ApiResource]
+#[ApiResource] //Effacer si je dois y retirer
 class Animal
 {
     #[ORM\Id]
