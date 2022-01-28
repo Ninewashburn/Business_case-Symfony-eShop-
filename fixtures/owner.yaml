@@ -1,10 +1,8 @@
-App\Entity\Owner:
-  owner{1..50}:
+App\Entity\User:
+  user{1..50}:
     firstName: '<firstName()>'
     lastName: '<lastName()>'
     birthAt: '<dateTimeBetween("1950-01-01", "-18 years")>'
-
-  no_animal_owner{1..10}:
-    firstName: '<firstName()>'
-    lastName: '<lastName()>'
-    birthAt: '<dateTimeBetween("1950-01-01", "-18 years")>'
+    email: '<email()>'
+    password: '<password()>'
+    telephone: '<word(1, 2)> <numberBetween(10000, 100000)>'

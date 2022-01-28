@@ -1,0 +1,4 @@
+App\Entity\Brand:
+  brand{1..40}:
+    name: '<word(1000)> <numberBetween(1, 10)>'
+    logo: '<numberBetween(1, 10)> <word()>'

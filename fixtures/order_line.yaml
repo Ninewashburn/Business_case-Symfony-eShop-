@@ -1,0 +1,4 @@
+App\Entity\OrderLine:
+  orderLine{1..120}:
+    quantity: '<numberBetween(1, 15)>'
+

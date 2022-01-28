@@ -1,0 +1,7 @@
+App\Entity\Address:
+  address{1..75}:
+    first_address: '<numberBetween(1, 100)> <word()>'
+    second_address: '<numberBetween(1, 100)> <word()>'
+    country: '<word(50)>'
+    city: '<word(10)>'
+    zip_code: '<numberBetween(10000, 90000)>'
