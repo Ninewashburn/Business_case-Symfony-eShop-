@@ -21,7 +21,7 @@ class Cart
     #[ORM\OneToOne(inversedBy: 'cart', targetEntity: Order::class, cascade: ['persist', 'remove'])]
     private $command;
 
-    #[ORM\OneToOne(inversedBy: 'cart', targetEntity: cartLine::class, cascade: ['persist', 'remove'])]
+    #[ORM\OneToOne(inversedBy: 'cart', targetEntity: CartLine::class, cascade: ['persist', 'remove'])]
     private $cartLine;
 
     #[ORM\ManyToOne(targetEntity: User::class, inversedBy: 'carts')]
