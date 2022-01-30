@@ -7,8 +7,10 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
+use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
 use Symfony\Component\Security\Core\User\UserInterface;
+use Symfony\Component\Security\Core\Validator\Constraints as SecurityAssert;
 
 /**
  * @UniqueEntity(fields={"email"}, message="There is already an account with this email")
@@ -22,27 +24,36 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     private $id;
 
     #[ORM\Column(type: 'string', length: 180, unique: true)]
+    #[Assert\Email(message: 'The email {{ value }} is not a valid email.',)]
     private $email;
 
     #[ORM\Column(type: 'json')]
     private $roles = [];
 
     #[ORM\Column(type: 'string')]
+    #[SecurityAssert\UserPassword(message: 'Wrong value for your current password',)]
     private $password;
 
     #[ORM\Column(type: 'string', length: 100)]
+    #[Assert\NotBlank, Assert\Length(max: 50)]
+    #[Assert\Unique]
     private $firstName;
 
     #[ORM\Column(type: 'string', length: 100)]
+    #[Assert\NotBlank, Assert\Length(max: 50)]
+    #[Assert\Unique]
     private $lastName;
 
     #[ORM\Column(type: 'string', length: 50)]
+    #[Assert\Type(type:'string', message:"This weight must be a phone number")]
     private $telephone;
 
     #[ORM\Column(type: 'date')]
+    #[Assert\Type(type:'date', message:"This weight must be a date")]
     private $birthAt;
 
     #[ORM\ManyToMany(targetEntity: Address::class, inversedBy: 'users')]
+    #[Assert\NotBlank, Assert\Length(max: 255)]
     private $address;
 
     #[ORM\OneToMany(mappedBy: 'user', targetEntity: Rate::class)]

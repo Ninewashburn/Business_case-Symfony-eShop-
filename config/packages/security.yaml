@@ -7,10 +7,13 @@ security:
       algorithm: auto
 
   role_hierarchy:
+    ROLE_USER:
+      - ROLE_USER
     ROLE_ADMIN:
-      - ROLE_ADMIN_ANIMAL
+      - ROLE_ADMIN
       - ROLE_ADMIN_OWNER
     ROLE_ADMIN_OWNER:
+      - ROLE_SUPER_ADMIN
       - ROLE_ADMIN_OWNER_GET
       - ROLE_ADMIN_OWNER_POST
       - ROLE_ADMIN_OWNER_PUT

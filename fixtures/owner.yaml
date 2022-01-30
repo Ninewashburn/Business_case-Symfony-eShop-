@@ -5,4 +5,4 @@ App\Entity\User:
     birthAt: '<dateTimeBetween("1950-01-01", "-18 years")>'
     email: '<email()>'
     password: '<password()>'
-    telephone: '<word(1, 2)> <numberBetween(10000, 100000)>'
+    telephone: '<e164PhoneNumber()>'
