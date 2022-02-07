@@ -1,27 +1,33 @@
-
 <div class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand ms-3" href="{{ path('home') }}">Accueil</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                {#                <a class="nav-item nav-link" href="{{ path('subcat_index') }}">Toutes les sous catégories</a>#}
-                {#                <a class="nav-item nav-link" href="{{ path('thread_index') }}">Tous les sujets</a>#}
-                {#                <a class="nav-item nav-link" href="{{ path('post_index') }}">Tous les commentaires</a>#}
+                <button class="btn btn-light">Magasin</button>
+                <br>
+                <button class="btn btn-light">Informations</button>
+                <br>
+                <button class="btn btn-light">Bonus</button>
+                <br>
+{#                                <a class="nav-item nav-link" href="{{ path('app_register') }}">Toutes les sous catégories</a>#}
             </div>
         </div>
-        {% if app.user %}
-            <button class="btn btn-dark"><a class="nav-item nav-link" href="{{ path('app_logout') }}">Deconnexion</a>
-            </button>
-        {% else %}
-            <button class="btn btn-danger"><a class="nav-item nav-link" href="{{ path('app_login') }}">Connexion</a>
-            </button>
-        {% endif %}
-
         <div class="navbar-nav float-end me-3">
-            <input type="text" class="form-control" placeholder="iseedeadpeople" alt="référence Kevin +1 point svpls" data-games-search>
+            {% if app.user %}
+                <a class="btn btn-dark">
+                    href="{{ path('app_logout') }}">Deconnexion</a>
+            {% else %}
+                <a class="btn btn-danger" href="{{ path('app_login') }}">Connexion</a>
+            {% endif %}
+        </div>
+        <div class="navbar-nav float-end me-3">
+            <label>
+                <input type="text" class="form-control" placeholder="Recherchez un produit..." alt="barre de recherche" data-games-search>
+            </label>
         </div>
     </nav>
 </div>
