@@ -1,33 +1,78 @@
 <div class="sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand ms-3" href="{{ path('home') }}">Accueil</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand ms-3 fw-bold" href="{{ path('home') }}">
+            <img class="rounded-3"
+                 src="{{ asset('build/images/logo.png') }}"
+                 alt="logo">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <button class="btn btn-light">Magasin</button>
-                <br>
-                <button class="btn btn-light">Informations</button>
-                <br>
-                <button class="btn btn-light">Bonus</button>
-                <br>
-{#                                <a class="nav-item nav-link" href="{{ path('app_register') }}">Toutes les sous catégories</a>#}
-            </div>
-        </div>
-        <div class="navbar-nav float-end me-3">
-            {% if app.user %}
-                <a class="btn btn-dark">
-                    href="{{ path('app_logout') }}">Deconnexion</a>
-            {% else %}
-                <a class="btn btn-danger" href="{{ path('app_login') }}">Connexion</a>
-            {% endif %}
-        </div>
         <div class="navbar-nav float-end me-3">
             <label>
-                <input type="text" class="form-control" placeholder="Recherchez un produit..." alt="barre de recherche" data-games-search>
+                <input type="text" class="form-control rounded-pill" placeholder="Recherchez un produit..."
+                       alt="barre de recherche" data-games-search>
             </label>
         </div>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="btn btn-light btn-sm rounded-pill me-3">La Nimes Team</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="btn btn-light btn-sm rounded-pill me-3" href="{{ path('product') }}">La Boutique</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="btn btn-light btn-sm rounded-pill me-3">La Base Terrestre</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="btn btn-light btn-sm rounded-pill me-3">La Base Spatiale</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="btn btn-light btn-sm rounded-pill me-3">Informations</a>
+                </li>
+                {#                <li class="nav-item active"> #}
+                {#                    <a class="btn btn-light btn-sm rounded-pill me-3" href="{{ path('app_register') }}">Inscription</a> #}
+                {#                </li> #}
+            </ul>
+            <ul class="navbar-nav flex-row mb-2">
+                <li class="nav-item">
+                    <a class="nav-link py-1 pr-3" href="https://fr-fr.facebook.com/" target="_blank">
+                        <i class="fa-brands fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link py-1 pr-3" href="https://www.instagram.com/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link py-1 pr-3" href="https://www.pinterest.com/" target="_blank">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link py-1 pr-3" href="https://www.twitter.com/" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link py-1 pr-3" href="https://www.linkedin.com/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navbar-nav float-end me-3">
+            {% if app.user %}
+                <a class="btn btn-outline-dark rounded-pill fw-bold" href="{{ path('app_logout') }}">Déconnexion</a>
+            {% else %}
+                <a class="btn btn-danger rounded-pill fw-bold" href="{{ path('app_login') }}">Connexion</a>
+            {% endif %}
+        </div>
+
     </nav>
 </div>

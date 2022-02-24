@@ -41,7 +41,7 @@ class Product
     #[ORM\ManyToMany(targetEntity: Category::class, inversedBy: 'products')]
     private $category;
 
-    #[ORM\ManyToOne(targetEntity: Cartline::class, inversedBy: 'products')]
+    #[ORM\ManyToOne(targetEntity: CartLine::class, inversedBy: 'products')]
     private $cartLine;
 
     public function __construct()

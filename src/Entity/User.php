@@ -31,25 +31,22 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     private $roles = [];
 
     #[ORM\Column(type: 'string')]
-    #[SecurityAssert\UserPassword(message: 'Wrong value for your current password',)]
     private $password;
 
     #[ORM\Column(type: 'string', length: 100)]
     #[Assert\NotBlank, Assert\Length(max: 50)]
-    #[Assert\Unique]
     private $firstName;
 
     #[ORM\Column(type: 'string', length: 100)]
     #[Assert\NotBlank, Assert\Length(max: 50)]
-    #[Assert\Unique]
     private $lastName;
 
-    #[ORM\Column(type: 'string', length: 50)]
+    #[ORM\Column(type: 'string', length: 50, nullable: true)]
     #[Assert\Type(type:'string', message:"This weight must be a phone number")]
     private $telephone;
 
     #[ORM\Column(type: 'date')]
-    #[Assert\Type(type:'date', message:"This weight must be a date")]
+    #[Assert\NotBlank]
     private $birthAt;
 
     #[ORM\ManyToMany(targetEntity: Address::class, inversedBy: 'users')]
