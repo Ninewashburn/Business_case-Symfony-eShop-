@@ -2,7 +2,7 @@
 
     {#    First NavBar #}
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-white">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-white w-100">
 
         <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavAltMarkup"
@@ -135,7 +135,7 @@
                         {#                </li> #}
 
                         {% if app.user %}
-                            <a class="btn btn-custom-nav btn-sm btn-outline-dark col-xs-4 fw-bold d-flex flex-column me-3 nav-icon-fontsize"
+                            <a class="btn btn-custom-nav btn-sm col-xs-4 fw-bold d-flex flex-column me-3 nav-icon-fontsize"
                                href="{{ path('app_logout') }}">
                                 <img class="rounded-3" src="{{ asset('build/images/connect-logo.png') }}"
                                      alt="disconnect-logo">
