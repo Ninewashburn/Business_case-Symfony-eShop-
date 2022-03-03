@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello NimesTeamController!{% endblock %}
+
+{% block body %}
+    <div class="container-fluid col-6 mt-2">
+
+        <h1 class="h3 mb-3 text-center font-weight-normal">Contactez Nous !</h1>
+
+        <form>
+            <div class="form-group py-1">
+                <label for="exampleFormControlInput1">Votre adresse email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="alfred@dupont.com">
+            </div>
+            <div class="form-group py-1">
+                <label for="exampleFormControlSelect1">Sujet</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                </select>
+            </div>
+            <div class="form-group py-1">
+                <label for="exampleFormControlTextarea1">Ecrivez votre message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group py-1">
+                <label for="exampleFormControlFile1">Fichier à joindre</label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div> <br>
+            <button type="submit" class="btn btn-primary py-1">Envoyez</button>
+        </form>
+    </div>
+{% endblock %}

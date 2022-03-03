@@ -2,56 +2,69 @@
 
     {#    First NavBar #}
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-white">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="container collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="fw-bold">
-                <p>Appelez la base au numéro : 06.36.65.65.65</p>
+            <div class="row w-100">
+                <div class="col-4 d-flex flex-row justify-content-start fw-bold navbar-collapse">
+                    <span class="nav-fontsize">
+                        Appelez la base ici : 06.36.65.65.65
+                        <br>
+                        Email : la_nimes'alerie@mars.net
+                    </span>
+
+                    <a class="navbar-brand d-flex ms-xl-5 py-0" href="{{ path('bonus_page') }}">
+                        <span class="d-flex">
+                            <img class="rounded-3"
+                                 src="{{ asset('build/images/laika-logo.jpg') }}"
+                                 alt="logo">
+                        </span>
+                    </a>
+                </div>
+                <div class="col-4 d-flex flex-row justify-content-center fw-bold navbar-collapse">
+                    <span class="nav-fontsize text-center">
+                        <img class="rounded-3 navbar-color"
+                             src="{{ asset('build/images/rocket-top.png') }}" alt="logo">
+                        Prochain lancement à :  <span id="demo"></span>
+                        <img class="rounded-3 navbar-color" src="{{ asset('build/images/rocket-top.png') }}"
+                             alt="logo">
+                    </span>
+                </div>
+                <div class="col-4 d-flex flex-row justify-content-end navbar-collapse">
+                    <div class="nav-item d-flex">
+                        <a class="nav-link py-0" href="https://fr-fr.facebook.com/" target="_blank">
+                            <i class="logo-color fa-brands fa-facebook-square fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link py-0" href="https://www.instagram.com/" target="_blank">
+                            <i class="logo-color fa-brands fa-instagram fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link py-0" href="https://www.pinterest.com/" target="_blank">
+                            <i class="logo-color fa-brands fa-pinterest fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link py-0" href="https://www.twitter.com/" target="_blank">
+                            <i class="logo-color fa-brands fa-twitter fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link py-0" href="https://www.linkedin.com/" target="_blank">
+                            <i class="logo-color fa-brands fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
 
-            <img class="rounded-3"
-                 src="{{ asset('build/images/laika-logo.jpg') }}"
-                 alt="logo">
-
-            <div class="fw-bold">
-                <p>la_nimes'alerie@mars.net</p>
-            </div>
-
-            <div class="fw-bold">
-                <p><img class="rounded-3 navbar-color" src="{{ asset('build/images/rocket-top.png') }}" alt="logo">
-                    Prochain lancement à : 10h10
-                    <img class="rounded-3 navbar-color" src="{{ asset('build/images/rocket-top.png') }}" alt="logo"></p>
-            </div>
-            <div class="nav-item">
-                <a class="nav-link py-1 pr-3" href="https://fr-fr.facebook.com/" target="_blank">
-                    <i class="logo-color fa-brands fa-facebook-square"></i>
-                </a>
-            </div>
-            <div class="nav-item">
-                <a class="nav-link py-1 pr-3" href="https://www.instagram.com/" target="_blank">
-                    <i class="logo-color fa-brands fa-instagram"></i>
-                </a>
-            </div>
-            <div class="nav-item">
-                <a class="nav-link py-1 pr-3" href="https://www.pinterest.com/" target="_blank">
-                    <i class="logo-color fa-brands fa-pinterest"></i>
-                </a>
-            </div>
-            <div class="nav-item">
-                <a class="nav-link py-1 pr-3" href="https://www.twitter.com/" target="_blank">
-                    <i class="logo-color fa-brands fa-twitter"></i>
-                </a>
-            </div>
-            <div class="nav-item">
-                <a class="nav-link py-1 pr-3" href="https://www.linkedin.com/" target="_blank">
-                    <i class="logo-color fa-brands fa-linkedin"></i>
-                </a>
-            </div>
         </div>
 
     </nav>
@@ -59,75 +72,116 @@
     {#    Second NavBar #}
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-color">
+    <nav class="navbar navbar-expand-lg navbar-color">
         <div class="container">
-            <a class="navbar-brand ms-5 me-5 fw-bold" href="{{ path('home') }}">
-                <img class="rounded-3"
-                     src="{{ asset('build/images/logo.png') }}"
-                     alt="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-nav float-end me-5">
-                <label>
-                    <input type="text" class="form-control rounded-pill search-style text-center"
-                           placeholder="Explorez l'espace !"
-                           alt="barre de recherche" data-games-search>
-                </label>
-            </div>
+            <div class="row w-100">
+                <div class="col-4 d-flex flex-row justify-content-start navbar-collapse">
+                    <a class="navbar-brand fw-bold"
+                       href="{{ path('home') }}">
+                        <img class="rounded-3"
+                             src="{{ asset('build/images/logo.png') }}"
+                             alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavAltMarkup"
+                            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-nav float-end me-5 ms-3 py-4">
+                        <label>
+                            <input type="text" class="form-control rounded-pill search-style text-center"
+                                   placeholder="Explorez l'espace !"
+                                   alt="barre de recherche">
+                        </label>
+                    </div>
+                </div>
+                <div class="collapse d-flex navbar-collapse col-8 justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="btn btn-custom-nav btn-sm col-xs-4 fw-bold d-flex flex-column me-4 nav-icon-fontsize"
+                           href="{{ path('home') }}">
+                            <img class="rounded-3" src="{{ asset('build/images/home-logo.png') }}" alt="home-logo">
+                            <span>L'Accueil</span></a>
 
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav d-flex justify-content-between w-100">
-                    <a class="btn btn-custom-nav btn-sm col-xs-4 fw-bold d-flex flex-column" href="{{ path('home') }}">
-                        <img class="rounded-3" src="{{ asset('build/images/home-logo.png') }}" alt="home-logo">
-                        <span>Accueil</span></a>
+                        <a class="btn btn-custom-nav btn-sm col-xs-4 fw-bold d-flex flex-column me-4 nav-icon-fontsize"
+                           href="{{ path('nimes_team') }}">
+                            <img class="rounded-3" src="{{ asset('build/images/rocket-logo.png') }}" alt="rocket-logo">
+                            <span>La Nîmes Team</span></a>
 
-                    <a class="btn btn-custom-nav btn-sm col-xs-4 fw-bold d-flex flex-column">
-                        <img class="rounded-3" src="{{ asset('build/images/rocket-logo.png') }}" alt="rocket-logo">
-                        <span>Nîmes Team</span></a>
+                        <a class="btn btn-custom-nav btn-sm col-xs-4 fw-bold d-flex flex-column me-4 nav-icon-fontsize"
+                           href="{{ path('product') }}">
+                            <img class="rounded-3" src="{{ asset('build/images/cart-logo.png') }}" alt="cart-logo">
+                            <span>La Boutique</span></a>
 
-                    <a class="btn btn-custom-nav btn-sm col-xs-4 fw-bold d-flex flex-column"
-                       href="{{ path('product') }}">
-                        <img class="rounded-3" src="{{ asset('build/images/cart-logo.png') }}" alt="cart-logo">
-                        <span>Boutique</span></a>
+                        <a class="btn btn-custom-nav btn-sm col-xs-4 fw-bold d-flex flex-column me-4 nav-icon-fontsize"
+                           href="{{ path('earth_base') }}">
+                            <img class="rounded-3 align-items-center" src="{{ asset('build/images/earth-logo.png') }}"
+                                 alt="earth-logo">
+                            <span>La Base Terrestre</span></a>
 
-                    <a class="btn btn-custom-nav btn-sm col-xs-4 fw-bold d-flex flex-column">
-                        <img class="rounded-3 align-items-center" src="{{ asset('build/images/earth-logo.png') }}"
-                             alt="earth-logo">
-                        <span>Base Terrestre</span></a>
+                        <a class="btn btn-custom-nav btn-sm col-xs-4 fw-bold d-flex flex-column me-4 nav-icon-fontsize"
+                           href="{{ path('space_base') }}">
+                            <img class="rounded-3" src="{{ asset('build/images/spaceship-logo.png') }}"
+                                 alt="spaceship-logo">
+                            <span>La Base Spatiale</span></a>
 
-                    <a class="btn btn-custom-nav btn-sm col-xs-4 fw-bold d-flex flex-column">
-                        <img class="rounded-3" src="{{ asset('build/images/spaceship-logo.png') }}"
-                             alt="spaceship-logo">
-                        <span>Base Spatiale</span></a>
+                        <a class="btn btn-custom-nav btn-sm col-xs-4 fw-bold d-flex flex-column me-4 nav-icon-fontsize"
+                           href="{{ path('news') }}">
+                            <img class="rounded-3" src="{{ asset('build/images/help-logo.png') }}"
+                                 alt="help-logo">
+                            <span>Les Infos</span></a>
 
-                    <a class="btn btn-custom-nav btn-sm col-xs-4 fw-bold d-flex flex-column">
-                        <img class="rounded-3" src="{{ asset('build/images/help-logo.png') }}"
-                             alt="help-logo">
-                        <span>Infos</span></a>
+                        {#                <li class="nav-item active"> #}
+                        {#                    <a class="btn btn-light btn-sm rounded-pill me-3" href="{{ path('app_register') }}">Inscription</a> #}
+                        {#                </li> #}
 
-                    {#                <li class="nav-item active"> #}
-                    {#                    <a class="btn btn-light btn-sm rounded-pill me-3" href="{{ path('app_register') }}">Inscription</a> #}
-                    {#                </li> #}
+                        {% if app.user %}
+                            <a class="btn btn-custom-nav btn-sm btn-outline-dark col-xs-4 fw-bold d-flex flex-column me-3 nav-icon-fontsize"
+                               href="{{ path('app_logout') }}">
+                                <img class="rounded-3" src="{{ asset('build/images/connect-logo.png') }}"
+                                     alt="disconnect-logo">
+                                <span>Déconnexion</span></a>
+                        {% else %}
+                            <a class="btn btn-custom-nav btn-sm col-xs-4 fw-bold d-flex flex-column me-3 nav-icon-fontsize"
+                               href="{{ path('app_login') }}">
+                                <img class="rounded-3" src="{{ asset('build/images/connect-logo.png') }}"
+                                     alt="connect-logo">
+                                <span>Identifiez vous</span></a>
+                        {% endif %}
 
-                    {% if app.user %}
-                        <a class="btn btn-custom-nav btn-sm btn-outline-dark col-xs-4 fw-bold d-flex flex-column"
-                           href="{{ path('app_logout') }}">
-                            <img class="rounded-3" src="{{ asset('build/images/connect-logo.png') }}"
-                                 alt="disconnect-logo">
-                            <span>Déconnexion</span></a>
-                    {% else %}
-                        <a class="btn btn-custom-nav btn-sm col-xs-4 fw-bold d-flex flex-column"
-                           href="{{ path('app_login') }}">
-                            <img class="rounded-3" src="{{ asset('build/images/connect-logo.png') }}"
-                                 alt="connect-logo">
-                            <span>Connexion</span></a>
-                    {% endif %}
-
+                    </div>
                 </div>
             </div>
         </div>
     </nav>
 </div>
+
+<script>
+    // Set the date we're counting down to
+    let countDownDate = new Date("May 12, 2022 17:00:00").getTime();
+
+    // Update the count down every 1 second
+    let x = setInterval(function () {
+
+        // Get today's date and time
+        let now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        let distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("demo").innerHTML = days + "j " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+</script>

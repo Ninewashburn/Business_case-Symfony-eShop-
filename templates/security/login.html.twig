@@ -3,7 +3,7 @@
 {% block title %}Connectez-vous au monde !{% endblock %}
 
 {% block body %}
-    <div class="container-fluid col-6 mt-5">
+    <div class="container-fluid col-6 mt-2">
         <form method="post">
             {% if error %}
                 <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
@@ -11,22 +11,23 @@
 
             {% if app.user %}
                 <div class="mb-3">
-                    Vous êtes connecté en tant que : {{ app.user.username }}, <a href="{{ path('app_logout') }}">Se déconnecter</a>
+                    Vous êtes connecté en tant que : {{ app.user.username }}, <a href="{{ path('app_logout') }}">Se
+                        déconnecter</a>
                 </div>
             {% endif %}
 
-            <h1 class="h3 mb-3 font-weight-normal">Veuillez vous identifier</h1><br>
-            <label for="inputEmail">Adresse Email</label><br><br>
+            <h1 class="h3 mb-3 text-center font-weight-normal">Veuillez vous identifier</h1>
+            <label class="py-1" for="inputEmail">Adresse Email</label>
             <input type="email" value="{{ last_username }}" name="email" id="inputEmail" class="form-control"
-                   autocomplete="email" required autofocus><br>
-            <label for="inputPassword">Mot de passe</label><br><br>
+                   autocomplete="email" required autofocus>
+            <label class="py-1" for="inputPassword">Mot de passe</label>
             <input type="password" name="password" id="inputPassword" class="form-control"
                    autocomplete="current-password"
-                   required><br>
+                   required>
 
             <input type="hidden" name="_csrf_token"
                    value="{{ csrf_token('authenticate') }}"
-            >
+            ><br>
 
             {#
             Uncomment this section and add a remember_me option below your firewall to activate remember me functionality.
@@ -42,9 +43,9 @@
             <button class="btn btn-lg btn-primary" type="submit">
                 Connexion
             </button>
-            <br><br>
+
             <div>
-                <p>Vous n'avez pas de compte ?
+                <p class="py-1">Vous n'avez pas de compte ?
                     <a class="btn btn-lg btn-secondary" href="{{ path('app_register') }}">S'inscrire</a>
                 </p>
             </div>
