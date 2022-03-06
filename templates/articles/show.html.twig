@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {{ 'article.show.title'|trans({'%name%': article.name}) }}
+{% endblock %}
+
+{% block body %}
+
+    <div class="container mt-3">
+        <div class="mx-auto my-2 text-center">
+            <h2>{{ 'article.detail'|trans }}</h2><br>
+            <table class="table table-striped text-center table-hover">
+                <tbody>
+                <tr>
+                    <th>{{ 'article.index.table.name'|trans }}</th>
+                    <td>{{ article.name }}</td>
+                </tr>
+                <tr>
+                    <th>{{ 'article.index.table.content'|trans }}</th>
+                    <td>{{ article.content }}</td>
+                </tr>
+                </tbody>
+            </table>
+            <a class="btn btn-primary my-2" href="{{ path('articles_index') }}">
+                {{ 'article.home'|trans }} </a>
+        </div>
+    </div>
+
+{% endblock %}
+

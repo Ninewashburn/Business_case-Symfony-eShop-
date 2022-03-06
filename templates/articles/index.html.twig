@@ -1,26 +1,53 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello NewsController!{% endblock %}
+{% block title %}Les Articles !{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/Users/HB/Documents/Documents Human Booster/Business_case/src/Controller/ArticleController.php'|file_link(0) }}">src/Controller/NewsController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/Users/HB/Documents/Documents Human Booster/Business_case/templates/news/index.html.twig'|file_link(0) }}">templates/news/index.html.twig</a></code></li>
-    </ul>
-</div>
+    <div class="container mt-3">
+        <a class="btn btn-info my-2" href="{{ path('articles_new') }}">
+            {{ 'article.index.new'|trans }}
+        </a><br><br>
+        <h2>{{ 'article.list'|trans }}</h2><br>
+        <table class="table table-striped table-danger text-center table-hover">
+            <thead>
+            <tr>
+                <th>{{ 'article.index.table.name'|trans }}</th>
+                <th>{{ 'article.index.table.content'|trans }}</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% if articles|length > 0 %}
+                {% for article in articles %}
+                    <tr>
+                        <td>{{ article.name }}</td>
+                        <td>{{ article.content }}</td>
+                        <td>
+                            <a class="logo-link" href="{{ path('articles_edit', {'name': article.name}) }}">
+                                <i class="fas fa-pencil-alt"></i>
+                            </a>
+                            <a class="logo-link text-danger"
+                               href="{{ path('articles_delete', {'name': article.name}) }}">
+                                <i class="fas fa-trash-alt"></i>
+                            </a>
+                            <a class="logo-link" href="{{ path('articles_show', {'name': article.name}) }}">
+                                <i class="far fa-eye"></i>
+                            </a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            {% else %}
+                <tr>
+                    <td colspan="5">{{ 'article.index.table.empty'|trans }}</td>
+                </tr>
+            {% endif %}
+            </tbody>
+        </table>
+    </div>
 
 {% endblock %}
 
-{#    TODO : ICI FAIRE UN MAKE CRUD ? AJOUTER ARTICLE, LIRE, EDITER, EFFACER.#}
-{#    AVEC CONDITION = SI CONNECTE ALORS VOUS POURREZ FAIRE TOUT, SINON JUSTE LIRE.#}
-{#    SE BASER SUR L'EXERCICE SYMFO RATTRAPAGE ICI.#}
-{#    CRUD POSSIBLE POUR LE ROLE_USER#}
+{#    AVEC CONDITION = SI CONNECTE ALORS VOUS POURREZ FAIRE TOUT, SINON JUSTE LIRE. #}
+{#    SE BASER SUR L'EXERCICE SYMFO RATTRAPAGE ICI. #}
+{#    CRUD POSSIBLE POUR LE ROLE_USER #}
