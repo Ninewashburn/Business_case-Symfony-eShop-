@@ -28,6 +28,7 @@ class ArticleController extends AbstractController
     #[Route('/', name: 'articles_index')]
     public function index(ArticleRepository $articleRepository): Response
     {
+
         return $this->render('articles/index.html.twig', [
             'controller_name' => 'ArticleController',
             'articles' => $articleRepository->findAll(),
@@ -37,6 +38,11 @@ class ArticleController extends AbstractController
     #[Route('/new', name: 'articles_new')]
     public function new(Request $request): Response
     {
+        $user = $this->getUser();
+        if ($user === null) {
+            return $this->redirectToRoute('app_login');
+        }
+
         return $this->createFormFromEntity($request, new Article());
     }
 
@@ -51,12 +57,22 @@ class ArticleController extends AbstractController
     #[Route('/edit/{name}', name: 'articles_edit')]
     public function edit(Request $request, Article $article): Response
     {
+        $user = $this->getUser();
+        if ($user === null) {
+            return $this->redirectToRoute('app_login',);
+        }
+
         return $this->createFormFromEntity($request, $article, 'articles/edit.html.twig');
     }
 
     #[Route('/delete/{name}', name: 'articles_delete')]
     public function delete(Article $article): Response
     {
+        $user = $this->getUser();
+        if ($user === null) {
+            return $this->redirectToRoute('app_login');
+        }
+
         $this->entityManager->remove($article);
         $this->entityManager->flush();
         return $this->redirectToRoute('articles_index');
@@ -76,3 +92,7 @@ class ArticleController extends AbstractController
         ]);
     }
 }
+
+//Pour améliorer le tout il faudrait que l'utilisateur concerner puisse effacer son post et pas celui d'autrui.
+//Faire aussi en sorte que ça redirige sur la page en cours et pas l'index ?
+//Avec des fonctions et des roles : role_user role_admin role_super_admin ?
