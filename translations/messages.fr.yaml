@@ -1,0 +1,19 @@
+article:
+  home: 'Accueil'
+  edit:
+    title: 'Éditer cet article'
+  new:
+    title: 'Nouvel article'
+  show:
+    title: 'Détail de cet article %name%'
+  index:
+    new: 'Nouvel article'
+    table:
+      empty: 'Aucun article'
+      name: 'Titre'
+      content: 'Contenu'
+  list: 'Liste des articles'
+  detail: 'Détails'
+general:
+  button:
+    submit: 'Valider'

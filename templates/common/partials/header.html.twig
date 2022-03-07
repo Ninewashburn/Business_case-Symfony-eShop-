@@ -125,10 +125,10 @@
                             <span>La Base Spatiale</span></a>
 
                         <a class="btn btn-custom-nav btn-sm col-xs-4 fw-bold d-flex flex-column me-4 nav-icon-fontsize"
-                           href="{{ path('news') }}">
+                           href="{{ path('articles_index') }}">
                             <img class="rounded-3" src="{{ asset('build/images/help-logo.png') }}"
                                  alt="help-logo">
-                            <span>Les Infos</span></a>
+                            <span>Les Articles</span></a>
 
                         {#                <li class="nav-item active"> #}
                         {#                    <a class="btn btn-light btn-sm rounded-pill me-3" href="{{ path('app_register') }}">Inscription</a> #}
@@ -159,13 +159,13 @@
     // Set the date we're counting down to
     let countDownDate = new Date("May 12, 2022 17:00:00").getTime();
 
-    // Update the count down every 1 second
+    // Update the countdown every 1 second
     let x = setInterval(function () {
 
         // Get today's date and time
         let now = new Date().getTime();
 
-        // Find the distance between now and the count down date
+        // Find the distance between now and the countdown date
         let distance = countDownDate - now;
 
         // Time calculations for days, hours, minutes and seconds
@@ -178,7 +178,7 @@
         document.getElementById("demo").innerHTML = days + "j " + hours + "h "
             + minutes + "m " + seconds + "s ";
 
-        // If the count down is finished, write some text
+        // If the countdown is finished, write some text
         if (distance < 0) {
             clearInterval(x);
             document.getElementById("demo").innerHTML = "EXPIRED";
