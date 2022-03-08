@@ -59,7 +59,7 @@ class ArticleController extends AbstractController
     {
         $user = $this->getUser();
         if ($user === null) {
-            return $this->redirectToRoute('app_login',);
+            return $this->redirectToRoute('app_login');
         }
 
         return $this->createFormFromEntity($request, $article, 'articles/edit.html.twig');
