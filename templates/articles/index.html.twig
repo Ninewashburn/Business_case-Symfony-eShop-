@@ -5,10 +5,16 @@
 {% block body %}
 
     <div class="container mt-3">
-        <a class="btn btn-info my-2" href="{{ path('articles_new') }}">
-            {{ 'article.index.new'|trans }}
-        </a><br><br>
-        <h2>{{ 'article.list'|trans }}</h2><br>
+        <div class="row">
+            <div class="col-6">
+                <h2>{{ 'article.list'|trans }}</h2><br>
+            </div>
+            <div class="col-6 text-end">
+                <a class="btn btn-info my-2 text-white" href="{{ path('articles_new') }}">
+                    {{ 'article.index.new'|trans }}
+                </a>
+            </div>
+        </div>
         <table class="table table-striped table-danger text-center table-hover">
             <thead>
             <tr>
@@ -51,5 +57,5 @@
 {#    AVEC CONDITION = SI CONNECTE ALORS VOUS POURREZ FAIRE TOUT, SINON JUSTE LIRE. #}
 {#    SE BASER SUR L'EXERCICE SYMFO RATTRAPAGE ICI. #}
 {#    CRUD POSSIBLE POUR LE ROLE_USER #}
-{#Faire comme dans le game loop de steamish pour l'affichage twig#}
-{#Pour la gestion des commentaires = utiliser comment loop de steamish ?#}
+{# Faire comme dans le game loop de steamish pour l'affichage twig #}
+{# Pour la gestion des commentaires = utiliser comment loop de steamish ? #}
