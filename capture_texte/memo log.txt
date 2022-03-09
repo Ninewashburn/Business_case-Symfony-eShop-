@@ -1,0 +1,21 @@
+MEMO LOG ET COMMANDES
+
+
+glpat-t3_y59BezxN1-rysqsds
+https://chat.devtools.local/be-ys-software
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+
+
+
+
+npm run start:int
+npm run lint
+ls .\node_modules\@beys-software\
+npm link @beys-software/common = Permet de relier une librairie à une autre (npm link)
+npm run watch = Déclenche la compilation angular
+npm run get:assets = Récupère les assets du projet angular
+
