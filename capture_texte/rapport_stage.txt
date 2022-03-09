@@ -1,6 +1,6 @@
 Majoritairement Front Angular. Participation à la refonte de IAM Front V1 vers IAM Front V2.
 Phpstorm  - planitpoker - powershell - mattermost - keycloak - chocolatey software - adobe xd - skype entreprise - fork - firefox developer - notepad 
-
+Jira
 
 2 Mars 2023.
 Premier jour de stage, configuration de l'environnement. Connaissance du projet IAM front.
@@ -41,3 +41,12 @@ Avancée sur le business case avec l'ajout d'un petit footer. Amélioration du s
 Capture d'écran faite.
 
 9 Mars 2023.
+Après chaque ticket traité, ne pas oublier de glisser le ticket dans les tâches effectuées.
+Problème sur Gitlab depuis quelques jours. Avancée sur le business case pendant la résolution du problème interne. (Rien que je puisse faire hélas).
+Le problème à été résolu, c'était un problème dans le framework angular de testing 'jasmine', il s'agissait d'un problème d'injection d'un service dans le
+composant testé, mais n'était pas présent dans un 'testbed'.
+Il fallait que les conditions soient remplis pour les éléments testé. Nous avons donc modifié le composant, et donc on à modifié les conditions d'affichage.
+On s'est assuré par la suite du bon déroulement des tests.
+Capture d'écran faite.
+
+10 Mars 2023.
