@@ -19,3 +19,5 @@ npm link @beys-software/common = Permet de relier une librairie à une autre (np
 npm run watch = Déclenche la compilation angular
 npm run get:assets = Récupère les assets du projet angular
 
+Adobe XD = ctrl + K = composent
+Faire des composents et une maquette sur le site du business case

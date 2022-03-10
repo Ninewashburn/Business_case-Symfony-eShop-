@@ -50,3 +50,7 @@ On s'est assuré par la suite du bon déroulement des tests.
 Capture d'écran faite.
 
 10 Mars 2023.
+Pas de ticket aujourd'hui, amélioration du business case. Prise de stage dans le design en adobe XD.
+Des soucis à régler sur le site avec une barre de navigation irrégulière.
+Capture d'écran faite.
+

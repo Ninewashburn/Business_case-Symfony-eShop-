@@ -4,6 +4,9 @@ body {
   background: #f1f1f1;
   border-radius: 10px;
 }
+.navbar-nav {
+  margin-left: 100px;
+}
 
 .navbar-color {
   background-color: #fff6f0;
@@ -62,6 +65,7 @@ footer h5 {
 
 .game {
   background-image: url("/assets/images/fond.jpg");
+  border-radius: 10px;
 }
 
 //body, html{
@@ -136,4 +140,41 @@ canvas {
     width: 100%;
     padding: 0;
   }
+}
+
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+//Button back to top
+#myBtn {
+  display: none;
+  position: fixed;
+  height: 40px;
+  width: 40px;
+  bottom: 25px;
+  right: 25px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #0984e3;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #ffe135;
+}
+
+.cat {
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+}
+
+.cat:hover {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
 }

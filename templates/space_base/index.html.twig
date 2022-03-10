@@ -5,36 +5,62 @@
 {% block body %}
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+{#    <marquee>Bienvenue dans le site web du FUTUR</marquee>#}
     <div class="container">
-        <div class="header mt-4">
+        <div class="header mt-4 zoom">
             <h3 class="fw-bold text-center">Bienvenue dans le tout nouveau programme spatial !</h3>
         </div>
 
         <div class="row">
             <div class="leftcolumn">
                 <div class="card">
-                    <h2>Projet de voyage dans l'espace</h2>
-                    <h5>Title description, Dec 7, 2017</h5>
-                    <div class="fakeimg" style="height:200px;">Image</div>
-                    <p>Some text..</p>
-                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud
-                        exercitation ullamco.</p>
+                    <div class="row">
+                        <h2 class="fw-bold text-center">Partez avec vos animaux dans l'espace !</h2>
+                        <div class="mt-3">
+                            Nous sommes le :
+                            <script type="text/javascript">
+                                let d = new Date();
+                                document.write(d.toLocaleString());
+                            </script>
+                        </div>
+                        <img class="mt5 cat" src="{{ asset('build/images/space_cat_wallpaper.jpg') }}"
+                             style="height:540px; width:960px" alt="">
+                        <p class="text-center">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit,
+                            sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud
+                            exercitation ullamco.</p>
+                    </div>
                 </div>
+
                 <div class="card">
-                    <h2>TITLE HEADING</h2>
-                    <h5>Title description, Sep 2, 2017</h5>
-                    <div class="fakeimg" style="height:200px;">Image</div>
-                    <p>Some text..</p>
-                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                    <h2 class="fw-bold text-center">Projet de voyage dans l'espace</h2>
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <img class="zoom" src="{{ asset('build/images/space_image.webp') }}" style="height:300px; width:460px" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img class="zoom" src="{{ asset('build/images/space_image.webp') }}" style="height:300px; width:460px" alt="">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <img class="zoom" src="{{ asset('build/images/space_image.webp') }}" style="height:300px; width:460px" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img class="zoom" src="{{ asset('build/images/space_image.webp') }}" style="height:300px; width:460px" alt="">
+                        </div>
+                    </div>
+
+                    <p class="text-center">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                         nostrud
                         exercitation ullamco.</p>
                 </div>
             </div>
             <div class="rightcolumn">
-                <div class="card align-items-center">
+                <div class="card align-items-center zoom">
                     <h2 class="text-center fw-bold">Prochainement</h2>
                     <img src="{{ asset('build/images/travel_logo.jpg') }}" style="height:150px; width:200px"
                          alt="image">
@@ -42,7 +68,7 @@
                         vous
                         en rajouter !</p>
                 </div>
-                <div class="card">
+                <div class="card zoom">
                     <h3 class="text-center fw-bold">Prochains voyages</h3>
                     <span><img src="{{ asset('build/images/moon_logo.webp') }}" style="height:50px; width:50px"
                                alt="image">Lune</span>
@@ -53,15 +79,32 @@
                     <span><img src="{{ asset('build/images/saturn_logo.png') }}" style="height:50px; width:50px"
                                alt="image">Saturne</span>
                 </div>
-                <div class="card">
+                <div class="card zoom">
                     <h3 class="text-center fw-bold">Follow Me</h3>
                     <p>Some text..</p>
                 </div>
-                <div class="card">
+                <div class="card zoom">
                     <h3 class="text-center fw-bold">Follow Me</h3>
                     <p>Some text..</p>
+                </div>
+                <div class="card align-items-center zoom">
+                    <h2 class="text-center fw-bold">Prochainement</h2>
+                    <img src="{{ asset('build/images/travel_logo.jpg') }}" style="height:150px; width:200px"
+                         alt="image">
+                    <p class="text-center">Vous en avez assez ? Vous en avez assez de ces trois destinations ?! On va
+                        vous
+                        en rajouter !</p>
+                </div>
+                <div class="card align-items-center zoom">
+                    <h2 class="text-center fw-bold">Prochainement</h2>
+                    <img src="{{ asset('build/images/travel_logo.jpg') }}" style="height:150px; width:200px"
+                         alt="image">
+                    <p class="text-center">Vous en avez assez ? Vous en avez assez de ces trois destinations ?! On va
+                        vous
+                        en rajouter !</p>
                 </div>
             </div>
         </div>
     </div>
+
 {% endblock %}
