@@ -1,0 +1,18 @@
+TODO business case
+
+Faire un favicon
+Réparer la navbar à droite (regarder le footer qui lui est bien aligné)
+Faire un FORUM
+Faire la boutique (afficher les produits)
+Améliorer la BDD
+Préparer angular à l'intérieur du projet
+Page d'accueil retraçant un peu le site
+Rendre le tout responsive et l'améliorer d'avantage
+
+Faire un crud dans les articles /ajout post edit delete FAIT
+Formulaire de connexion = FAIT
+Formulaire de contaxt = FAIT
+Navbar = FAIT
+Footer = FAIT
+Page bonus = FAIT
+Page space base = FAIT

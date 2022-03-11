@@ -4,9 +4,6 @@ body {
   background: #f1f1f1;
   border-radius: 10px;
 }
-.navbar-nav {
-  margin-left: 100px;
-}
 
 .navbar-color {
   background-color: #fff6f0;
@@ -29,7 +26,7 @@ body {
 .btn-custom-nav {
   background-color: #ffffff;
   width: 100%;
-  margin: 0 10px;
+  margin: 0 0 0 20px;
   border-radius: 10px;
 }
 
@@ -67,6 +64,11 @@ footer h5 {
   background-image: url("/assets/images/fond.jpg");
   border-radius: 10px;
 }
+
+.welcome-bg {
+  background-image: url("/assets/images/bandeau_planet.png");
+}
+
 
 //body, html{
 //  width: 100%;

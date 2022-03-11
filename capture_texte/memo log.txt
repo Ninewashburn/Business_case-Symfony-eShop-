@@ -21,3 +21,4 @@ npm run get:assets = Récupère les assets du projet angular
 
 Adobe XD = ctrl + K = composent
 Faire des composents et une maquette sur le site du business case
+

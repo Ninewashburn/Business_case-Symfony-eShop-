@@ -1,15 +1,16 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello SpaceBaseController!{% endblock %}
+{% block title %}Projet base spatiale !{% endblock %}
 
 {% block body %}
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-{#    <marquee>Bienvenue dans le site web du FUTUR</marquee>#}
     <div class="container">
         <div class="header mt-4 zoom">
-            <h3 class="fw-bold text-center">Bienvenue dans le tout nouveau programme spatial !</h3>
-        </div>
+            <h3 class="fw-bold text-center text-white welcome-bg">Bienvenue dans le tout nouveau programme spatial !</h3>
+        </div><br>
+
+            <marquee class="fw-bold text-uppercase">Bienvenue dans le site web du FUTUR ! Embarquement immédiat !</marquee>
 
         <div class="row">
             <div class="leftcolumn">
@@ -20,16 +21,13 @@
                             Nous sommes le :
                             <script type="text/javascript">
                                 let d = new Date();
-                                document.write(d.toLocaleString());
+                                document.write(d.toLocaleDateString());
                             </script>
                         </div>
                         <img class="mt5 cat" src="{{ asset('build/images/space_cat_wallpaper.jpg') }}"
                              style="height:540px; width:960px" alt="">
-                        <p class="text-center">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit,
-                            sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud
-                            exercitation ullamco.</p>
+                        <p class="text-center">Vous l'avez rêvé ? Nous l'avons fait, grâce à la Nimes'Alerie vous pouvez explorer l'espace
+                        avec votre compagnon !</p>
                     </div>
                 </div>
 
@@ -37,31 +35,33 @@
                     <h2 class="fw-bold text-center">Projet de voyage dans l'espace</h2>
                     <div class="row mt-3">
                         <div class="col-6">
-                            <img class="zoom" src="{{ asset('build/images/space_image.webp') }}" style="height:300px; width:460px" alt="">
+                            <img class="zoom" src="{{ asset('build/images/planet_wallpaper.jpg') }}"
+                                 style="height:300px; width:460px" alt="">
                         </div>
                         <div class="col-6">
-                            <img class="zoom" src="{{ asset('build/images/space_image.webp') }}" style="height:300px; width:460px" alt="">
+                            <img class="zoom" src="{{ asset('build/images/moonbase.jpg') }}"
+                                 style="height:300px; width:460px" alt="">
                         </div>
                     </div>
                     <br>
                     <div class="row mt-3">
                         <div class="col-6">
-                            <img class="zoom" src="{{ asset('build/images/space_image.webp') }}" style="height:300px; width:460px" alt="">
+                            <img class="zoom" src="{{ asset('build/images/space_image.webp') }}"
+                                 style="height:300px; width:460px" alt="">
                         </div>
                         <div class="col-6">
-                            <img class="zoom" src="{{ asset('build/images/space_image.webp') }}" style="height:300px; width:460px" alt="">
+                            <img class="zoom" src="{{ asset('build/images/fond.jpg') }}"
+                                 style="height:300px; width:460px" alt="">
                         </div>
                     </div>
-
-                    <p class="text-center">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud
-                        exercitation ullamco.</p>
+                    <p class="text-center">Ici vous trouverez une petite galerie d'image montrant notre début de base
+                        lunaire ainsi l'exploration
+                        de nouvelles planètes.</p>
                 </div>
             </div>
             <div class="rightcolumn">
                 <div class="card align-items-center zoom">
-                    <h2 class="text-center fw-bold">Prochainement</h2>
+                    <h4 class="text-center fw-bold">Prochainement !</h4>
                     <img src="{{ asset('build/images/travel_logo.jpg') }}" style="height:150px; width:200px"
                          alt="image">
                     <p class="text-center">Vous en avez assez ? Vous en avez assez de ces trois destinations ?! On va
@@ -69,7 +69,7 @@
                         en rajouter !</p>
                 </div>
                 <div class="card zoom">
-                    <h3 class="text-center fw-bold">Prochains voyages</h3>
+                    <h4 class="text-center fw-bold">Prochains voyages !</h4>
                     <span><img src="{{ asset('build/images/moon_logo.webp') }}" style="height:50px; width:50px"
                                alt="image">Lune</span>
                     <br>
@@ -79,29 +79,25 @@
                     <span><img src="{{ asset('build/images/saturn_logo.png') }}" style="height:50px; width:50px"
                                alt="image">Saturne</span>
                 </div>
-                <div class="card zoom">
-                    <h3 class="text-center fw-bold">Follow Me</h3>
-                    <p>Some text..</p>
+                <div class="card zoom align-items-center text-center">
+                    <h4 class="fw-bold">Guide de survie !</h4>
+                    <span><img src="{{ asset('build/images/alien.jpg') }}" style="height:150px; width: 220px"
+                               alt="image"></span>
+                    <p>Préparez vous à votre voyage grâce à cette simulation réaliste !</p>
                 </div>
-                <div class="card zoom">
-                    <h3 class="text-center fw-bold">Follow Me</h3>
-                    <p>Some text..</p>
+                <div class="card zoom align-items-center text-center">
+                    <h4 class="fw-bold">Des plans !</h4>
+                    <span><img src="{{ asset('build/images/shuttle_blueprint.webp') }}"
+                               style="height:150px; width: 220px"
+                               alt="image"></span>
+                    <p>Plan de navette disponible dès à présent !</p>
                 </div>
-                <div class="card align-items-center zoom">
-                    <h2 class="text-center fw-bold">Prochainement</h2>
-                    <img src="{{ asset('build/images/travel_logo.jpg') }}" style="height:150px; width:200px"
-                         alt="image">
-                    <p class="text-center">Vous en avez assez ? Vous en avez assez de ces trois destinations ?! On va
-                        vous
-                        en rajouter !</p>
-                </div>
-                <div class="card align-items-center zoom">
-                    <h2 class="text-center fw-bold">Prochainement</h2>
-                    <img src="{{ asset('build/images/travel_logo.jpg') }}" style="height:150px; width:200px"
-                         alt="image">
-                    <p class="text-center">Vous en avez assez ? Vous en avez assez de ces trois destinations ?! On va
-                        vous
-                        en rajouter !</p>
+                <div class="card zoom align-items-center text-center">
+                    <h4 class="text-center fw-bold">Nouvelle interface !</h4>
+                    <span><img src="{{ asset('build/images/nav_dashboard.webp') }}"
+                               style="height:150px; width: 220px"
+                               alt="image"></span>
+                    <p>Plan de navette disponible</p>
                 </div>
             </div>
         </div>

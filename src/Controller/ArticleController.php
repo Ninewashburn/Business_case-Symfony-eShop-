@@ -59,6 +59,7 @@ class ArticleController extends AbstractController
     {
         $user = $this->getUser();
         if ($user === null) {
+/*            $this->addFlash('message', 'Connexion réussie !');*/
             return $this->redirectToRoute('app_login');
         }
 
