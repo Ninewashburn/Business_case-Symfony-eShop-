@@ -60,3 +60,15 @@ Faire une page de forum dans la page base terrestre à renommer en 'informations
 Résolution du problème presque fini, un point et demi sur trois.
 Reprise du travail lundi. Faire condition NGIF dans le template approprié selon le mode dans lequel nous sommes ''[required]="true"''
 Capture d'écran faite.
+
+14 Mars 2023.
+Poursuite du ticket 3107. Angular forms. Point du stage à faire avec un component lourd Angular à préparer en parallèle.
+2eme point du ticket traité et corrigé.
+Il s'agissait de trouver dans le projet angular le moyen de rendre le champ pour créer (ajouter/add) un utilisateur obligatoire, et l'édition, donc une fois crée
+non obligatoire.
+Commande git notée avec link de librairie.
+Prise de note faite sur les lien link de la librairie Beys au projet.
+Capture d'écran faite.
+
+
+

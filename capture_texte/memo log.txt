@@ -4,21 +4,24 @@ MEMO LOG ET COMMANDES
 glpat-t3_y59BezxN1-rysqsds
 https://chat.devtools.local/be-ys-software
 
-
-
+$ git checkout -b [nom de la branche]
+git add -A
+git commit -m "nom du commit"
+git push origin [nom de la branche]
 
 ///////////////////////////////////////////////////////////////////////////////
-
-
 
 
 npm run start:int
 npm run lint
 ls .\node_modules\@beys-software\
-npm link @beys-software/common = Permet de relier une librairie à une autre (npm link)
+
+Pour linker la librairie :
+Convertir le code source en code package -> npm run build(watch) Cela va build la librairie dans le repertoir dist/common
+npm link dist/common (pour que NPM fasse un lien symbolique de ce répértoire vers sa base de dépéndance) (rmeynadier/npm/node_modules)
+npm link @beys-software/common = Permet de relier une librairie à une autre (npm link) côté IAM FRONT (projet recevant la dépendance)
 npm run watch = Déclenche la compilation angular
 npm run get:assets = Récupère les assets du projet angular
 
 Adobe XD = ctrl + K = composent
 Faire des composents et une maquette sur le site du business case
-
