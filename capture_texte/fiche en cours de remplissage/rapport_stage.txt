@@ -73,5 +73,9 @@ Capture d'écran faite.
 15 Mars 2023.
 Pas de nouveau ticket. Vérification des pipelines. Le sprint 57 se termine le 18 Mars 2023.
 Nouvelles commandes git notées. Branche 3107 propre à présent.
+Reactive forms en angular crée. Maintenant voir la différence avec un template driven forms.
 Lancement des reactives forms, j'ai rassemblé mes anciens cours Angular d'Human Booster pour compléter.
+Pas besoin de capture d'écran ici. (Apprentissage)
 Forum symfony à améliorer à intégrer dans le business case.
+
+16 Mars 2023.
