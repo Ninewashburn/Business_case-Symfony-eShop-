@@ -70,5 +70,8 @@ Commande git notée avec link de librairie.
 Prise de note faite sur les lien link de la librairie Beys au projet.
 Capture d'écran faite.
 
-
-
+15 Mars 2023.
+Pas de nouveau ticket. Vérification des pipelines. Le sprint 57 se termine le 18 Mars 2023.
+Nouvelles commandes git notées. Branche 3107 propre à présent.
+Lancement des reactives forms, j'ai rassemblé mes anciens cours Angular d'Human Booster pour compléter.
+Forum symfony à améliorer à intégrer dans le business case.
