@@ -1,6 +1,7 @@
 Majoritairement Front Angular. Participation à la refonte de IAM Front V1 vers IAM Front V2.
+Les moyens utilisés :
 Phpstorm  - planitpoker - powershell - mattermost - keycloak - chocolatey software - adobe xd - skype entreprise - fork - firefox developer - notepad 
-Jira
+Jira - Outlook 
 
 2 Mars 2023.
 Premier jour de stage, configuration de l'environnement. Connaissance du projet IAM front.
@@ -15,6 +16,7 @@ Journée d'installation BusinessCase. Configuration symfony, amélioration de la
 librairie de material design d'Angular. Recherche fastidieuse et solution finalement trouvée. 
 Cette dernière fut verifiée, et ajoutée au projet IAM Front. 
 (Début tranquillement dans le stage pour bien voir la globalité du projet.)
+Ticket 3076 : Amélioration textes
 Capture d'écran faite.
 
 4 Mars 2023.
@@ -26,12 +28,12 @@ Capture d'écran faite.
 7 Mars 2023.
 Ticket du 4 Mars terminé.
 Exemple de rapport sur Mattermost : 
-MR FRONT correction du ticket 3098 (fixing blank page when no services providers) https://sources.devtools.local/gebeeiam/beiam/iam-front/-/merge_requests/139
+MR FRONT correction du ticket 3098 : Lorsqu'un utilisateur n'a aucun offreur de service dans ses attributs la page reste blanche (fixing blank page when no services providers)
+https://sources.devtools.local/gebeeiam/beiam/iam-front/-/merge_requests/139
 Correction faite dans le resolver.ts, puis le component.ts adéquat et le template html de ce dit component. (Utilisation de ngIf sur une longueur de tableau)
 En clair : Si le rôle est de 'user' nous verrons la page (avant correction la page ne chargeait pas), mais dans cette page = 0 offreurs de service.
 Si le role est admin, la page nous montrera les domaines. Si le role est super_admin, la page nous montrera tout, domaine et offreurs.
 Correction soumise et envoyée sur la branche alpha.
-Amélioration et finalité du ticket précédent. (3076)
 Capture d'écran faite.
 
 8 Mars 2023.
@@ -62,7 +64,8 @@ Reprise du travail lundi. Faire condition NGIF dans le template approprié selon
 Capture d'écran faite.
 
 14 Mars 2023.
-Poursuite du ticket 3107. Angular forms. Point du stage à faire avec un component lourd Angular à préparer en parallèle.
+Poursuite du ticket 3107 Corrections interface front
+Angular forms. Point du stage à faire avec un component lourd Angular à préparer en parallèle.
 2eme point du ticket traité et corrigé.
 Il s'agissait de trouver dans le projet angular le moyen de rendre le champ pour créer (ajouter/add) un utilisateur obligatoire, et l'édition, donc une fois crée
 non obligatoire.
@@ -75,7 +78,17 @@ Pas de nouveau ticket. Vérification des pipelines. Le sprint 57 se termine le 1
 Nouvelles commandes git notées. Branche 3107 propre à présent.
 Reactive forms en angular crée. Maintenant voir la différence avec un template driven forms.
 Lancement des reactives forms, j'ai rassemblé mes anciens cours Angular d'Human Booster pour compléter.
-Pas besoin de capture d'écran ici. (Apprentissage)
 Forum symfony à améliorer à intégrer dans le business case.
+Pas besoin de capture d'écran ici. (Apprentissage)
 
 16 Mars 2023.
+Amélioration du forum pour intégration.
+Nouveau ticket obtenu 3123 : [N2] Navigation sur les écran de sélection de providers/domaines.
+Une sidebar qui apparait, persiste si l'on fait précédent dans le navigateur. 
+Correction du ticket terminée. Dans le ngOnInit, faire la fonction dans la condition d'affichage sur FALSE.
+Capture d'écran faite.
+
+17 Mars 2023.
+
+
+
