@@ -89,6 +89,12 @@ Correction du ticket terminée. Dans le ngOnInit, faire la fonction dans la cond
 Capture d'écran faite.
 
 17 Mars 2023.
+Fin de sprint. Réunion habituelle avec rapport sur le ticket 3123.
+Aucune assignation aujourd'hui, à pu réviser et continuer un peu le projet fil rouge.
+La partie du forum à été refaite. 
+Il reste donc à faire : Page d'accueil - Page boutique - Dashboard - Responsive (et ce sera terminé)
+Pas besoin de capture d'écran ici. (Apprentissage)
 
-
+18 Mars 2023.
+Présentation du fin du sprint.
 

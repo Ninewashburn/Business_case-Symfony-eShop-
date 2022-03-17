@@ -17,3 +17,23 @@ article:
 general:
   button:
     submit: 'Valider'
+home:
+  menu:
+    type: 'Rubrique'
+    post: 'Poste'
+thread:
+  add: 'Ajouter un sujet'
+  new:
+    title: 'Titre de votre sujet'
+type:
+  add: 'Ajouter une rubrique'
+  new:
+    title: 'Titre de votre rubrique'
+subtype:
+  add: 'Ajouter une sous-rubrique'
+  new:
+    title: 'Titre de votre sous-rubrique'
+post:
+  add: 'Ajouter un message'
+  new:
+    title: 'Contenu de votre message'

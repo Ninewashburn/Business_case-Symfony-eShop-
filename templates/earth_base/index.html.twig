@@ -3,8 +3,13 @@
 {% block title %}Hello EarthBaseController!{% endblock %}
 
 {% block body %}
- <div class="container mt-4">
-     <p class="text-center text-uppercase fw-bold">En construction !</p>
-     <p>Base terrestre avec forum de communication ici !</p>
- </div>
+    <div class="container mt-4">
+        <p class="text-center text-uppercase fw-bold">En construction !</p>
+        <p>Base terrestre avec forum de communication ici !</p>
+        <a class="btn btn-primary" href="{{ path('type_index') }}">{{ 'home.menu.type'|trans }}<span class="sr-only">(current)</span></a>
+        {% if app.user %}
+            <a class="btn btn-secondary"
+               href="{{ path('post_view_by_user', {'id': app.user.id}) }}">{{ 'home.menu.post'|trans({'%email%' : app.user.email }) }}</a>
+        {% endif %}
+    </div>
 {% endblock %}

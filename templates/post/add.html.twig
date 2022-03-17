@@ -1,10 +1,11 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}
+{% form_theme form 'bootstrap_5_layout.html.twig' %}
 
-{% endblock %}
+{% block title %}{{ 'article.new.title'|trans }}{% endblock %}
 
 {% block body %}
-    {{ form_start(postForm) }}
-    {{ form_end(postForm) }}
+
+    {% include 'common/form/_form.html.twig' with {'title': 'post.new.title'} %}
+
 {% endblock %}

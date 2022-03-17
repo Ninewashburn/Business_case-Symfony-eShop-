@@ -20,10 +20,7 @@ class PostFormType extends AbstractType
             ->add('content', TextType::class, [
 
             ])
-//            ->add('createdAt')
-//            ->add('upVote')
-//            ->add('downVote')
-//            ->add('user')
+
             ->add('thread', EntityType::class, [
                 'class' => Thread::class,
                 'choice_label' => 'subject',

@@ -46,7 +46,7 @@ class SubTypeController extends AbstractController
         }
 
         return $this->render('subtype/add.html.twig', [
-            'subtypeForm' => $form->createView(),
+            'form' => $form->createView(),
         ]);
     }
 

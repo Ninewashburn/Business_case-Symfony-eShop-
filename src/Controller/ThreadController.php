@@ -61,7 +61,7 @@ class ThreadController extends AbstractController
         }
 
         return $this->render('thread/add.html.twig', [
-            'threadForm' => $form->createView(),
+            'form' => $form->createView(),
         ]);
     }
 

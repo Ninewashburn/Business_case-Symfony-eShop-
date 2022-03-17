@@ -13,3 +13,7 @@ Un espace avec des articles posté et modifié par nos utilisateurs. (Nous pouvo
 Une zone permettant de se connecter sur le compte crée sur le site.
 Une zone bonus à été implémantée dans le site, elle est cachée dans le header du site. Il s'agit d'un mini jeu, ce n'est évidemment
 que du bonus, mais c'est sympa, l'intégration du JavaScript fut pas des plus simples.
+La page du forum . . . 
+Page boutique
+Accueil
+Admin . . .
