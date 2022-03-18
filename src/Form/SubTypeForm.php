@@ -20,12 +20,19 @@ class SubTypeForm extends AbstractType
     {
         $builder
             ->add('name', TextType::class, [
-
+                'label' => false,
+                'attr' => [
+                    'placeholder' => 'article.index.table.name',
+                ]
             ])
             ->add('description', TextareaType::class, [
-
+                'label' => false,
+                'attr' => [
+                    'placeholder' => 'article.index.table.content',
+                ]
             ])
             ->add('type', EntityType::class, [
+                'label' => 'Rubrique',
                 'class' => Type::class,
                 'choice_label' => 'name',
                 'query_builder' => function (EntityRepository $er) {
@@ -34,7 +41,7 @@ class SubTypeForm extends AbstractType
                 }
             ])
             ->add('submitButton', SubmitType::class, [
-                'label' => 'Submit'
+                'label' => 'general.button.submit',
             ])
         ;
     }

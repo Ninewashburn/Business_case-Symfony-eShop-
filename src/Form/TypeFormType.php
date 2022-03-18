@@ -16,13 +16,20 @@ class TypeFormType extends AbstractType
     {
         $builder
             ->add('name', TextType::class, [
-
+                'label' => false,
+                'attr' => [
+                    'placeholder' => 'article.index.table.name',
+                ]
             ])
             ->add('description', TextareaType::class, [
-
+                'label' => false,
+                'attr' => [
+                    'placeholder' => 'article.index.table.content',
+                ]
             ])
+
             ->add('submitButton', SubmitType::class, [
-                'label' => 'Submit'
+                'label' => 'general.button.submit',
             ])
         ;
     }

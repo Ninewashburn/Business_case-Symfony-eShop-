@@ -18,11 +18,14 @@ class ThreadFormType extends AbstractType
     {
         $builder
             ->add('subject', TextType::class, [
-
+                'label' => false,
+                'attr' => [
+                    'placeholder' => 'article.index.table.name',
+                ]
             ])
-//            ->add('createdAt')
-//            ->add('user')
+
             ->add('subtype', EntityType::class, [
+                'label' => 'Sous-rubrique',
                 'class' => SubType::class,
                 'choice_label' => 'name',
                 'query_builder' => function (EntityRepository $er) {
@@ -31,7 +34,7 @@ class ThreadFormType extends AbstractType
                 }
             ])
             ->add('submitButton', SubmitType::class, [
-                'label' => 'Submit'
+                'label' => 'general.button.submit',
             ])
         ;
     }

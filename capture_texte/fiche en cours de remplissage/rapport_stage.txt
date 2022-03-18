@@ -1,7 +1,9 @@
 Majoritairement Front Angular. Participation à la refonte de IAM Front V1 vers IAM Front V2.
 Les moyens utilisés :
 Phpstorm  - planitpoker - powershell - mattermost - keycloak - chocolatey software - adobe xd - skype entreprise - fork - firefox developer - notepad 
-Jira - Outlook 
+Jira - Outlook Pro
+
+Journal de bord : Stage Be-Ys Software France 2 Mars - 29 Avril 2022.
 
 2 Mars 2023.
 Premier jour de stage, configuration de l'environnement. Connaissance du projet IAM front.
@@ -96,5 +98,18 @@ Il reste donc à faire : Page d'accueil - Page boutique - Dashboard - Responsive
 Pas besoin de capture d'écran ici. (Apprentissage)
 
 18 Mars 2023.
+Mes tickets ont été vérifié et validé. Confirmation sur le mail de l'entreprise.
 Présentation du fin du sprint.
+Transition sur le front-v2. Demonstration IAM Gestion.
+Contenu de la sprint review : 
+Ticket 2102 : Utilisation de l'API Almerys et Swagger UI. Attribution des roles avec test sur le role admin.
+Ticket 3051 : Ajouter ou modifier un attribut via l'API. (Action avec Super_Admin / Admin) Erreur 202 non désirée au lieu d'une 204. Retour et corrections sur le FRONT.
+Ticket 1920 : En tant qu'admin ou domain_admin, je dois pouvoir supprimer une application. Création d'une application rapide par API Swagger UI. Suppression et retour 204.
+Ticket 3106 : En tant qu'utilisateur connecté à IAM Gestion, je veux configurer les préférences du profil. Dark Mode, languages ajoutés.
+Ticket 3075 : En tant qu'admin, je veux pouvoir filter les flux d'activité (tracabilité). Filtre et correction du flux historique, plus récent au plus ancien. 
+Ticket 3070 : [GEBBEID] Update filebeat role for nuta deploiement.
+Ticket 3107 : Corrections interface front. Amélioration textes et interfaces IAM Front v2. Pour rendre l'application polyvalente.
+Des rapports de tests ont été efféctué. 16 sont en échec (51.61%) et 15 sont réussi (48.39%). Réparations des échecs de tests.
+
+
 

@@ -18,11 +18,15 @@ class PostFormType extends AbstractType
     {
         $builder
             ->add('content', TextType::class, [
-
+                'label' => false,
+                'attr' => [
+                    'placeholder' => 'article.index.table.name',
+                ]
             ])
 
             ->add('thread', EntityType::class, [
                 'class' => Thread::class,
+                'label' => 'Sujet',
                 'choice_label' => 'subject',
                 'query_builder' => function (EntityRepository $er) {
                     return $er->createQueryBuilder('thread')
@@ -30,7 +34,7 @@ class PostFormType extends AbstractType
                 }
             ])
             ->add('submitButton', SubmitType::class, [
-                'label' => 'Submit'
+                'label' => 'general.button.submit',
             ])
         ;
     }

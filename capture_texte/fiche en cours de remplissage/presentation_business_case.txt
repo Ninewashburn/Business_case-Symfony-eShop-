@@ -8,12 +8,14 @@ Le site est découpé en plusieurs sections qui seront reliée par une barre de 
 Nous avons donc : Un accueil qui reprendra des éléments récent. Le qui somme nous (Nimes'Team), la boutique, nos pensions,
 avec la pension terrestre, et la nouveauté, la pension spatiale permettant d'envoyer vos animaux dans l'espace (en toute sécurité
 bien sur).
+Un formulaire de contact en HTML.
 Un espace avec des articles posté et modifié par nos utilisateurs. (Nous pouvons les lire, en ajouter, les modifier et effacer).
 (Type CRUD)
+Des formulaires d'ajout pour les articles de blog, les rubriques, sous rubriques, sujets, posts. (Différent de celui en HTML pur)
 Une zone permettant de se connecter sur le compte crée sur le site.
 Une zone bonus à été implémantée dans le site, elle est cachée dans le header du site. Il s'agit d'un mini jeu, ce n'est évidemment
 que du bonus, mais c'est sympa, l'intégration du JavaScript fut pas des plus simples.
-La page du forum . . . 
+La page du forum . . . 90% finie
 Page boutique
 Accueil
 Admin . . .
