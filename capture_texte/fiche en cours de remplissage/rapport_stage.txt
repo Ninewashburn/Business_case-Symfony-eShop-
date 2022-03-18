@@ -110,6 +110,8 @@ Ticket 3075 : En tant qu'admin, je veux pouvoir filter les flux d'activité (tra
 Ticket 3070 : [GEBBEID] Update filebeat role for nuta deploiement.
 Ticket 3107 : Corrections interface front. Amélioration textes et interfaces IAM Front v2. Pour rendre l'application polyvalente.
 Des rapports de tests ont été efféctué. 16 sont en échec (51.61%) et 15 sont réussi (48.39%). Réparations des échecs de tests.
+Assignation du ticket 3132 : Améliorations interface, deux points sur trois traités, poursuite lundi 21 Mars.
+Capture d'écran faite.
 
-
-
+21 Mars 2023.
+Poursuite du ticket 3132.
