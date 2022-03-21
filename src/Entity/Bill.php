@@ -18,7 +18,7 @@ class Bill
     #[ORM\Column(type: 'string', length: 255)]
     private $number;
 
-    #[ORM\Column(type: 'date')]
+    #[ORM\Column(type: 'datetime')]
     private $createdAt;
 
     #[ORM\Column(type: 'string', length: 255)]

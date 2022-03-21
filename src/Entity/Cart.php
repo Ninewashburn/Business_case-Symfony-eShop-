@@ -15,7 +15,7 @@ class Cart
     #[ORM\Column(type: 'integer')]
     private $id;
 
-    #[ORM\Column(type: 'date')]
+    #[ORM\Column(type: 'datetime')]
     private $createdAt;
 
     #[ORM\OneToOne(inversedBy: 'cart', targetEntity: Order::class, cascade: ['persist', 'remove'])]

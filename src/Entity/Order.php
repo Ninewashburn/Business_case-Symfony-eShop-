@@ -16,7 +16,7 @@ class Order
     #[ORM\Column(type: 'integer')]
     private $id;
 
-    #[ORM\Column(type: 'string', length: 255)]
+    #[ORM\Column(type: 'datetime')]
     private $createdAt;
 
     #[ORM\Column(type: 'string', length: 255)]

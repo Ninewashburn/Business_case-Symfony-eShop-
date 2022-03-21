@@ -7,6 +7,7 @@
         {% if app.user %}
             <a class="btn btn-dark mt-3" href="{{ path('type_add') }}">{{ 'type.add'|trans }}</a>
         {% endif %}
+    <div class="container">
         <div class="row">
             {% if types|length>0 %}
                 {% for type in types %}
@@ -23,5 +24,6 @@
                 </div>
             {% endif %}
         </div>
+    </div>
     </div>
 {% endblock %}

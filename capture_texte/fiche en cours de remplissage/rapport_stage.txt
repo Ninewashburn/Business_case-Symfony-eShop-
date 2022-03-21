@@ -115,3 +115,14 @@ Capture d'écran faite.
 
 21 Mars 2023.
 Poursuite du ticket 3132.
+Point 1 & 2 terminés.
+Pour le point 3 du ticket, peut être faire une fonction de switch dark mode qui ferait un RELOAD en dehors de l'init avec appel html ?
+Des nouveaux points ont été ajouté = 
+4 La notification d'ajout d'un groupe => doit afficher "ajouté" et non "créé"
+5 Contrôle des rôles : Alignement des boutons << < > >> entre les 2 input liste. Les recentrer verticalement.
+6 Contrôle des rôles : Les ascenseurs ne doivent pas s'afficher si pas scrollable. Dans les blocs de rôles. Chercher du côté de la librairie.
+Définition du sprint 58. Les choses sont à corriger selon le retour des testeurs. 
+Petite correction d'un problème de navbar, étude sur la conversion d'une navbar parfaitement responsive.
+Pour ce sprint 58 nous utilisons planitpoker, les votes portent sur la complexité des tâches à effectuer.
+Capture d'écran faite.
+
