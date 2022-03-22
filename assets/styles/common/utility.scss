@@ -41,12 +41,37 @@ body {
   height: 35px;
 }
 
+.btn-custom-mob {
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn-custom-mob:hover {
+  background-color: #ffe135;
+}
+
+.btn-custom-mob img {
+  display: block;
+  margin: 0 auto;
+  width: 35px;
+  height: 35px;
+}
+
 .nav-fontsize {
   font-size: 75%;
 }
 
 .nav-icon-fontsize {
   font-size: 75%;
+}
+
+.nav-mob-fontsize {
+  font-size: 70%;
+}
+
+.nav-mob-icon-fontsize {
+  font-size: 70%;
 }
 
 .h1-foot {
@@ -56,8 +81,6 @@ body {
 footer h5 {
   text-transform: uppercase;
   font-weight: bold;
-  margin-left: 1rem;
-  margin-right: 0.75rem;
 }
 
 .game {

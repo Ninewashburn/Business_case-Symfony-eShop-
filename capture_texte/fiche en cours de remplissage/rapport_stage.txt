@@ -126,3 +126,15 @@ Petite correction d'un problème de navbar, étude sur la conversion d'une navba
 Pour ce sprint 58 nous utilisons planitpoker, les votes portent sur la complexité des tâches à effectuer.
 Capture d'écran faite.
 
+22 Mars 2023.
+Poursuite et fin du ticket 3132.
+Point 1, 2, 4, 5 & 6 terminés.
+En modifiant la CSS et des div parentes ont à pu afficher correctement les controlleurs. Avec une propriété CSS d'overflow, désactivation des ascenceurs.
+La barre de navigation du businesscase à été problématique mais à finalement été corrigée. Tout le business case est donc maintenant responsive.
+Le module front est donc validé normalement. Il reste à faire la boutique, l'accueil et le dashboard.
+Réunion à 16 heures pour les modifications de la librairie beys software. A chaque sprint les modifications seront faites.
+Capture d'écran faite.
+
+23 Mars 2023.
+
+

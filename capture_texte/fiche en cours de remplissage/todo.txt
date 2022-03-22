@@ -1,9 +1,8 @@
 TODO business case
 
 Faire un favicon
-Rendre le tout responsive et l'améliorer d'avantage
 Faire la boutique (afficher les produits)
-Améliorer la BDD
+Ajouter des vrais produits en BDD (avec la boutique)
 Préparer angular à l'intérieur du projet (Page ADMIN)
 Page d'accueil retraçant un peu le site
 
@@ -16,3 +15,4 @@ Page bonus = FAIT
 Page space base = FAIT
 Faire un FORUM avec son CRUD = FAIT
 Réparer la navbar à droite (regarder le footer qui lui est bien aligné) = FAIT
+Rendre le tout responsive et l'améliorer d'avantage = FAIT

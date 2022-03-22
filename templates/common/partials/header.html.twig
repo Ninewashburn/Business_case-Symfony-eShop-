@@ -1,8 +1,8 @@
 <div class="sticky-top">
 
-    {#    First NavBar #}
+    {# First NavBar #}
 
-    <nav class="navbar navbar-expand-lg d-none d-lg-block navbar-dark bg-white">
+    <nav class="navbar navbar-expand-lg d-none d-lg-block navbar-dark bg-white ">
 
         <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavAltMarkup"
@@ -10,9 +10,9 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="container collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="container" id="">
             <div class="row w-100">
-                <div class="col-4 d-flex flex-row justify-content-start fw-bold navbar-collapse">
+                <div class="col-4 d-flex flex-row fw-bold navbar-collapse">
                     <span class="nav-fontsize">
                         Appelez la base ici : 06.36.65.65.65
                         <br>
@@ -27,7 +27,7 @@
                         </span>
                     </a>
                 </div>
-                <div class="col-4 d-flex flex-row justify-content-center fw-bold navbar-collapse">
+                <div class="col-4 d-flex flex-row fw-bold navbar-collapse justify-content-center">
                     <span class="nav-fontsize text-center">
                         <img class="rounded-3 navbar-color"
                              src="{{ asset('build/images/rocket-top.png') }}" alt="logo">
@@ -36,29 +36,29 @@
                              alt="logo">
                     </span>
                 </div>
-                <div class="col-4 d-flex flex-row justify-content-end px-0 navbar-collapse">
-                    <div class="nav-item d-flex">
-                        <a class="nav-link py-0" href="https://fr-fr.facebook.com/" target="_blank">
+                <div class="col-4 navbar-collapse justify-content-end">
+                    <div class="nav-item">
+                        <a class="nav-link" href="https://fr-fr.facebook.com/" target="_blank">
                             <i class="logo-color fa-brands fa-facebook-square fa-2x"></i>
                         </a>
                     </div>
                     <div class="nav-item">
-                        <a class="nav-link py-0" href="https://www.instagram.com/" target="_blank">
+                        <a class="nav-link" href="https://www.instagram.com/" target="_blank">
                             <i class="logo-color fa-brands fa-instagram fa-2x"></i>
                         </a>
                     </div>
                     <div class="nav-item">
-                        <a class="nav-link py-0" href="https://www.pinterest.com/" target="_blank">
+                        <a class="nav-link" href="https://www.pinterest.com/" target="_blank">
                             <i class="logo-color fa-brands fa-pinterest fa-2x"></i>
                         </a>
                     </div>
                     <div class="nav-item">
-                        <a class="nav-link py-0" href="https://www.twitter.com/" target="_blank">
+                        <a class="nav-link" href="https://www.twitter.com/" target="_blank">
                             <i class="logo-color fa-brands fa-twitter fa-2x"></i>
                         </a>
                     </div>
                     <div class="nav-item">
-                        <a class="nav-link py-0" href="https://www.linkedin.com/" target="_blank">
+                        <a class="nav-link" href="https://www.linkedin.com/" target="_blank">
                             <i class="logo-color fa-brands fa-linkedin fa-2x"></i>
                         </a>
                     </div>
@@ -67,12 +67,12 @@
         </div>
     </nav>
 
-    {#    Second NavBar #}
+    {# Second NavBar #}
 
     <nav class="navbar navbar-expand-lg d-none d-lg-block navbar-color">
-        <div class="container justify-content-end">
-            <div class="row w-100">
-                <div class="col-4 d-flex flex-row justify-content-start navbar-collapse">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 d-flex flex-row navbar-collapse">
                     <a class="navbar-brand fw-bold"
                        href="{{ path('home') }}">
                         <img class="rounded-3"
@@ -92,7 +92,7 @@
                         </label>
                     </div>
                 </div>
-                <div class="collapse d-flex navbar-collapse col-8 justify-content-end" id="navbarNavAltMarkup">
+                <div class="collapse d-flex navbar-collapse col-8" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="btn btn-custom-nav btn-sm col-xs-4 fw-bold d-flex flex-column me-4 nav-icon-fontsize"
                            href="{{ path('home') }}">
@@ -126,10 +126,6 @@
                             <img class="rounded-3" src="{{ asset('build/images/help-logo.png') }}"
                                  alt="help-logo">
                             <span>Les Articles</span></a>
-
-                        {#                <li class="nav-item active"> #}
-                        {#                    <a class="btn btn-light btn-sm rounded-pill me-3" href="{{ path('app_register') }}">Inscription</a> #}
-                        {#                </li> #}
 
                         {% if app.user %}
                             <a class="btn btn-custom-nav btn-sm col-xs-4 fw-bold d-flex flex-column nav-icon-fontsize"
@@ -183,42 +179,94 @@
     }, 1000);
 </script>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+{# Navbar mobile #}
+
+<nav class="navbar navbar-color navbar-expand-lg navbar-light d-xl-none d-lg-none">
+    <div class="container">
+        <a class="navbar-brand fw-bold"
+           href="{{ path('home') }}">
+            <img class="rounded-3"
+                 src="{{ asset('build/images/logo.png') }}"
+                 alt="logo">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                       data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown link
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        <li><a class="dropdown-item" href="{{ path('home') }}">Genres</a></li>
-                        <li><a class="dropdown-item" href="{{ path('home') }}">Pays</a></li>
-                        <li><a class="dropdown-item" href="{{ path('home') }}">Editeur</a></li>
-                        <li><a class="dropdown-item" href="{{ path('home') }}">Jeux</a></li>
-                    </ul>
-                </li>
+        <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+                <div class="text-center py-2 mt-2 mb-2">
+                    <label>
+                        <input type="text" class="form-control rounded-pill search-style text-center"
+                               placeholder="Explorez l'espace !"
+                               alt="barre de recherche">
+                    </label>
+                </div>
+                <div class="row text-center">
+                    <li class="nav-item justify-content-center col-4">
+                        <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-2 mb-2"
+                           href="{{ path('home') }}">
+                            <img class="rounded-3" src="{{ asset('build/images/home-logo.png') }}" alt="home-logo">
+                            <span>L'Accueil</span>
+                        </a>
+                    </li>
+                    <li class="nav-item col-4">
+                        <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-2 mb-2"
+                           href="{{ path('nimes_team') }}">
+                            <img class="rounded-3" src="{{ asset('build/images/rocket-logo.png') }}" alt="rocket-logo">
+                            <span>La Nîmes Team</span>
+                        </a>
+                    </li>
+                    <li class="nav-item col-4">
+                        <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-2 mb-2"
+                           href="{{ path('product') }}">
+                            <img class="rounded-3" src="{{ asset('build/images/cart-logo.png') }}" alt="cart-logo">
+                            <span>La Boutique</span>
+                        </a>
+                    </li>
+                    <li class="nav-item col-4">
+                        <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-2 mb-2"
+                           href="{{ path('earth_base') }}">
+                            <img class="rounded-3" src="{{ asset('build/images/earth-logo.png') }}"
+                                 alt="earth-logo">
+                            <span>La Base Terrienne</span>
+                        </a>
+                    </li>
+                    <li class="nav-item col-4">
+                        <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-2 mb-2"
+                           href="{{ path('space_base') }}">
+                            <img class="rounded-3" src="{{ asset('build/images/spaceship-logo.png') }}"
+                                 alt="spaceship-logo">
+                            <span>La Base Spatiale</span>
+                        </a>
+                    </li>
+                    <li class="nav-item col-4">
+                        <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-2 mb-2"
+                           href="{{ path('articles_index') }}">
+                            <img class="rounded-3" src="{{ asset('build/images/help-logo.png') }}"
+                                 alt="help-logo">
+                            <span>Les Articles</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        {% if app.user %}
+                            <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-2 mb-2"
+                               href="{{ path('app_logout') }}">
+                                <img class="rounded-3" src="{{ asset('build/images/connect-logo.png') }}"
+                                     alt="disconnect-logo">
+                                <span>Déconnexion</span>
+                            </a>
+                        {% else %}
+                            <a class="btn btn-custom-mob btn-sm fw-bold nav-icon-fontsize"
+                               href="{{ path('app_login') }}">
+                                <img class="rounded-3" src="{{ asset('build/images/connect-logo.png') }}"
+                                     alt="connect-logo">
+                                <span>Identifiez vous</span>
+                            </a>
+                        {% endif %}
+                    </li>
+                </div>
             </ul>
         </div>
     </div>
 </nav>
-
-{# POUR FAIRE LA BARRE EN RESPONSIVE ? #}
