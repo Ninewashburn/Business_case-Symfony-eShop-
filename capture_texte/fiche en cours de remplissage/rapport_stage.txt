@@ -127,14 +127,31 @@ Pour ce sprint 58 nous utilisons planitpoker, les votes portent sur la complexit
 Capture d'écran faite.
 
 22 Mars 2023.
-Poursuite et fin du ticket 3132.
+Poursuite du ticket 3132.
 Point 1, 2, 4, 5 & 6 terminés.
-En modifiant la CSS et des div parentes ont à pu afficher correctement les controlleurs. Avec une propriété CSS d'overflow, désactivation des ascenceurs.
+Pour corriger les points 5 et 6 de contrôle des rôles, il à fallu donner une hauteur fixe à des div parentes qui après par une fonction de calcul, ont permis de diviser par 4
+les hauteurs pour répartir les 4 boutons de contrôles. << < > >> 
+En modifiant doncla CSS et des div parentes on à pu afficher correctement les controlleurs. Avec de plus une propriété CSS d'overflow, désactivation des ascenceurs
+sur les boites de controle.
 La barre de navigation du businesscase à été problématique mais à finalement été corrigée. Tout le business case est donc maintenant responsive.
 Le module front est donc validé normalement. Il reste à faire la boutique, l'accueil et le dashboard.
 Réunion à 16 heures pour les modifications de la librairie beys software. A chaque sprint les modifications seront faites.
 Capture d'écran faite.
 
 23 Mars 2023.
+Léger soucis sur le ticket 3076 qui à été corrigé.
+Ticket 3132 avec le DarkMode à poursuivre. Tous les autres points sont corrigés.
+Apparition d'un problème avec le ticket 3107. Résoudre le tout et pusher le correctif dans une seule branche.
+Ticket 3132 terminé. Il s'agissait d'un problème de darkmode avec la librairie personnalisée de Be-Ys Software. Cette librairie est un composent enfant de Iam Front.
+<beys-navbar></beys-navbar> en est l'exemple. Le html est appelé dans un autre template html par ces balises.
+Pour solutionner ce problème épineux il à fallu d'abord : 
+- Définir les couleurs dans une fonction ''init'', qui seront les couleurs des modes light/dark.
+- Faire un 'output' dans le composant (le navbar.component.ts dans la libs beys), ensuite le brancher sur le html. (navbar.component.html)
+- Faire des fonctions, une dans le ''ui.service.ts'', une dans le ''main.component.ts'', appel du ui.service et du setColor dans l'initData.
+- Raccorder le tout dans le main.component.html.
+IAM FRONT (html principal) -> BEYS LIB (librairie html indépendante) -> darkmode - output/emit -> main.ts IAMFRONT enableDarkMode -> uIservice 'isDarkMode' -> Dashboard
+'isDarkMode.subscribe'
+Ce petit circuit permet de vérifie dans quel état nous sommes, et par un simple boolean 'true false', changer les couleurs des éléments sur la couleur du reste du site.
+Capture d'écran faite.
 
 

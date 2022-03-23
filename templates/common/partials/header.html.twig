@@ -181,7 +181,7 @@
 
 {# Navbar mobile #}
 
-<nav class="navbar navbar-color navbar-expand-lg navbar-light d-xl-none d-lg-none">
+<nav class="navbar navbar-color navbar-expand-lg navbar-light d-xl-none d-lg-none sticky-top">
     <div class="container">
         <a class="navbar-brand fw-bold"
            href="{{ path('home') }}">
@@ -189,13 +189,42 @@
                  src="{{ asset('build/images/logo.png') }}"
                  alt="logo">
         </a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto">
-                <div class="text-center py-2 mt-2 mb-2">
+                <li class="nav-item dropdown mt-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="logo-color text-uppercase fa-solid fa-hashtag"> Social media</i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item text-center" href="https://fr-fr.facebook.com/" target="_blank">
+                                <i class="logo-color fa-brands fa-facebook-square"> Facebook</i>
+                            </a>
+                        </li>
+                        <li><a class="dropdown-item text-center" href="https://www.instagram.com/" target="_blank">
+                                <i class="logo-color fa-brands fa-instagram"> Instagram</i>
+                            </a>
+                        </li>
+                        <li><a class="dropdown-item text-center" href="https://www.pinterest.com/" target="_blank">
+                                <i class="logo-color fa-brands fa-pinterest"> Pinterest</i>
+                            </a>
+                        </li>
+                        <li><a class="dropdown-item text-center" href="https://www.twitter.com/" target="_blank">
+                                <i class="logo-color fa-brands fa-twitter"> Twitter</i>
+                            </a>
+                        </li>
+                        <li><a class="dropdown-item text-center" href="https://www.linkedin.com/" target="_blank">
+                                <i class="logo-color fa-brands fa-linkedin"> LinkedIn</i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <div class="text-center py-2 mt-3 mb-3">
                     <label>
                         <input type="text" class="form-control rounded-pill search-style text-center"
                                placeholder="Explorez l'espace !"
@@ -204,28 +233,28 @@
                 </div>
                 <div class="row text-center">
                     <li class="nav-item justify-content-center col-4">
-                        <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-2 mb-2"
+                        <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-3"
                            href="{{ path('home') }}">
                             <img class="rounded-3" src="{{ asset('build/images/home-logo.png') }}" alt="home-logo">
                             <span>L'Accueil</span>
                         </a>
                     </li>
                     <li class="nav-item col-4">
-                        <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-2 mb-2"
+                        <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-3"
                            href="{{ path('nimes_team') }}">
                             <img class="rounded-3" src="{{ asset('build/images/rocket-logo.png') }}" alt="rocket-logo">
                             <span>La Nîmes Team</span>
                         </a>
                     </li>
                     <li class="nav-item col-4">
-                        <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-2 mb-2"
+                        <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-3"
                            href="{{ path('product') }}">
                             <img class="rounded-3" src="{{ asset('build/images/cart-logo.png') }}" alt="cart-logo">
                             <span>La Boutique</span>
                         </a>
                     </li>
                     <li class="nav-item col-4">
-                        <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-2 mb-2"
+                        <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-3"
                            href="{{ path('earth_base') }}">
                             <img class="rounded-3" src="{{ asset('build/images/earth-logo.png') }}"
                                  alt="earth-logo">
@@ -233,7 +262,7 @@
                         </a>
                     </li>
                     <li class="nav-item col-4">
-                        <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-2 mb-2"
+                        <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-3"
                            href="{{ path('space_base') }}">
                             <img class="rounded-3" src="{{ asset('build/images/spaceship-logo.png') }}"
                                  alt="spaceship-logo">
@@ -241,7 +270,7 @@
                         </a>
                     </li>
                     <li class="nav-item col-4">
-                        <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-2 mb-2"
+                        <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-3"
                            href="{{ path('articles_index') }}">
                             <img class="rounded-3" src="{{ asset('build/images/help-logo.png') }}"
                                  alt="help-logo">
@@ -250,14 +279,14 @@
                     </li>
                     <li class="nav-item">
                         {% if app.user %}
-                            <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-2 mb-2"
+                            <a class="btn btn-custom-mob btn-sm fw-bold nav-mob-icon-fontsize mt-3 mb-2"
                                href="{{ path('app_logout') }}">
                                 <img class="rounded-3" src="{{ asset('build/images/connect-logo.png') }}"
                                      alt="disconnect-logo">
                                 <span>Déconnexion</span>
                             </a>
                         {% else %}
-                            <a class="btn btn-custom-mob btn-sm fw-bold nav-icon-fontsize"
+                            <a class="btn btn-custom-mob btn-sm fw-bold nav-icon-fontsize mt-3 mb-2"
                                href="{{ path('app_login') }}">
                                 <img class="rounded-3" src="{{ asset('build/images/connect-logo.png') }}"
                                      alt="connect-logo">
@@ -270,3 +299,6 @@
         </div>
     </div>
 </nav>
+
+
+
