@@ -154,4 +154,17 @@ IAM FRONT (html principal) -> BEYS LIB (librairie html indépendante) -> darkmod
 Ce petit circuit permet de vérifie dans quel état nous sommes, et par un simple boolean 'true false', changer les couleurs des éléments sur la couleur du reste du site.
 Capture d'écran faite.
 
+24 Mars 2023.
+Début de la page d'accueuil du business case.
+Début de la page résumé du projet Human Booster.
+Le ticket 3076 et le ticket 3132 sont finalement terminé et mis à jour.
+La recherche du ticket 3107 et son bug généré montre qu'il est plus complexe qu'il n'y parait. Peut être en poursuite le vendredi 25 avec de l'aide.
+Problème de Pipeline (Merge Request qui à un mauvais test de qualité), il faudra rétablir ça au plus vite.
+Pas besoin de capture d'écran aujourd'hui.
 
+25 Mars 2023.
+A l'arrivée, correction directe du Pipeline qui semble fonctionner. Il suffisait de supprimer les fichiers et imports non utilisés. Ensuite faire un ng lint + ng rest, puis 
+le git status, git add -A, git commit et git pull origin 'nom de ticket'.
+En attente de nouveau ticket. Si temps libre, page résumée à faire aujourd'hui, et avancer sur la page accueil du Business case.
+Correction d'un léger soucis de traduction suite à la découverte.
+Capture d'écran faite.

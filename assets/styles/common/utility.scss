@@ -97,6 +97,14 @@ footer h5 {
   background-image: url("/assets/images/bandeau_planet.png");
 }
 
+.block-nav {
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 10px;
+}
+.block-nav:hover {
+  background-color: #ffe135;
+}
 
 //body, html{
 //  width: 100%;

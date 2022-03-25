@@ -19,6 +19,7 @@ Inscrire dans Mattermost
 
 npm run start:int
 npm run lint
+npm run test
 ls .\node_modules\@beys-software\
 
 Pour linker la librairie :

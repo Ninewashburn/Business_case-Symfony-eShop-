@@ -13,60 +13,74 @@
               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
     </head>
 
-    <!-- Header -->
     <div class="container mt-4">
-        <header class="body-color w3-padding text-center text-white body-color m-5 p-1 text-white m-5" id="myHeader">
-                <h2>La Nimes'Alerie Human Booster vous souhaite la bienvenue !</h2>
+        <header class="body-color w3-padding text-center w3-animate-bottom text-white body-color m-5 p-1 text-white m-5"
+                id="myHeader">
+            <h2 class="fw-bold">
+                <i class="fa-solid fa-sun"></i>
+                    La Nimes'Alerie Human Booster vous souhaite la bienvenue !
+                <i class="fa-solid fa-sun"></i>
+            </h2>
         </header>
     </div>
 
-    <div class="container text-center">
+    <div class="container fw-bold text-center">
         <div class="w3-row-padding container w3-center w3-margin-top">
+            <p>La Nimes'Alerie ? C'est quoi ?</p>
             <div class="w3-third">
-                <div class="w3-card w3-container" style="min-height:460px">
-                    <h3>Responsive</h3><br>
+                <div class="w3-card w3-container block-nav py-4" style="min-height:460px">
+                    <h3 class="text-uppercase fw-bolder">Un mode de vie !</h3><br>
+                    <i class="fa-brands fa-reddit-alien w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+                    <div class="container border border-3 border-secondary rounded-3 py-2">
+                        <p class="mt-3">Par ceux qui ont la tête dans la lune !</p>
+                        <p>Pour ceux qui ont la tête sur la lune !</p>
+                        <p>Pour ceux qui iront sur la lune !</p>
+                        <p>C'est plus qu'une animalerie !</p>
+                        <p>Le monde vous appartient !</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-third fw-bold">
+                <div class="w3-card w3-container block-nav py-4" style="min-height:460px">
+                    <h3 class="text-uppercase fw-bolder">Un site varié !</h3><br>
                     <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-                    <p>Built-in responsiveness</p>
-                    <p>Mobile first fluid grid</p>
-                    <p>Fits any screen sizes</p>
-                    <p>PC Tablet and Mobile</p>
+                    <div class="container border border-3 border-secondary rounded-3 py-2">
+                        <p class="mt-3">Depuis n'importe quel terminal !</p>
+                        <p>Pour terriens et extra-terriens !</p>
+                        <p>Une communauté active !</p>
+                        <p>Des articles ! Un forum !</p>
+                        <p>Avec une boutique !</p>
+                    </div>
                 </div>
             </div>
 
             <div class="w3-third">
-                <div class="w3-card w3-container" style="min-height:460px">
-                    <h3>Standard CSS</h3><br>
-                    <i class="fa fa-css3 w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-                    <p>Standard CSS only</p>
-                    <p>Easy to learn</p>
-                    <p>No need for jQuery</p>
-                    <p>No JavaScript library</p>
-                </div>
-            </div>
-
-            <div class="w3-third">
-                <div class="w3-card w3-container" style="min-height:460px">
-                    <h3>Design</h3><br>
-                    <i class="fa fa-diamond w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-                    <p>Paper like design</p>
-                    <p>Bold colors and shadows</p>
-                    <p>Equal across platforms</p>
-                    <p>Equal across devices</p>
+                <div class="w3-card w3-container block-nav py-4" style="min-height:460px">
+                    <h3 class="text-uppercase fw-bolder">La conquête spatiale !</h3><br>
+                    <i class="fa-solid fa-satellite-dish w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+                    <div class="container border border-3 border-secondary rounded-3 py-2">
+                        <p class="mt-3">Vous êtes présent n'importe ou !</p>
+                        <p>La Lune comme si vous étiez !</p>
+                        <p>Mars sera notre routine !</p>
+                        <p>L'espace sans limites !</p>
+                        <p>C'est le futur !</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="container mt-3">
+        <div class="container">
             <header class="text-center text-white body-color m-5 p-1">
-                <h2>Quoi de neuf sous l'espace ?</h2>
+                <h2 class="fw-bold">Quoi de neuf dans l'espace ?</h2>
             </header>
         </div>
 
-        <div class="container mt-1">
+        <div class="container">
             <div class="row">
-                <div id="carouselExampleFade" class=" carousel slide carousel-fade col-9 container py-4"
+                <div id="carouselExampleFade" class="carousel slide carousel-fade col-9 container py-4"
                      data-bs-ride="carousel">
-                    <div class="carousel-inner">
+                    <div class="carousel-inner rounded-3">
                         <div class="carousel-item active">
                             <img src="{{ asset('build/images/space_animal_1.jpg') }}" class="img-fluid w-auto h-auto"
                                  alt="...">
@@ -100,25 +114,32 @@
 
 
         <div class="w3-row container mt-3">
-            <div class="w3-quarter w3-container">
-                <h5>w3-quarter</h5>
+            <p>Mais encore ?</p>
+            <div class="w3-quarter w3-container py-2">
+                <h5 class="fw-bold">Qui sommes-nous ?</h5>
                 <p>The w3-quarter class uses one quarter (25%) of the screen window.</p>
                 <p>On small screens (max 600 pixels) it automatically resizes to full screen width.</p>
             </div>
-            <div class="w3-quarter w3-container">
-                <h5>w3-quarter</h5>
+            <div class="w3-quarter w3-container py-2">
+                <h5 class="fw-bold">D'ou venons-nous ?</h5>
+                <p>The w3-quarter class uses one quarter (25%) of the screen window.</p>
+                <p>On small screens (max 600 pixels) it automatically resizes to full screen width.</p>
             </div>
-            <div class="w3-quarter w3-container">
-                <h5>w3-quarter</h5>
+            <div class="w3-quarter w3-container py-2">
+                <h5 class="fw-bold">Ou allons-nous ?</h5>
+                <p>The w3-quarter class uses one quarter (25%) of the screen window.</p>
+                <p>On small screens (max 600 pixels) it automatically resizes to full screen width.</p>
             </div>
-            <div class="w3-quarter w3-container">
-                <h5>w3-quarter</h5>
+            <div class="w3-quarter w3-container py-2">
+                <h5 class="fw-bold">Pourquoi ?</h5>
+                <p>The w3-quarter class uses one quarter (25%) of the screen window.</p>
+                <p>On small screens (max 600 pixels) it automatically resizes to full screen width.</p>
             </div>
         </div>
 
         <div class="container">
             <header class="text-center text-white body-color m-5 p-1">
-                <h2>Vous souhaitez participer à la communauté ? Nous avons un forum !</h2>
+                <h2 class="fw-bold">Vous souhaitez participer à la communauté ? Nous avons un forum !</h2>
             </header>
         </div>
 
@@ -183,7 +204,6 @@
         </div>
 
         <div class="w3-row-padding">
-
             <div class="w3-third">
                 <div class="w3-card">
                     <img src="/w3images/car.jpg" alt="Car" style="width:100%">
@@ -216,52 +236,52 @@
     <div class="container">
         <div class="container">
             <header class="text-center text-white body-color m-5 p-1">
-                <h2>Dans notre section blog, vous pouvez écrire des articles !</h2>
+                <h2 class="fw-bold">Dans notre section blog, vous pouvez écrire des articles !</h2>
             </header>
         </div>
-            <div class="w3-responsive w3-center w3-card-4">
-                <table class="w3-table w3-striped w3-bordered">
-                    <thead class="text-center">
-                    <tr class="text-center">
-                        <th class="text-center">Titre</th>
-                        <th class="text-center">Contenu</th>
-                        <th class="text-center">Actions</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td class="text-center">Premier article</td>
-                        <td class="text-center">Premier contenu</td>
-                        <td class="text-center">
-                            <i class="fas fa-pencil-alt"></i>
-                            <i class="fas fa-trash-alt"></i>
-                            <i class="far fa-eye"></i>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="text-center">Deuxième article</td>
-                        <td class="text-center">Deuxième contenu</td>
-                        <td class="text-center">
-                            <i class="fas fa-pencil-alt"></i>
-                            <i class="fas fa-trash-alt"></i>
-                            <i class="far fa-eye"></i>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="text-center">Troisième article</td>
-                        <td class="text-center">Troisième contenu</td>
-                        <td class="text-center">
-                            <i class="fas fa-pencil-alt"></i>
-                            <i class="fas fa-trash-alt"></i>
-                            <i class="far fa-eye"></i>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
+        <div class="w3-responsive w3-center w3-card-4">
+            <table class="w3-table w3-striped w3-bordered">
+                <thead class="text-center">
+                <tr class="text-center">
+                    <th class="text-center">Titre</th>
+                    <th class="text-center">Contenu</th>
+                    <th class="text-center">Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="text-center">Premier article</td>
+                    <td class="text-center">Premier contenu</td>
+                    <td class="text-center">
+                        <i class="fas fa-pencil-alt"></i>
+                        <i class="fas fa-trash-alt"></i>
+                        <i class="far fa-eye"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-center">Deuxième article</td>
+                    <td class="text-center">Deuxième contenu</td>
+                    <td class="text-center">
+                        <i class="fas fa-pencil-alt"></i>
+                        <i class="fas fa-trash-alt"></i>
+                        <i class="far fa-eye"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-center">Troisième article</td>
+                    <td class="text-center">Troisième contenu</td>
+                    <td class="text-center">
+                        <i class="fas fa-pencil-alt"></i>
+                        <i class="fas fa-trash-alt"></i>
+                        <i class="far fa-eye"></i>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
         <div class="container">
             <header class="text-center text-white body-color m-5 p-1 w3-animate-bottom">
-                <h2>Parcourez nos rubriques, vous et votre compagnon ! Bonne visite !</h2>
+                <h2 class="fw-bold">Parcourez nos rubriques, vous et votre compagnon ! Bonne visite !</h2>
             </header>
         </div>
     </div>
@@ -269,7 +289,7 @@
     <script>
         // Side navigation
         function w3_open() {
-            var x = document.getElementById("mySidebar");
+            const x = document.getElementById("mySidebar");
             x.style.width = "100%";
             x.style.fontSize = "40px";
             x.style.paddingTop = "10%";
@@ -282,12 +302,12 @@
 
         // Tabs
         function openCity(evt, cityName) {
-            var i;
-            var x = document.getElementsByClassName("city");
+            let i;
+            const x = document.getElementsByClassName("city");
             for (i = 0; i < x.length; i++) {
                 x[i].style.display = "none";
             }
-            var activebtn = document.getElementsByClassName("testbtn");
+            const activebtn = document.getElementsByClassName("testbtn");
             for (i = 0; i < x.length; i++) {
                 activebtn[i].className = activebtn[i].className.replace(" w3-dark-grey", "");
             }
@@ -295,12 +315,12 @@
             evt.currentTarget.className += " w3-dark-grey";
         }
 
-        var mybtn = document.getElementsByClassName("testbtn")[0];
+        const mybtn = document.getElementsByClassName("testbtn")[0];
         mybtn.click();
 
         // Accordions
         function myAccFunc(id) {
-            var x = document.getElementById(id);
+            const x = document.getElementById(id);
             if (x.className.indexOf("w3-show") == -1) {
                 x.className += " w3-show";
             } else {
@@ -309,7 +329,7 @@
         }
 
         // Slideshows
-        var slideIndex = 1;
+        let slideIndex = 1;
 
         function plusDivs(n) {
             slideIndex = slideIndex + n;
@@ -317,15 +337,15 @@
         }
 
         function showDivs(n) {
-            var x = document.getElementsByClassName("mySlides");
+            const x = document.getElementsByClassName("mySlides");
             if (n > x.length) {
                 slideIndex = 1
             }
             if (n < 1) {
                 slideIndex = x.length
             }
-            ;
-            for (i = 0; i < x.length; i++) {
+
+            for (let i = 0; i < x.length; i++) {
                 x[i].style.display = "none";
             }
             x[slideIndex - 1].style.display = "block";
@@ -335,9 +355,9 @@
 
         // Progress Bars
         function move() {
-            var elem = document.getElementById("myBar");
-            var width = 5;
-            var id = setInterval(frame, 10);
+            const elem = document.getElementById("myBar");
+            let width = 5;
+            const id = setInterval(frame, 10);
 
             function frame() {
                 if (width == 100) {
@@ -350,57 +370,7 @@
             }
         }
     </script>
-
-    {#    <div class="container mt-4"> #}
-    {#        <div class="row text-center"> #}
-    {#            <div class="col-4 d-flex flex-column"> #}
-    {#                <h2>Premier article</h2> #}
-    {#                <article>Bonjour ceci est le premier article.</article> #}
-    {#            </div> #}
-    {#            <div class="col-4 d-flex flex-column"> #}
-    {#                <h2>Second article</h2> #}
-    {#                <article>Le deuxième article s'inscrira ici.</article> #}
-    {#            </div> #}
-    {#            <div class="col-4 d-flex flex-column"> #}
-    {#                <h2>Troisième article</h2> #}
-    {#                <article>Ici nous avons le troisième article.</article> #}
-    {#            </div> #}
-    {#        </div> #}
-    {#    </div> #}
-    {#    <div class="container mt-4"> #}
-    {#        <div class="row text-center"> #}
-    {#            <div class="col-4 d-flex flex-column"> #}
-    {#                <h2>Premier article</h2> #}
-    {#                <article>Bonjour ceci est le premier article.</article> #}
-    {#            </div> #}
-    {#            <div class="col-4 d-flex flex-column"> #}
-    {#                <h2>Second article</h2> #}
-    {#                <article>Le deuxième article s'inscrira ici.</article> #}
-    {#            </div> #}
-    {#            <div class="col-4  d-flex flex-column"> #}
-    {#                <h2>Troisième article</h2> #}
-    {#                <article>Ici nous avons le troisième article.</article> #}
-    {#            </div> #}
-    {#        </div> #}
-    {#    </div> #}
-    {#    <div class="container mt-4"> #}
-    {#        <div class="row text-center"> #}
-    {#            <div class="col-4 d-flex flex-column"> #}
-    {#                <h2>Premier article</h2> #}
-    {#                <article>Bonjour ceci est le premier article.</article> #}
-    {#            </div> #}
-    {#            <div class="col-4 d-flex flex-column"> #}
-    {#                <h2>Second article</h2> #}
-    {#                <article>Le deuxième article s'inscrira ici.</article> #}
-    {#            </div> #}
-    {#            <div class="col-4 d-flex flex-column"> #}
-    {#                <h2>Troisième article</h2> #}
-    {#                <article>Ici nous avons le troisième article.</article> #}
-    {#            </div> #}
-    {#        </div> #}
-    {#    </div> #}
 {% endblock %}
 
-{# TODO : ICI NOUS POUVONS FAIRE UN RAPPEL DE PRODUIT ET D'ARTICLES. #}
 {# SE BASER SUR STEAM-EXO #}
 {# ICI SE BASER SUR HOME CONTROLLER DE STEAMISH POUR RECUPERER QUELQUES DONNES PAR REQUETE DQL ? #}
