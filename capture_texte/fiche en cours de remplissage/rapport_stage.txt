@@ -167,4 +167,5 @@ A l'arrivée, correction directe du Pipeline qui semble fonctionner. Il suffisai
 le git status, git add -A, git commit et git pull origin 'nom de ticket'.
 En attente de nouveau ticket. Si temps libre, page résumée à faire aujourd'hui, et avancer sur la page accueil du Business case.
 Correction d'un léger soucis de traduction suite à la découverte.
+Nouveau ticket 3138 : Changer l'affichage du bouton "retirer" en mode edit.
 Capture d'écran faite.
