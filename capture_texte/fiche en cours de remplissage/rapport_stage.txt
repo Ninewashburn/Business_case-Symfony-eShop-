@@ -169,3 +169,12 @@ En attente de nouveau ticket. Si temps libre, page résumée à faire aujourd'hu
 Correction d'un léger soucis de traduction suite à la découverte.
 Nouveau ticket 3138 : Changer l'affichage du bouton "retirer" en mode edit.
 Capture d'écran faite.
+
+28 Mars 2023.
+Fiche de résumé complétée et terminée. Je l'ai soumise à Human Booster et le retour fut positif. J'ai donc adopté la correction et retourné le tout.
+J'ai mis ma correction de la librairie sur la branche alpha et ma pipeline à été validé.
+Maintenant la merge est en attente d'acceptation.
+Demain si c'est validé il faudra mettre à jour la dépendance dans le package.json. Et puis faire un git add commit push depuis le front.
+Ainsi sera cloturé le ticket 3138.
+
+29 Mars 2023.
