@@ -18,15 +18,17 @@
                 id="myHeader">
             <h2 class="fw-bold">
                 <i class="fa-solid fa-sun"></i>
-                    La Nimes'Alerie Human Booster vous souhaite la bienvenue !
+                La Nimes'Alerie Human Booster vous souhaite la bienvenue !
                 <i class="fa-solid fa-sun"></i>
             </h2>
         </header>
     </div>
 
     <div class="container fw-bold text-center">
+        <div class="w3-container w3-center py-2">
+            <h3>La Nimes'Alerie ? C'est quoi ?</h3>
+        </div>
         <div class="w3-row-padding container w3-center w3-margin-top">
-            <p>La Nimes'Alerie ? C'est quoi ?</p>
             <div class="w3-third">
                 <div class="w3-card w3-container block-nav py-4" style="min-height:460px">
                     <h3 class="text-uppercase fw-bolder">Un mode de vie !</h3><br>
@@ -112,34 +114,35 @@
             </div>
         </div>
 
-
+        <div class="w3-container w3-center py-2">
+            <h3>Mais encore ?</h3>
+        </div>
         <div class="w3-row container mt-3">
-            <p>Mais encore ?</p>
-            <div class="w3-quarter w3-container py-2">
+            <div class="w3-quarter w3-container py-4 border border-2 border-solid block-nav">
                 <h5 class="fw-bold">Qui sommes-nous ?</h5>
-                <p>The w3-quarter class uses one quarter (25%) of the screen window.</p>
-                <p>On small screens (max 600 pixels) it automatically resizes to full screen width.</p>
+                <p>Une start'up qui innove pour le futur !</p>
+                <p>Vous avez toujours rêvé de partir dans l'espace avec votre compagnon ? C'est possible !</p>
             </div>
-            <div class="w3-quarter w3-container py-2">
+            <div class="w3-quarter w3-container py-4 border border-2 border-solid block-nav">
                 <h5 class="fw-bold">D'ou venons-nous ?</h5>
-                <p>The w3-quarter class uses one quarter (25%) of the screen window.</p>
-                <p>On small screens (max 600 pixels) it automatically resizes to full screen width.</p>
+                <p>Depuis la nuit des temps l'homme se pose cette question.</p>
+                <p>Nous regardons les étoiles, elles représentent le passé, mais aussi notre avenir.</p>
             </div>
-            <div class="w3-quarter w3-container py-2">
+            <div class="w3-quarter w3-container py-4 border border-2 border-solid block-nav">
                 <h5 class="fw-bold">Ou allons-nous ?</h5>
-                <p>The w3-quarter class uses one quarter (25%) of the screen window.</p>
-                <p>On small screens (max 600 pixels) it automatically resizes to full screen width.</p>
+                <p>Mais vers le futur bien sûr ! Embarquement immédiat !</p>
+                <p>La technologie à fait un bond en avant, rendant les rêves spatiaux à portée de toutes les mains !</p>
             </div>
-            <div class="w3-quarter w3-container py-2">
+            <div class="w3-quarter w3-container py-4 border border-2 border-solid block-nav">
                 <h5 class="fw-bold">Pourquoi ?</h5>
-                <p>The w3-quarter class uses one quarter (25%) of the screen window.</p>
-                <p>On small screens (max 600 pixels) it automatically resizes to full screen width.</p>
+                <p>Parce que nous avons imaginé l'impossible !</p>
+                <p>Pour répondre à un nouveau besoin, celui de l'exploration spatiale pour tous !</p>
             </div>
         </div>
 
         <div class="container">
             <header class="text-center text-white body-color m-5 p-1">
-                <h2 class="fw-bold">Vous souhaitez participer à la communauté ? Nous avons un forum !</h2>
+                <h2 class="fw-bold">Vous souhaitez participer à la communauté ?</h2>
             </header>
         </div>
 
@@ -200,33 +203,41 @@
         </div>
 
         <div class="w3-container w3-center">
-            <h3>Paper-like Cards with Shadows</h3>
+            <h3>Prenez le temps de regarder, nous avons un forum !</h3>
         </div>
 
-        <div class="w3-row-padding">
-            <div class="w3-third">
-                <div class="w3-card">
-                    <img src="/w3images/car.jpg" alt="Car" style="width:100%">
-                    <div class="w3-container">
-                        <p>w3-card</p>
+        <div class="container">
+            <div class="w3-row-padding">
+                <div class="w3-third">
+                    <div class="w3-card-4 zoom">
+                        <a href="{{ path('product') }}" target="_blank">
+                            <img src="{{ asset('build/images/shop_wallpaper.jpg') }}" alt="Car" style="width:100%">
+                        </a>
+                        <div class="w3-container">
+                            <p>Découvrez la boutique universelle !</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="w3-third">
-                <div class="w3-card-4">
-                    <img src="/w3images/car.jpg" alt="Car" style="width:100%">
-                    <div class="w3-container">
-                        <p>w3-card-4</p>
+                <div class="w3-third">
+                    <div class="w3-card-4 zoom">
+                        <a href="{{ path('space_base') }}" target="_blank">
+                            <img src="{{ asset('build/images/space_cat_wallpaper.jpg') }}" alt="Car" style="width:100%">
+                        </a>
+                        <div class="w3-container">
+                            <p>Découvrez la base spatiale !</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="w3-third">
-                <div class="w3-card-4">
-                    <img src="/w3images/car.jpg" alt="Car" style="width:100%">
-                    <div class="w3-container">
-                        <p>w3-card-4</p>
+                <div class="w3-third">
+                    <div class="w3-card-4 zoom">
+                        <a href="{{ path('earth_base') }}" target="_blank">
+                            <img src="{{ asset('build/images/space_forum.jpg') }}" alt="Car" style="width:100%">
+                        </a>
+                        <div class="w3-container">
+                            <p>Découvrez le forum interplanétaire !</p>
+                        </div>
                     </div>
                 </div>
             </div>

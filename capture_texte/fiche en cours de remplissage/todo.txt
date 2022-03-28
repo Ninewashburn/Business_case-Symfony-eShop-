@@ -5,6 +5,14 @@ Faire la boutique (afficher les produits)
 Ajouter des vrais produits en BDD (avec la boutique)
 Préparer angular à l'intérieur du projet (Page ADMIN)
 
+Pour la page admin, faire un controller USER qui sera un CRUD de USER. (comme les articles ?)
+Il faudra que cette page soit visible seulement si la personne à le rôle ADMIN. Probablement une double condition 
+
+ $user = $this->getUser();
+        if ($user === null && SUPER-ADMIN) {
+            return $this->redirectToRoute('app_login');
+        }
+
 Faire un crud dans les articles /ajout post edit delete FAIT
 Formulaire de connexion = FAIT
 Formulaire de contact = FAIT
