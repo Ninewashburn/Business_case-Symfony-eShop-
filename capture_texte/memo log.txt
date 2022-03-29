@@ -22,6 +22,7 @@ npm run lint
 npm run test
 ls .\node_modules\@beys-software\
 
+Ne pas oublier de s'assigner le ticket sur JIRA.
 Pour linker la librairie :
 
 (Créer une branche avec le numéro du ticket en cours)
@@ -33,7 +34,7 @@ Pour linker la librairie :
 (Pour le push sur la librairie et le front, d'abord faire le git add-commit-push origin ''nom du ticket'') 
 Faire la merge request.
 Dans le package.json du projet front (IAM FRONT) mettre à jour la dépendance (exemple:"@beys-software/common": "1.6.1-SNAPSHOT.0",) qui sera définie par le numéro du pipeline.
-Ensuite depuis le projet front faire une merge request
+Ensuite depuis le projet front faire une merge request.
 
 
 npm run watch = Déclenche la compilation angular
