@@ -10,6 +10,7 @@ git add -A
 git commit -m "nom du commit"
 git push origin [nom de la branche]
 git log
+git fetch origin alpha
 git cherry-pick [id du commit]
 Dans gitlab = cocher squash commmit = permet d'unifier un commit en un
 Inscrire dans Mattermost
@@ -33,7 +34,8 @@ Pour linker la librairie :
 
 (Pour le push sur la librairie et le front, d'abord faire le git add-commit-push origin ''nom du ticket'') 
 Faire la merge request.
-Dans le package.json du projet front (IAM FRONT) mettre à jour la dépendance (exemple:"@beys-software/common": "1.6.1-SNAPSHOT.0",) qui sera définie par le numéro du pipeline.
+Dans le package.json du projet front (IAM FRONT) mettre à jour la dépendance (exemple:"@beys-software/common": "1.6.1-SNAPSHOT.2",) qui sera définie par le numéro du pipeline.
+Après faire un NPM install qui va écraser le lien de la précénte librairie.
 Ensuite depuis le projet front faire une merge request.
 
 
