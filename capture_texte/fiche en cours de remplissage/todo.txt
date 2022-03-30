@@ -1,8 +1,8 @@
 TODO business case
 
 Faire un favicon
-Faire la boutique (afficher les produits)
 Ajouter des vrais produits en BDD (avec la boutique)
+Crud USER. Avec addresse 
 Préparer angular à l'intérieur du projet (Page ADMIN)
 
 Pour la page admin, faire un controller USER qui sera un CRUD de USER. (comme les articles ?)
@@ -24,3 +24,4 @@ Faire un FORUM avec son CRUD = FAIT
 Réparer la navbar à droite (regarder le footer qui lui est bien aligné) = FAIT
 Rendre le tout responsive et l'améliorer d'avantage = FAIT
 Page d'accueil retraçant un peu le site = FAIT
+Faire la boutique (afficher les produits) = FAIT

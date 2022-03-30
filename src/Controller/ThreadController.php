@@ -73,9 +73,6 @@ class ThreadController extends AbstractController
             ->setParameter(':id', $id);
         $threadView = $this->paginator->paginate($queryBuilder, $request->query->getInt('page', 1), 5);
 
-//        dump($threadView);
-//        die();
-
         return $this->render('thread/view.html.twig', [
             'threadView' => $threadView,
         ]);

@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15f2feb6-db7b-495d-9d7e-d2f72f102968" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/presentation_business_case.txt" beforeDir="false" afterPath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/presentation_business_case.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/todo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/todo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ThreadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ThreadController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/articles/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/articles/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cart/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cart/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/earth_base/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/earth_base/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product/detail.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/detail.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,14 +190,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/product" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\rmeynadier\dev\Business_case\templates" />
       <recent name="C:\Users\rmeynadier\dev\Business_case\templates\product" />
+      <recent name="C:\Users\rmeynadier\dev\Business_case\templates" />
       <recent name="C:\Users\rmeynadier\dev\Business_case\src\Controller" />
     </key>
   </component>
@@ -200,7 +210,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648643897705</updated>
       <workItem from="1648643903432" duration="197000" />
-      <workItem from="1648644117739" duration="3107000" />
+      <workItem from="1648644117739" duration="9738000" />
     </task>
     <servers />
   </component>
