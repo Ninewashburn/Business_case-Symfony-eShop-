@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {{ 'article.show.title'|trans({'%name%': product.title}) }}
+{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+        <div class="row mt-3 mb-4">
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/600x400" alt="{{ product.title }}" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <h1 class="mt-4 mt-md-0">{{ product.title }}</h1>
+                <h2>{{ product.price }} €</h2>
+                <hr>
+                <b>Description: </b>{{ product.title }}
+                <div class="">
+                    <a href="{{ path("cart_add", {id: product.id}) }}" class="btn btn-success">
+                        <i class="bi bi-cart-plus"></i> Ajouter
+                    </a>
+                    <a class="btn btn-primary my-2" href="{{ path('cart_index') }}">
+                        <i class="bi bi-cart"></i>
+                        Voir le panier </a>
+                    <a class="btn btn-outline-primary my-2" href="{{ path('product_index') }}">
+                        <i class="bi bi-shop"></i>
+                        Retour boutique </a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+

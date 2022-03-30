@@ -1,0 +1,83 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Votre panier{% endblock %}
+
+{% block body %}
+
+    <div class="container mt-4">
+        <h1>Votre panier</h1>
+        {% if dataPanier > 0 %}
+            <div class="row mt-4">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header d-flex bg-dark text-white d-flex">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5 class="mt-1">Objets</h5>
+                                    </div>
+                                    <div class="col-4">
+                                        <a class="btn btn-outline-primary mt-1 my-2" href="{{ path('product_index') }}">
+                                            <i class="bi bi-shop"></i>
+                                            Retour boutique </a>
+                                    </div>
+                                    <div class="col-4 text-end">
+                                        <a href="{{ path("cart_delete_all") }}" class="btn btn-secondary mt-1"><i
+                                                    class="bi bi-cart-x"></i> Vider </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            {% for element in dataPanier %}
+                                <li class="list-group-item d-flex">
+                                    <div class="flex-fill mr-2">
+                                        <img src="https://via.placeholder.com/200x150" width="64" alt="Product image">
+                                        <small class="fw-bold">Quantité :</small>
+                                        <small>{{ element.quantite }}</small>
+                                    </div>
+                                    <div class="flex-fill mr-2">
+                                        <h5 class="mt-0 mb-0">{{ element.produit.title }}</h5>
+                                        <small>{{ element.produit.title[:50] }}...</small>
+                                        <div class="form-inline mt-2">
+                                            <a href="{{ path("cart_add", {id: element.produit.id}) }}"
+                                               class="btn btn-success"><i class="bi bi-cart-plus"></i> Ajouter</a>
+                                            <a href="{{ path("cart_remove", {id: element.produit.id}) }}"
+                                               class="btn btn-warning"><i class="bi bi-cart-dash"></i> Retirer</a>
+                                            <a href="{{ path("cart_delete", {id: element.produit.id}) }}"
+                                               class="btn btn-danger"><i class="bi bi-cart-x"></i> Supprimer</a>
+                                        </div>
+                                    </div>
+                                    <div class="flex-fill mr-2 text-end">
+                                        <small class="fw-bold">Prix :</small>
+                                        <b>{{ element.quantite * element.produit.price }} €</b>
+                                    </div>
+                                </li>
+                            {% else %}
+                                <div class="alert alert-info">
+                                    Votre panier est vide. Retourner à la <a
+                                            href="{{ path('product_index') }}">boutique</a>.
+                                </div>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <!-- Summary -->
+                <div class="col-md-4 mt-3">
+                    <div class="card mt-4">
+                        <h5 class="card-header bg-dark text-white">Récapitulatif</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex justify-content-between">
+                                <div><b>Total</b></div>
+                                <span><b>{{ total }} €</b></span>
+                            </li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="btn btn-warning w-100">Procéder au paiment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}

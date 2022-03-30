@@ -1,11 +1,35 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}La boutique de l'équipe !{% endblock %}
+{% block title %}Les produits
+{% endblock %}
 
 {% block body %}
+
     <div class="container mt-4">
-        <p class="text-center text-uppercase fw-bold">En construction !</p>
-        <p>La boutique est ici, ouverture prochainement !</p>
+        <section class="bg-light p-3">
+            <h1>Les produits</h1>
+        </section>
+        <div class="row">
+            {% for product in products %}
+                <div class="col-md-4">
+                    <div class="card mb-4 px-5 py-5">
+                        <img src="https://via.placeholder.com/200x150" alt="{{ product.title }}" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ product.title }}</h5>
+                            {#                            Ici faire la description #}
+                            <p class="card-text">{{ product.description }}</p>
+                            <div class="d-flex justify-content-between align-item-center">
+                                <a href="{{ path("cart_add", {id: product.id}) }}" class="btn btn-success"><i
+                                            class="bi bi-cart-plus"></i> Ajouter</a>
+                                <span class="h5 mt-auto">{{ product.price }} €</span>
+                                <a href="{{ path('product_detail', {id: product.id}) }}" class="btn btn-dark">Voir le
+                                    produit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
     </div>
 {% endblock %}
 

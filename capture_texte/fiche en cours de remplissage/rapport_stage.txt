@@ -178,3 +178,14 @@ Demain si c'est validé il faudra mettre à jour la dépendance dans le package.
 Ainsi sera cloturé le ticket 3138.
 
 29 Mars 2023.
+Toujours en attente de la MR, elle est bonne sur les tests. Mais doit être vérifiée et validée. Une fois cela fait la MR front sera à faire.
+J'ai commencé à faire la page boutique, la gestion du panier est délicate cependant.
+
+
+30 Mars 2023.
+Assignation d'un ticket IAM-3156 : [N1] [Ajout d'une identité] Titre erroné. 
+Ce ticket avait été répéré et réparé il y'a quelques temps. Il sera donc corrigé avec la MR du ticket précédent le 3138.
+La MR est validée, ticket 3138 et 3156 corrigé et mis à jour.
+Enfin la première version de la boutique est faite avec son panier, il me reste qu'à la peaufiner.
+
+31 Mars 2023. 
