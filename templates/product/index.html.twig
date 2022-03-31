@@ -6,24 +6,30 @@
 {% block body %}
 
     <div class="container mt-4">
-        <section class="bg-light p-3">
-            <h1>Les produits</h1>
-        </section>
+            <h1 class="body-color text-center p-2 text-white me-5 ms-5 mt-4 fw-bold"><i class="fa-solid fa-store"></i> Bienvenue dans la boutique de la Nimes'Alerie ! <i class="fa-solid fa-store"></i></h1>
         <div class="row">
             {% for product in products %}
                 <div class="col-md-4">
-                    <div class="card mb-4 px-5 py-5">
+                    <div class="card mb-4 px-5 py-5 text-center rounded-3">
                         <img src="https://via.placeholder.com/200x150" alt="{{ product.title }}" class="card-img-top">
-                        <div class="card-body">
+                        <div class="card-body block-nav">
                             <h5 class="card-title">{{ product.title }}</h5>
-                            {#                            Ici faire la description #}
-                            <p class="card-text">{{ product.description }}</p>
-                            <div class="d-flex justify-content-between align-item-center">
-                                <a href="{{ path("cart_add", {id: product.id}) }}" class="btn btn-success"><i
-                                            class="bi bi-cart-plus"></i> Ajouter</a>
-                                <span class="h5 mt-auto">{{ product.price }} €</span>
-                                <a href="{{ path('product_detail', {id: product.id}) }}" class="btn btn-dark">Voir le
-                                    produit</a>
+                            <div class="row">
+                            <div class="d-flex justify-content-between align-item-center mt-3">
+                                <a href="{{ path("cart_add", {id: product.id}) }}" class="col-4 btn btn-primary">
+                                    <i class="bi bi-cart-plus"></i><br>
+                                    Ajouter
+                                </a>
+                                <div class="col-4 fw-bold">
+                                    <i class="bi bi-cash-stack"></i><br>
+                                    {{ product.price }} €
+                                </div>
+                                <span class="h5"></span>
+                                <a href="{{ path('product_detail', {id: product.id}) }}" class="col-4 btn btn-danger">
+                                    <i class="bi bi-box-seam"></i><br>
+                                    Détail
+                                </a>
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -33,6 +39,6 @@
     </div>
 {% endblock %}
 
-{#ICI FAIRE UNE BOUCLE AFFICHANT LES PRODUITS EN BASE DE DONNEES, IL FAUDRA LEUR DONNER DES CATEGORIES = SE BASER SUR L'EXAMEN SYMFONY AVEC FORUM#}
-{#FAIRE LA GESTION DU PANIER ? CECI EST LA PAGE BOUTIQUE#}
-{#CRUD POSSIBLE QUE POUR LE ROLE_ADMIN#}
+{# ICI FAIRE UNE BOUCLE AFFICHANT LES PRODUITS EN BASE DE DONNEES, IL FAUDRA LEUR DONNER DES CATEGORIES = SE BASER SUR L'EXAMEN SYMFONY AVEC FORUM #}
+{# FAIRE LA GESTION DU PANIER ? CECI EST LA PAGE BOUTIQUE #}
+{# CRUD POSSIBLE QUE POUR LE ROLE_ADMIN #}

@@ -19,3 +19,4 @@ La page du forum . . . 90% finie
 Page boutique
 Accueil
 Admin . . .
+Dashboard
