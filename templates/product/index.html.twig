@@ -5,31 +5,40 @@
 
 {% block body %}
 
-    <div class="container mt-4">
-            <h1 class="body-color text-center p-2 text-white me-5 ms-5 mt-4 fw-bold"><i class="fa-solid fa-store"></i> Bienvenue dans la boutique de la Nimes'Alerie ! <i class="fa-solid fa-store"></i></h1>
+    <div class="container mt-5">
+        <div>
+            <h2 class="body-color text-center text-white me-5 ms-5 mt-5 fw-bold p-3"><i class="fa-solid fa-store"></i>
+                Bienvenue dans la boutique de la Nimes'Alerie ! <i class="fa-solid fa-store"></i></h2>
+        </div>
+        <div class="container text-center py-2">
+            <h4 class="fw-lighter">Téléportation des articles en 24h maximum !</h4>
+        </div>
         <div class="row">
             {% for product in products %}
                 <div class="col-md-4">
                     <div class="card mb-4 px-5 py-5 text-center rounded-3">
-                        <img src="https://via.placeholder.com/200x150" alt="{{ product.title }}" class="card-img-top">
+                        <img src="https://via.placeholder.com/200x150" alt="{{ product.title }}"
+                             class="card-img-top zoom">
                         <div class="card-body block-nav">
-                            <h5 class="card-title">{{ product.title }}</h5>
+                            <h5 class="card-title fw-bold">{{ product.title }}</h5>
                             <div class="row">
-                            <div class="d-flex justify-content-between align-item-center mt-3">
-                                <a href="{{ path("cart_add", {id: product.id}) }}" class="col-4 btn btn-primary">
-                                    <i class="bi bi-cart-plus"></i><br>
-                                    Ajouter
-                                </a>
-                                <div class="col-4 fw-bold">
-                                    <i class="bi bi-cash-stack"></i><br>
-                                    {{ product.price }} €
+                                <div class="d-flex justify-content-between align-item-center mt-3">
+                                    <a href="{{ path("cart_add", {id: product.id}) }}" class="col-4 btn btn-primary">
+                                        <i class="bi bi-cart-plus"></i><br>
+                                        Ajouter
+                                    </a>
+                                    <div class="col-4">
+                                        <i class="bi bi-cash-stack"></i><br>
+                                        <div class="nav-fontsize"> HT {{ product.price }} €</div>
+                                        <div class="fw-bold"> TTC {{ product.price * 1.20 }} €</div>
+                                    </div>
+                                    <span class="h5"></span>
+                                    <a href="{{ path('product_detail', {id: product.id}) }}"
+                                       class="col-4 btn btn-danger">
+                                        <i class="bi bi-box-seam"></i><br>
+                                        Détails
+                                    </a>
                                 </div>
-                                <span class="h5"></span>
-                                <a href="{{ path('product_detail', {id: product.id}) }}" class="col-4 btn btn-danger">
-                                    <i class="bi bi-box-seam"></i><br>
-                                    Détail
-                                </a>
-                            </div>
                             </div>
                         </div>
                     </div>

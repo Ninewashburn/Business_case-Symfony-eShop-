@@ -13,7 +13,8 @@
             </div>
             <div class="col-md-8">
                 <h1 class="mt-4 mt-md-0">{{ product.title }}</h1>
-                <h2>{{ product.price }} €</h2>
+                <h4 class="fw-lighter"> Prix HT : {{ product.price }} €</h4>
+                <h4> Prix TTC : {{ product.price * 1.20 }} €</h4>
                 <hr>
                 <b>Description</b>
                 <p>{{ product.description }}</p>
@@ -26,7 +27,7 @@
                         Voir le panier </a>
                     <a class="btn btn-outline-primary my-2" href="{{ path('product_index') }}">
                         <i class="bi bi-shop"></i>
-                        Retour boutique </a>
+                    Boutique</a>
                 </div>
             </div>
         </div>

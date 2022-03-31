@@ -14,12 +14,12 @@
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-4">
-                                        <h5 class="mt-1">Objets</h5>
+                                        <h5 class="mt-2">Contenu</h5>
                                     </div>
                                     <div class="col-4">
                                         <a class="btn btn-outline-primary mt-1 my-2" href="{{ path('product_index') }}">
                                             <i class="bi bi-shop"></i>
-                                            Retour boutique </a>
+                                             Boutique</a>
                                     </div>
                                     <div class="col-4 text-end">
                                         <a href="{{ path("cart_delete_all") }}" class="btn btn-secondary mt-1"><i
@@ -49,28 +49,38 @@
                                                class="btn btn-danger"><i class="bi bi-cart-x"></i> Supprimer</a>
                                         </div>
                                     </div>
-                                    <div class="flex-fill mr-2 text-end">
-                                        <small class="fw-bold">Prix :</small>
-                                        <b>{{ element.quantite * element.produit.price }} €</b>
+                                    <div class="flex-fill mr-2 text-end fw-lighter">
+                                        <small>Prix HT :</small>
+                                        {{ element.quantite * element.produit.price }} €
+                                    </div>
+                                    <div class="flex-fill mr-2 text-end fw-bold">
+                                        <small>Prix TTC :</small>
+                                        {{ element.quantite * element.produit.price * 1.20 }} €
                                     </div>
                                 </li>
                             {% else %}
                                 <div class="alert alert-info">
-                                    Votre panier est vide. Retourner à la <a
-                                            href="{{ path('product_index') }}">boutique</a>.
+                                    Votre panier est actuellement vide.
                                 </div>
                             {% endfor %}
                         </ul>
                     </div>
                 </div>
 
-                <div class="col-md-4 mt-3">
-                    <div class="card mt-4">
+                <div class="col-md-4">
+                    <div class="card">
                         <h5 class="card-header bg-dark text-white">Récapitulatif</h5>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item d-flex justify-content-between">
-                                <div><b>Total de la commande :</b></div>
-                                <span><b>{{ total }} €</b></span>
+                                <div>Prix HT de la commande :</div>
+                                <span>{{ total }} €</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <div><b>Prix TTC de la commande :</b></div>
+                                <span><b>{{ total * 1.20 }} €</b></span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-end">
+                                <div>TVA à 20%</div>
                             </li>
                         </ul>
                         <div class="card-body">

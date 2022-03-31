@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="15f2feb6-db7b-495d-9d7e-d2f72f102968" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/presentation_business_case.txt" beforeDir="false" afterPath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/presentation_business_case.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/todo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/todo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ThreadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ThreadController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/articles/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/articles/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/cart/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cart/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/earth_base/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/earth_base/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/common/partials/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/partials/footer.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/product/detail.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/detail.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/product/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/index.html.twig" afterDir="false" />
@@ -192,6 +187,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/product" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -211,10 +207,15 @@
       <updated>1648643897705</updated>
       <workItem from="1648643903432" duration="197000" />
       <workItem from="1648644117739" duration="9738000" />
+      <workItem from="1648710571095" duration="9856000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
