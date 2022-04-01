@@ -29,9 +29,6 @@ class Product
     #[ORM\Column(type: 'string', length: 10)]
     private $quantity;
 
-    #[ORM\OneToMany(mappedBy: 'product', targetEntity: Photo::class)]
-    private $photos;
-
     #[ORM\ManyToOne(targetEntity: Brand::class, inversedBy: 'products')]
     private $brand;
 
@@ -44,9 +41,14 @@ class Product
     #[ORM\ManyToOne(targetEntity: CartLine::class, inversedBy: 'products')]
     private $cartLine;
 
+    #[ORM\Column(type: 'string', length: 255, nullable: true)]
+    private $image;
+
+    #[ORM\Column(type: 'string', length: 255, nullable: true)]
+    private $cover;
+
     public function __construct()
     {
-        $this->photos = new ArrayCollection();
         $this->rate = new ArrayCollection();
         $this->category = new ArrayCollection();
     }
@@ -100,36 +102,6 @@ class Product
     public function setQuantity(string $quantity): self
     {
         $this->quantity = $quantity;
-
-        return $this;
-    }
-
-    /**
-     * @return Collection|Photo[]
-     */
-    public function getPhotos(): Collection
-    {
-        return $this->photos;
-    }
-
-    public function addPhoto(Photo $photo): self
-    {
-        if (!$this->photos->contains($photo)) {
-            $this->photos[] = $photo;
-            $photo->setProduct($this);
-        }
-
-        return $this;
-    }
-
-    public function removePhoto(Photo $photo): self
-    {
-        if ($this->photos->removeElement($photo)) {
-            // set the owning side to null (unless already changed)
-            if ($photo->getProduct() === $this) {
-                $photo->setProduct(null);
-            }
-        }
 
         return $this;
     }
@@ -208,6 +180,30 @@ class Product
     public function setCartLine(?Cartline $cartLine): self
     {
         $this->cartLine = $cartLine;
+
+        return $this;
+    }
+
+    public function getImage(): ?string
+    {
+        return $this->image;
+    }
+
+    public function setImage(?string $image): self
+    {
+        $this->image = $image;
+
+        return $this;
+    }
+
+    public function getCover(): ?string
+    {
+        return $this->cover;
+    }
+
+    public function setCover(?string $cover): self
+    {
+        $this->cover = $cover;
 
         return $this;
     }

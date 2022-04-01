@@ -49,19 +49,26 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     #[Assert\NotBlank]
     private $birthAt;
 
-    #[ORM\ManyToMany(targetEntity: Address::class, inversedBy: 'users')]
-    #[Assert\NotBlank, Assert\Length(max: 255)]
-    private $address;
-
     #[ORM\OneToMany(mappedBy: 'user', targetEntity: Rate::class)]
     private $Rate;
 
     #[ORM\OneToMany(mappedBy: 'user', targetEntity: Cart::class)]
     private $carts;
 
+    #[ORM\Column(type: 'string', length: 255)]
+    private $address;
+
+    #[ORM\Column(type: 'string', length: 255, nullable: true)]
+    private $secondAddress;
+
+    #[ORM\Column(type: 'string', length: 100)]
+    private $city;
+
+    #[ORM\Column(type: 'string', length: 100, nullable: true)]
+    private $country;
+
     public function __construct()
     {
-        $this->address = new ArrayCollection();
         $this->Rate = new ArrayCollection();
         $this->carts = new ArrayCollection();
     }
@@ -203,29 +210,7 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
         return $this;
     }
 
-    /**
-     * @return Collection|Address[]
-     */
-    public function getAddress(): Collection
-    {
-        return $this->address;
-    }
 
-    public function addAddress(Address $address): self
-    {
-        if (!$this->address->contains($address)) {
-            $this->address[] = $address;
-        }
-
-        return $this;
-    }
-
-    public function removeAddress(Address $address): self
-    {
-        $this->address->removeElement($address);
-
-        return $this;
-    }
 
     /**
      * @return Collection|Rate[]
@@ -283,6 +268,54 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
                 $cart->setUser(null);
             }
         }
+
+        return $this;
+    }
+
+    public function getAddress(): ?string
+    {
+        return $this->address;
+    }
+
+    public function setAddress(string $address): self
+    {
+        $this->address = $address;
+
+        return $this;
+    }
+
+    public function getSecondAddress(): ?string
+    {
+        return $this->secondAddress;
+    }
+
+    public function setSecondAddress(?string $secondAddress): self
+    {
+        $this->secondAddress = $secondAddress;
+
+        return $this;
+    }
+
+    public function getCity(): ?string
+    {
+        return $this->city;
+    }
+
+    public function setCity(string $city): self
+    {
+        $this->city = $city;
+
+        return $this;
+    }
+
+    public function getCountry(): ?string
+    {
+        return $this->country;
+    }
+
+    public function setCountry(?string $country): self
+    {
+        $this->country = $country;
 
         return $this;
     }

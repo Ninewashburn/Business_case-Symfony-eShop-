@@ -74,9 +74,6 @@ class PostController extends AbstractController
             ->setParameter(':id', $id);
         $viewPostByUser = $this->paginator->paginate($queryBuilder, $request->query->getInt('page', 1), 3);
 
-//        dump($viewPostByUser);
-//        die();
-
         return $this->render('post/view.html.twig', [
             'postView' => $viewPostByUser,
         ]);

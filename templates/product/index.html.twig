@@ -17,10 +17,10 @@
             {% for product in products %}
                 <div class="col-md-4">
                     <div class="card mb-4 px-5 py-5 text-center rounded-3">
-                        <img src="https://via.placeholder.com/200x150" alt="{{ product.title }}"
-                             class="card-img-top zoom">
+                        <img class="img-100 card-img-top zoom" src="{{ product.cover }}" alt="{{ product.title }}">
                         <div class="card-body block-nav">
                             <h5 class="card-title fw-bold">{{ product.title }}</h5>
+                            <div> Quantité en stock : {{ product.quantity }}</div>
                             <div class="row">
                                 <div class="d-flex justify-content-between align-item-center mt-3">
                                     <a href="{{ path("cart_add", {id: product.id}) }}" class="col-4 btn btn-primary">

@@ -32,6 +32,14 @@ class RegistrationFormType extends AbstractType
             ])
             ->add('telephone', NumberType::class)
             ->add('email', EmailType::class)
+            ->add('address', TextType::class)
+            ->add('secondAddress', TextType::class,[
+                'required' => false,
+            ])
+            ->add('city', TextType::class)
+            ->add('country', TextType::class,[
+                'required' => false,
+            ])
             ->add('agreeTerms', CheckboxType::class, [
                 'mapped' => false,
                 'constraints' => [
@@ -44,7 +52,9 @@ class RegistrationFormType extends AbstractType
                 // instead of being set onto the object directly,
                 // this is read and encoded in the controller
                 'mapped' => false,
-                'attr' => ['autocomplete' => 'new-password'],
+                'label' => false,
+                'attr' => ['autocomplete' => 'new-password',
+                'placeholder' => 'user.index.table.password'],
                 'constraints' => [
                     new NotBlank([
                         'message' => 'Veuillez renseigner votre mot de passe',

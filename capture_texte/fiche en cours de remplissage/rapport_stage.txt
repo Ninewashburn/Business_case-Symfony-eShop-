@@ -189,3 +189,8 @@ La MR est validée, ticket 3138 et 3156 corrigé et mis à jour.
 Enfin la première version de la boutique est faite avec son panier, il me reste qu'à la peaufiner.
 
 31 Mars 2023. 
+Amélioration de la boutique sur le business case. 
+Création d'un component dashboard angular. Exercice de connexion Angular avec fichier d'exemple pour le business case.
+A utiliser avec des librairies JS pour faire des graphiques et données de mois.
+
+1 Avril 2023.
