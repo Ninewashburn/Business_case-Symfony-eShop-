@@ -51,6 +51,11 @@ class Address
         $this->users = new ArrayCollection();
     }
 
+    public function __toString()
+    {
+        return $this->getFirstAddress();
+    }
+
     public function getId(): ?int
     {
         return $this->id;

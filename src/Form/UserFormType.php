@@ -57,14 +57,20 @@ class UserFormType extends AbstractType
                     'placeholder' => 'user.index.table.telephone',
                 ]
             ])
-//            ->add('address', EntityType::class, [
-//                'label' => false,
-//                'class' => Address::class,
-//                'multiple' => true,
-//                'attr' => [
-//                    'placeholder' => 'user.index.table.adresse',
-//                ]
-//            ])
+            ->add('address', EntityType::class, [
+                'required' => false,
+                'label' => false,
+                'class' => Address::class,
+                'multiple' => true,
+                'choice_label' => function (Address $address) {
+                    return $address->getFirstAddress() . ' ' . $address->getSecondAddress() . ' ' . $address->getCity()
+                        . ' ' . $address->getCountry() . ' ' . $address->getZipCode();
+//                    ->orderBy('addr', 'ASC');
+                },
+                'attr' => [
+                    'placeholder' => 'user.index.table.adresse',
+                ]
+            ])
             ->add('submit', SubmitType::class, [
                 'label' => 'general.button.submit',
             ]);
@@ -73,10 +79,10 @@ class UserFormType extends AbstractType
     public function configureOptions(OptionsResolver $resolver): void
     {
         $resolver->setDefaults([
-        'data_class' => User::class,
-        'attr' => [
-            'novalidate' => 'novalidate'
-        ]
-    ]);
+            'data_class' => User::class,
+            'attr' => [
+                'novalidate' => 'novalidate'
+            ]
+        ]);
     }
 }
