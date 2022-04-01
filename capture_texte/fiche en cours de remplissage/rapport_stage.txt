@@ -194,3 +194,11 @@ Création d'un component dashboard angular. Exercice de connexion Angular avec f
 A utiliser avec des librairies JS pour faire des graphiques et données de mois.
 
 1 Avril 2023.
+Aujourd'hui fut une journée calme, j'ai refait des exercices Angular pour comprendre les endpoints et modifié le business case.
+La page boutique est presque finie à 100%.
+La page de contact à été bien modifiée et l'utilisateur peux maintenant modifier ses informations. Des nouvelles ressources sont disponible,
+il est aussi possible de choisir une autre adresse et un pays.
+La page d'admin avec la liste des user est prête, il faudra la faire avec le dashboard angular.
+
+4 Avril 2023.
+Continuer si possible le projet fil rouge. Avec mot de passe hashé à faire. Crud boutique. Gérer la facturation. Recentrer image + favicon. Dashboard.
