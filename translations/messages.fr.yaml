@@ -37,3 +37,22 @@ post:
   add: 'Ajouter un message'
   new:
     title: 'Contenu de votre message'
+user:
+  home: 'Gestion des utilisateurs'
+  list: 'Liste des utilisateurs'
+  show:
+    title: 'Voir les données'
+  edit:
+    title: 'Changement de données'
+  index:
+    new: 'Ajouter un utilisateur'
+    table:
+      email: 'Adresse Email'
+      password: 'Mot de passe'
+      firstName: 'Prénom'
+      lastName: 'Nom'
+      telephone: 'Telephone'
+      address: 'Adresse'
+      birthAt: 'Date de naissance'
+      country: 'Pays'
+      city: 'Ville'

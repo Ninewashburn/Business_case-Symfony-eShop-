@@ -18,8 +18,13 @@
         <table class="table navbar-color table-bordered text-center table-hover">
             <thead>
             <tr>
-                <th>{{ 'user.index.table.firstname'|trans }}</th>
-                <th>{{ 'user.index.table.lastname'|trans }}</th>
+                <th>{{ 'user.index.table.firstName'|trans }}</th>
+                <th>{{ 'user.index.table.lastName'|trans }}</th>
+                <th>{{ 'user.index.table.email'|trans }}</th>
+                <th>{{ 'user.index.table.telephone'|trans }}</th>
+                <th>{{ 'user.index.table.birthAt'|trans }}</th>
+                <th>{{ 'user.index.table.city'|trans }}</th>
+                <th>{{ 'user.index.table.country'|trans }}</th>
                 <th>Actions</th>
             </tr>
             </thead>
@@ -29,13 +34,18 @@
                     <tr>
                         <td>{{ user.firstName }}</td>
                         <td>{{ user.lastName }}</td>
+                        <td>{{ user.email }}</td>
+                        <td>{{ user.telephone }}</td>
+                        <td>{{ user.birthAt|date('d-m-Y') }}</td>
+                        <td>{{ user.city }}</td>
+                        <td>{{ user.country }}</td>
                         <td>
                             <a class="logo-link"
                                href="{{ path('user_edit', {'id': user.id}) }}"
                             ><i class="fas fa-pencil-alt"></i>
                             </a>
                             <a class="logo-link text-danger"
-                               href="{{ path('user_delete', {'id': user.id}) }}"
+                               href="{{ path('user_delete', {'id': user.id}) }}" onclick="return confirm('ATTENTION ! Êtes-vous sûr(e) de vouloir continuer ?')"
                             ><i class="fas fa-trash-alt"></i>
                             </a>
                             <a class="logo-link"

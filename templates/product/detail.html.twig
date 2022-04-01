@@ -9,12 +9,13 @@
     <div class="container">
         <div class="row mt-3 mb-4">
             <div class="col-md-4">
-                <img src="https://via.placeholder.com/600x400" alt="{{ product.title }}" class="img-fluid">
+                <img class="img-100 card-img-top zoom img-fluid" src="{{ product.image }}" alt="{{ product.title }}">
             </div>
             <div class="col-md-8">
                 <h1 class="mt-4 mt-md-0">{{ product.title }}</h1>
-                <h4 class="fw-lighter"> Prix HT : {{ product.price }} €</h4>
-                <h4> Prix TTC : {{ product.price * 1.20 }} €</h4>
+                <div> Quantité en stock : {{ product.quantity }}</div> <br>
+                <h5 class="fw-lighter"> Prix HT : {{ product.price }} €</h5>
+                <h5> Prix TTC : {{ product.price * 1.20 }} €</h5>
                 <hr>
                 <b>Description</b>
                 <p>{{ product.description }}</p>
