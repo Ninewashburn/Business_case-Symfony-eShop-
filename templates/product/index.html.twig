@@ -14,10 +14,20 @@
             <h4 class="fw-lighter">Téléportation des articles en 24h maximum !</h4>
         </div>
         <div class="row">
+            <a class="btn btn-info text-white p-2" href="{{ path('product_new') }}">
+                {{ 'product.index.new'|trans }}
+            </a>
             {% for product in products %}
                 <div class="col-md-4">
                     <div class="card mb-4 px-5 py-5 text-center rounded-3">
-                        <img class="img-100 card-img-top zoom" src="{{ product.cover }}" alt="{{ product.title }}">
+                        <a class="logo-link" href="{{ path('product_edit', {'title': product.title}) }}">
+                            <i class="fas fa-pencil-alt"></i>
+                        </a>
+                        <a class="logo-link text-danger"
+                           href="{{ path('product_delete', {'title': product.title}) }}">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                        <img class="img-100 card-img-top zoom ms-2 img-fluid" style="height:250px; width:300px" src="{{ product.cover }}" alt="{{ product.title }}">
                         <div class="card-body block-nav">
                             <h5 class="card-title fw-bold">{{ product.title }}</h5>
                             <div> Quantité en stock : {{ product.quantity }}</div>

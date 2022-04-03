@@ -33,7 +33,8 @@
                             {% for element in dataPanier %}
                                 <li class="list-group-item d-flex">
                                     <div class="flex-fill mr-2">
-                                        <img src="https://via.placeholder.com/200x150" width="64" alt="Product image">
+                                        <img class="img-100 card-img-top zoom ms-2 img-fluid" style="height:75px; width:100px" src="{{ element.produit.image }}" alt="{{ element.produit.title }}">
+{#                                        <img src="https://via.placeholder.com/200x150" width="64" alt="Product image">#}
                                         <small class="fw-bold">Dans le panier :</small>
                                         <small>{{ element.quantite }}</small>
                                     </div>

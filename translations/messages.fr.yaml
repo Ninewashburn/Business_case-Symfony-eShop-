@@ -56,3 +56,6 @@ user:
       birthAt: 'Date de naissance'
       country: 'Pays'
       city: 'Ville'
+product:
+  index:
+    new: 'Nouveau produit'
