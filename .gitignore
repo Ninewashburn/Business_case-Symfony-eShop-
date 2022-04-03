@@ -35,3 +35,4 @@ composer.lock
 package.json
 package-lock.json
 yarn.lock
+.idea
