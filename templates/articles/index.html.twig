@@ -30,13 +30,18 @@
                         <td>{{ article.name }}</td>
                         <td>{{ article.content }}</td>
                         <td>
+{#                            <a class="btn btn-outline-primary my-2" href="{{ path('user_edit', {'id': app.user.id}) }}">#}
+{#                                Éditer votre compte </a>#}
+                            {% if app.user %}
                             <a class="logo-link" href="{{ path('articles_edit', {'name': article.name}) }}">
                                 <i class="fas fa-pencil-alt"></i>
                             </a>
                             <a class="logo-link text-danger"
-                               href="{{ path('articles_delete', {'name': article.name}) }}">
+                               href="{{ path('articles_delete', {'name': article.name}) }}"
+                               onclick="return confirm('ATTENTION ! Êtes-vous sûr(e) de vouloir continuer ?')">
                                 <i class="fas fa-trash-alt"></i>
                             </a>
+                            {% endif %}
                             <a class="logo-link" href="{{ path('articles_show', {'name': article.name}) }}">
                                 <i class="far fa-eye"></i>
                             </a>

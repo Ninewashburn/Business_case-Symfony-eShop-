@@ -1,7 +1,5 @@
 TODO business case
 
-Faire un favicon
-Corriger hashage mdp dans edit user.
 Gérer la facturation
 Préparer angular à l'intérieur du projet (Page ADMIN)
 
@@ -30,3 +28,5 @@ Permettre à l'utilisateur de modifier ses données = FAIT
 Ajouter des vrais produits en BDD (avec la boutique) = FAIT
 Recentrer les images de la boutique/panier = FAIT
 Améliorer boutique avec CRUD produit = FAIT
+Corriger hashage mdp dans edit user = FAIT
+Faire un favicon = FAIT

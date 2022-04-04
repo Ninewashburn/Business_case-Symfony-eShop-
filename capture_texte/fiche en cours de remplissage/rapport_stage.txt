@@ -202,3 +202,6 @@ La page d'admin avec la liste des user est prête, il faudra la faire avec le da
 
 4 Avril 2023.
 Continuer si possible le projet fil rouge. Avec mot de passe hashé à faire. Crud boutique. Gérer la facturation. Recentrer image + favicon. Dashboard.
+Aujourd'hui à 14h30 réunion avec Charlotte. J'ai avancé sur le business case et terminé les hashages de mot de passe.
+Ce week-end j'ai pu recentrer les images, faire le crud de la boutique. Il me reste la facturation dashboard et favicon. Tout le reste est amélioré, 
+le contenu de certaines choses ou modification requiert d'être connecté pour pouvoir procéder à l'action.

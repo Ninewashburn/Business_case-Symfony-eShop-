@@ -44,6 +44,7 @@ class ProductController extends AbstractController
     #[Route('/new', name: 'product_new')]
     public function new(Request $request): Response
     {
+        $this->denyAccessUnlessGranted('ROLE_ADMIN');
         $user = $this->getUser();
         if ($user === null) {
             return $this->redirectToRoute('app_login');

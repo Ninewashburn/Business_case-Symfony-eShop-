@@ -38,6 +38,8 @@ post:
   new:
     title: 'Contenu de votre message'
 user:
+  new:
+    title: 'Nouvel utilisateur'
   home: 'Gestion des utilisateurs'
   list: 'Liste des utilisateurs'
   show:
@@ -57,5 +59,18 @@ user:
       country: 'Pays'
       city: 'Ville'
 product:
+  new:
+    title: 'Nouveau produit'
   index:
     new: 'Nouveau produit'
+    table:
+      title: 'Nom du produit'
+      description: 'Description du produit'
+      price: 'Prix du produit'
+      quantity: 'Quantité du produit'
+      image: 'Image du produit'
+      cover: 'Photo du produit'
+  edit:
+    title: 'Modifier produit'
+
+

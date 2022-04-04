@@ -4,6 +4,7 @@ namespace App\Form;
 
 use App\Entity\Product;
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\NumberType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
@@ -17,39 +18,39 @@ class ProductFormType extends AbstractType
 
         $builder
             ->add('title', TextType::class, [
-                'label' => false,
+                'label' => 'product.index.table.title',
                 'attr' => [
                     'placeholder' => 'product.index.table.title',
                 ]
             ])
             ->add('description', TextareaType::class, [
-                'label' => false,
+                'label' => 'product.index.table.description',
                 'attr' => [
-                    'placeholder' => 'article.index.table.description',
+                    'placeholder' => 'product.index.table.description',
                 ]
             ])
-            ->add('price', TextType::class, [
-                'label' => 'Prix',
+            ->add('price', NumberType::class, [
+                'label' => 'product.index.table.price',
                 'attr' => [
-                    'placeholder' => 'user.index.table.price',
+                    'placeholder' => 'product.index.table.price',
                 ]
             ])
-            ->add('quantity', TextType::class, [
-                'label' => 'Quantité',
+            ->add('quantity', NumberType::class, [
+                'label' => 'product.index.table.quantity',
                 'attr' => [
-                    'placeholder' => 'user.index.table.quantity',
+                    'placeholder' => 'product.index.table.quantity',
                 ]
             ])
             ->add('image', TextType::class, [
-                'label' => 'Image',
+                'label' => 'product.index.table.image',
                 'attr' => [
-                    'placeholder' => 'user.index.table.image',
+                    'placeholder' => 'product.index.table.image',
                 ]
             ])
             ->add('cover', TextType::class, [
-                'label' => 'Cover',
+                'label' => 'product.index.table.cover',
                 'attr' => [
-                    'placeholder' => 'user.index.table.cover',
+                    'placeholder' => 'product.index.table.cover',
                 ]
             ])
             ->add('submit', SubmitType::class, [

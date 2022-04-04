@@ -5,11 +5,14 @@ namespace App\Controller;
 use App\Entity\User;
 use App\Form\UserFormType;
 use App\Repository\UserRepository;
+use App\Security\AppCustomAuthenticator;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\Security\Http\Authentication\UserAuthenticatorInterface;
 
 #[Route('/user')]
 class UserController extends AbstractController
@@ -53,8 +56,31 @@ class UserController extends AbstractController
     }
 
     #[Route('/edit/{id}', name: 'user_edit')]
-    public function edit(Request $request, User $user): Response
+    public function edit(Request $request, UserPasswordHasherInterface $userPasswordHasher, UserAuthenticatorInterface $userAuthenticator, AppCustomAuthenticator $authenticator, EntityManagerInterface $entityManager, User $user): Response
     {
+        $form = $this->createForm(UserFormType::class, $user);
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            // encode the plain password
+            $user->setPassword(
+                $userPasswordHasher->hashPassword(
+                    $user,
+                    $form->get('plainPassword')->getData()
+                )
+            );
+
+            $entityManager->persist($user);
+            $entityManager->flush();
+            // do anything else you need here, like send an email
+
+            return $userAuthenticator->authenticateUser(
+                $user,
+                $authenticator,
+                $request
+            );
+        }
+        $this->addFlash('message', 'Profil mis à jour !');
         return $this->createFormFromEntity($request, $user, 'user/edit.html.twig');
     }
 

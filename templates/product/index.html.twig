@@ -11,24 +11,49 @@
                 Bienvenue dans la boutique de la Nimes'Alerie ! <i class="fa-solid fa-store"></i></h2>
         </div>
         <div class="container text-center py-2">
-            <h4 class="fw-lighter">Téléportation des articles en 24h maximum !</h4>
+            <h4 class="fw-lighter">Téléportation des articles en 24 heures maximum !</h4>
         </div>
         <div class="row">
-            <a class="btn btn-info text-white p-2" href="{{ path('product_new') }}">
-                {{ 'product.index.new'|trans }}
-            </a>
+            {% if app.user %}
+            {% if is_granted('ROLE_ADMIN') %}
+                <div class="container text-end">
+                    <a class="btn btn-danger text-white p-2" href="{{ path('product_new') }}">
+                        <i class="fa-solid fa-plus"> {{ 'product.index.new'|trans }}</i>
+                        <i class="fa-solid fa-plus"></i>
+                    </a>
+                </div>
+            {% endif %}
+
+            {% endif %}
+            <div class="container text-end">
+                <a class="btn btn-info my-2" href="{{ path('cart_index') }}">
+                    <i class="bi bi-cart"></i>
+                    Voir le panier </a>
+            </div>
             {% for product in products %}
                 <div class="col-md-4">
-                    <div class="card mb-4 px-5 py-5 text-center rounded-3">
-                        <a class="logo-link" href="{{ path('product_edit', {'title': product.title}) }}">
-                            <i class="fas fa-pencil-alt"></i>
-                        </a>
-                        <a class="logo-link text-danger"
-                           href="{{ path('product_delete', {'title': product.title}) }}">
-                            <i class="fas fa-trash-alt"></i>
-                        </a>
-                        <img class="img-100 card-img-top zoom ms-2 img-fluid" style="height:250px; width:300px" src="{{ product.cover }}" alt="{{ product.title }}">
-                        <div class="card-body block-nav">
+                    <div class="card mb-4 text-center rounded-3 p-5">
+                        {% if app.user %}
+                        {% if is_granted('ROLE_ADMIN') %}
+                            <div class="container mb-4">
+                                <h5 class="fw-bold text-center mb-2 pb-2">Gestion du produit :</h5>
+                                <a class="logo-link" href="{{ path('product_edit', {'title': product.title}) }}">
+                                    <i class="fas fa-pencil-alt"> Modifier cet article
+                                    </i>
+                                </a>
+                                <a class="logo-link text-danger"
+                                   href="{{ path('product_delete', {'title': product.title}) }}"
+                                   onclick="return confirm('ATTENTION ! Êtes-vous sûr(e) de vouloir continuer ?')">
+                                    <i class="fas fa-trash-alt"> Supprimer cet article
+                                    </i>
+                                </a>
+                            </div>
+                        {% endif %}
+                        {% endif %}
+
+                        <img class="img-100 card-img-top img-fluid zoom ms-xl-2" style="height:250px; width:300px"
+                             src="{{ product.cover }}" alt="{{ product.title }}">
+                        <div class="card-body block-nav mt-3">
                             <h5 class="card-title fw-bold">{{ product.title }}</h5>
                             <div> Quantité en stock : {{ product.quantity }}</div>
                             <div class="row">

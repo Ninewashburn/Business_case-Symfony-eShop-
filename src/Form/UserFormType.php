@@ -21,7 +21,7 @@ class UserFormType extends AbstractType
     {
         $builder
             ->add('email', EmailType::class, [
-                'label' => 'Email',
+                'label' => 'user.index.table.email',
                 'attr' => [
                     'placeholder' => 'user.index.table.email',
                 ]
@@ -30,7 +30,7 @@ class UserFormType extends AbstractType
                 // instead of being set onto the object directly,
                 // this is read and encoded in the controller
                 'mapped' => false,
-                'label' => 'Mot de passe',
+                'label' => 'user.index.table.password',
                 'attr' => ['autocomplete' => 'new-password',
                 'placeholder' => 'user.index.table.password'],
                 'constraints' => [
@@ -46,43 +46,43 @@ class UserFormType extends AbstractType
                 ],
             ])
             ->add('firstName', TextType::class, [
-                'label' => 'Prénom',
+                'label' => 'user.index.table.firstName',
                 'attr' => [
                     'placeholder' => 'user.index.table.firstName',
                 ]
             ])
             ->add('lastName', TextType::class, [
-                'label' => 'Nom',
+                'label' => 'user.index.table.lastName',
                 'attr' => [
                     'placeholder' => 'user.index.table.lastName',
                 ]
             ])
             ->add('birth_at', BirthdayType::class, [
-                'label' => 'Date de naissance',
+                'label' => 'user.index.table.telephone',
                 'attr' => [
                     'placeholder' => 'user.index.table.telephone',
                 ]
             ])
             ->add('address', TextType::class, [
-                'label' => 'Adresse',
+                'label' => 'user.index.table.address',
                 'attr' => [
                     'placeholder' => 'user.index.table.address',
                 ]
             ])
             ->add('city', TextType::class, [
-                'label' => 'Ville',
+                'label' => 'user.index.table.city',
                 'attr' => [
-                    'placeholder' => 'user.index.table.address',
+                    'placeholder' => 'user.index.table.city',
                 ]
             ])
             ->add('country', TextType::class, [
-                'label' => 'Pays',
+                'label' => 'user.index.table.country',
                 'attr' => [
                     'placeholder' => 'user.index.table.country',
                 ]
             ])
             ->add('telephone', NumberType::class, [
-                'label' => 'Téléphone',
+                'label' => 'user.index.table.telephone',
                 'attr' => [
                     'placeholder' => 'user.index.table.telephone',
                 ]
