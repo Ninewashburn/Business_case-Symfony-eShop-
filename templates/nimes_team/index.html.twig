@@ -47,6 +47,11 @@
                     <a class="btn btn-outline-danger my-2" href="{{ path('user_delete', {'id': app.user.id}) }}"
                        onclick="return confirm('ATTENTION ! Êtes-vous sûr(e) de vouloir continuer ?')">
                         Effacer votre compte </a>
+                    {% if is_granted('ROLE_ADMIN') %}
+                    <a class="btn btn-danger my-2" href="{{ path('user_index') }}"
+                       onclick="return confirm('ATTENTION ! Vous allez accéder à la page administrateur.')">
+                        ADMINISTRATEUR </a>
+                    {% endif %}
                 </div>
             {% else %}
                 <div class="card body-color text-center col-xl-6 mt-2">

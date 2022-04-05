@@ -55,6 +55,7 @@ user:
       lastName: 'Nom'
       telephone: 'Telephone'
       address: 'Adresse'
+      secondAddress: 'Adresse secondaire'
       birthAt: 'Date de naissance'
       country: 'Pays'
       city: 'Ville'

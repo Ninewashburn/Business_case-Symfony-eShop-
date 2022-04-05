@@ -1,15 +1,11 @@
 TODO business case
 
 Gérer la facturation
-Préparer angular à l'intérieur du projet (Page ADMIN)
+Préparer angular à l'intérieur du projet
 
-Pour la page admin, faire un controller USER qui sera un CRUD de USER. (comme les articles ?)
-Il faudra que cette page soit visible seulement si la personne à le rôle ADMIN. Probablement une double condition 
-
- $user = $this->getUser();
-        if ($user === null && SUPER-ADMIN) {
-            return $this->redirectToRoute('app_login');
-        }
+Mineur :
+Un utilisateur hors role_admin ne peux effacer que ses posts ou les supprimer.
+Search bar
 
 Faire un crud dans les articles /ajout post edit delete FAIT
 Formulaire de connexion = FAIT
@@ -30,3 +26,4 @@ Recentrer les images de la boutique/panier = FAIT
 Améliorer boutique avec CRUD produit = FAIT
 Corriger hashage mdp dans edit user = FAIT
 Faire un favicon = FAIT
+Pour la page admin, faire un controller USER qui sera un CRUD de USER = FAIT

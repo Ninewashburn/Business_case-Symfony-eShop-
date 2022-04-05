@@ -69,6 +69,12 @@ class UserFormType extends AbstractType
                     'placeholder' => 'user.index.table.address',
                 ]
             ])
+            ->add('secondAddress', TextType::class, [
+                'label' => 'user.index.table.secondAddress',
+                'attr' => [
+                    'placeholder' => 'user.index.table.secondAddress',
+                ]
+            ])
             ->add('city', TextType::class, [
                 'label' => 'user.index.table.city',
                 'attr' => [

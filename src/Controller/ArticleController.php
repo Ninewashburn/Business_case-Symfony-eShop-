@@ -6,6 +6,7 @@ use App\Entity\Article;
 use App\Form\ArticleFormType;
 use App\Repository\ArticleRepository;
 use Doctrine\ORM\EntityManagerInterface;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -66,6 +67,7 @@ class ArticleController extends AbstractController
         return $this->createFormFromEntity($request, $article, 'articles/edit.html.twig');
     }
 
+    #[IsGranted('ROLE_ADMIN', message: 'Veuillez contacter le gestionnaire du site pour supprimer un article.', statusCode: 404)]
     #[Route('/delete/{name}', name: 'articles_delete')]
     public function delete(Article $article): Response
     {

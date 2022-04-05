@@ -64,6 +64,7 @@ class ProductController extends AbstractController
     #[Route('/edit/{title}', name: 'product_edit')]
     public function edit(Request $request, Product $product): Response
     {
+        $this->denyAccessUnlessGranted('ROLE_ADMIN');
         $user = $this->getUser();
         if ($user === null) {
             /*            $this->addFlash('message', 'Connexion réussie !');*/
@@ -76,6 +77,7 @@ class ProductController extends AbstractController
     #[Route('/delete/{title}', name: 'product_delete')]
     public function delete(Product $product): Response
     {
+        $this->denyAccessUnlessGranted('ROLE_ADMIN');
         $user = $this->getUser();
         if ($user === null) {
             return $this->redirectToRoute('app_login');

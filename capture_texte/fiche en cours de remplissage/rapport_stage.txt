@@ -5,7 +5,7 @@ Jira - Outlook Pro
 
 Journal de bord : Stage Be-Ys Software France 2 Mars - 29 Avril 2022.
 
-2 Mars 2023.
+2 Mars 2022.
 Premier jour de stage, configuration de l'environnement. Connaissance du projet IAM front.
 Résolution d'un premier ticket permettant de naviguer dans l'application Angular (IAM front toujours).
 Utilisation de JavaScript dans un module Angular.
@@ -13,7 +13,7 @@ Link de librairies personnalisées Angular.
 Le projet à été modifié, corrigé et poussé sur la branche alpha. 
 Capture d'écran faite.
 
-3 Mars 2023.
+3 Mars 2022.
 Journée d'installation BusinessCase. Configuration symfony, amélioration de la navbar symfony. A été assigné un ticket de correction CSS dans la
 librairie de material design d'Angular. Recherche fastidieuse et solution finalement trouvée. 
 Cette dernière fut verifiée, et ajoutée au projet IAM Front. 
@@ -21,13 +21,13 @@ Cette dernière fut verifiée, et ajoutée au projet IAM Front.
 Ticket 3076 : Amélioration textes
 Capture d'écran faite.
 
-4 Mars 2023.
+4 Mars 2022.
 Nouveau ticket obtenu. Correction du problème : Lorsqu'un utilisateur n'a aucun offreur de service dans ses attributs la page reste blanche.
 Recherche du problème dans le projet Angular. Problème identifié ? Utilisation de la solution adéquate.
 Apprentissage de la fonction .pipe en Observable, c'est des fonctions rxjs.
 Capture d'écran faite.
 
-7 Mars 2023.
+7 Mars 2022.
 Ticket du 4 Mars terminé.
 Exemple de rapport sur Mattermost : 
 MR FRONT correction du ticket 3098 : Lorsqu'un utilisateur n'a aucun offreur de service dans ses attributs la page reste blanche (fixing blank page when no services providers)
@@ -38,13 +38,13 @@ Si le role est admin, la page nous montrera les domaines. Si le role est super_a
 Correction soumise et envoyée sur la branche alpha.
 Capture d'écran faite.
 
-8 Mars 2023.
+8 Mars 2022.
 Une attaque à été faite contre les services, comme l'indique le rapport bruteforce.
 Correction de problème de pipeline et de suppression d'indentation. 
 Avancée sur le business case avec l'ajout d'un petit footer. Amélioration du site projet fil rouge, étant donné qu'aucun ticket ne fut disponible aujourd'hui.
 Capture d'écran faite.
 
-9 Mars 2023.
+9 Mars 2022.
 Après chaque ticket traité, ne pas oublier de glisser le ticket dans les tâches effectuées.
 Problème sur Gitlab depuis quelques jours. Avancée sur le business case pendant la résolution du problème interne. (Rien que je puisse faire hélas).
 Le problème à été résolu, c'était un problème dans le framework angular de testing 'jasmine', il s'agissait d'un problème d'injection d'un service dans le
@@ -53,19 +53,19 @@ Il fallait que les conditions soient remplis pour les éléments testé. Nous av
 On s'est assuré par la suite du bon déroulement des tests.
 Capture d'écran faite.
 
-10 Mars 2023.
+10 Mars 2022.
 Pas de ticket aujourd'hui, amélioration du business case. Prise de stage dans le design en adobe XD.
 Des soucis à régler sur le site avec une barre de navigation irrégulière.
 Capture d'écran faite.
 
-11 Mars 2023.
+11 Mars 2022.
 Des nouveaux tickets vont arriver pour les journées à venir. Amélioration du business case, page de base spatiale presque totalement terminée.
 Faire une page de forum dans la page base terrestre à renommer en 'informations' ou 'communications' terrestre ?
 Résolution du problème presque fini, un point et demi sur trois.
 Reprise du travail lundi. Faire condition NGIF dans le template approprié selon le mode dans lequel nous sommes ''[required]="true"''
 Capture d'écran faite.
 
-14 Mars 2023.
+14 Mars 2022.
 Poursuite du ticket 3107 Corrections interface front
 Angular forms. Point du stage à faire avec un component lourd Angular à préparer en parallèle.
 2eme point du ticket traité et corrigé.
@@ -75,7 +75,7 @@ Commande git notée avec link de librairie.
 Prise de note faite sur les lien link de la librairie Beys au projet.
 Capture d'écran faite.
 
-15 Mars 2023.
+15 Mars 2022.
 Pas de nouveau ticket. Vérification des pipelines. Le sprint 57 se termine le 18 Mars 2023.
 Nouvelles commandes git notées. Branche 3107 propre à présent.
 Reactive forms en angular crée. Maintenant voir la différence avec un template driven forms.
@@ -83,21 +83,21 @@ Lancement des reactives forms, j'ai rassemblé mes anciens cours Angular d'Human
 Forum symfony à améliorer à intégrer dans le business case.
 Pas besoin de capture d'écran ici. (Apprentissage)
 
-16 Mars 2023.
+16 Mars 2022.
 Amélioration du forum pour intégration.
 Nouveau ticket obtenu 3123 : [N2] Navigation sur les écran de sélection de providers/domaines.
 Une sidebar qui apparait, persiste si l'on fait précédent dans le navigateur. 
 Correction du ticket terminée. Dans le ngOnInit, faire la fonction dans la condition d'affichage sur FALSE.
 Capture d'écran faite.
 
-17 Mars 2023.
+17 Mars 2022.
 Fin de sprint. Réunion habituelle avec rapport sur le ticket 3123.
 Aucune assignation aujourd'hui, à pu réviser et continuer un peu le projet fil rouge.
 La partie du forum à été refaite. 
 Il reste donc à faire : Page d'accueil - Page boutique - Dashboard - Responsive (et ce sera terminé)
 Pas besoin de capture d'écran ici. (Apprentissage)
 
-18 Mars 2023.
+18 Mars 2022.
 Mes tickets ont été vérifié et validé. Confirmation sur le mail de l'entreprise.
 Présentation du fin du sprint.
 Transition sur le front-v2. Demonstration IAM Gestion.
@@ -113,7 +113,7 @@ Des rapports de tests ont été efféctué. 16 sont en échec (51.61%) et 15 son
 Assignation du ticket 3132 : Améliorations interface, deux points sur trois traités, poursuite lundi 21 Mars.
 Capture d'écran faite.
 
-21 Mars 2023.
+21 Mars 2022.
 Poursuite du ticket 3132.
 Point 1 & 2 terminés.
 Pour le point 3 du ticket, peut être faire une fonction de switch dark mode qui ferait un RELOAD en dehors de l'init avec appel html ?
@@ -126,7 +126,7 @@ Petite correction d'un problème de navbar, étude sur la conversion d'une navba
 Pour ce sprint 58 nous utilisons planitpoker, les votes portent sur la complexité des tâches à effectuer.
 Capture d'écran faite.
 
-22 Mars 2023.
+22 Mars 2022.
 Poursuite du ticket 3132.
 Point 1, 2, 4, 5 & 6 terminés.
 Pour corriger les points 5 et 6 de contrôle des rôles, il à fallu donner une hauteur fixe à des div parentes qui après par une fonction de calcul, ont permis de diviser par 4
@@ -138,7 +138,7 @@ Le module front est donc validé normalement. Il reste à faire la boutique, l'a
 Réunion à 16 heures pour les modifications de la librairie beys software. A chaque sprint les modifications seront faites.
 Capture d'écran faite.
 
-23 Mars 2023.
+23 Mars 2022.
 Léger soucis sur le ticket 3076 qui à été corrigé.
 Ticket 3132 avec le DarkMode à poursuivre. Tous les autres points sont corrigés.
 Apparition d'un problème avec le ticket 3107. Résoudre le tout et pusher le correctif dans une seule branche.
@@ -154,7 +154,7 @@ IAM FRONT (html principal) -> BEYS LIB (librairie html indépendante) -> darkmod
 Ce petit circuit permet de vérifie dans quel état nous sommes, et par un simple boolean 'true false', changer les couleurs des éléments sur la couleur du reste du site.
 Capture d'écran faite.
 
-24 Mars 2023.
+24 Mars 2022.
 Début de la page d'accueuil du business case.
 Début de la page résumé du projet Human Booster.
 Le ticket 3076 et le ticket 3132 sont finalement terminé et mis à jour.
@@ -162,7 +162,7 @@ La recherche du ticket 3107 et son bug généré montre qu'il est plus complexe 
 Problème de Pipeline (Merge Request qui à un mauvais test de qualité), il faudra rétablir ça au plus vite.
 Pas besoin de capture d'écran aujourd'hui.
 
-25 Mars 2023.
+25 Mars 2022.
 A l'arrivée, correction directe du Pipeline qui semble fonctionner. Il suffisait de supprimer les fichiers et imports non utilisés. Ensuite faire un ng lint + ng rest, puis 
 le git status, git add -A, git commit et git pull origin 'nom de ticket'.
 En attente de nouveau ticket. Si temps libre, page résumée à faire aujourd'hui, et avancer sur la page accueil du Business case.
@@ -170,38 +170,48 @@ Correction d'un léger soucis de traduction suite à la découverte.
 Nouveau ticket 3138 : Changer l'affichage du bouton "retirer" en mode edit.
 Capture d'écran faite.
 
-28 Mars 2023.
+28 Mars 2022.
 Fiche de résumé complétée et terminée. Je l'ai soumise à Human Booster et le retour fut positif. J'ai donc adopté la correction et retourné le tout.
 J'ai mis ma correction de la librairie sur la branche alpha et ma pipeline à été validé.
 Maintenant la merge est en attente d'acceptation.
 Demain si c'est validé il faudra mettre à jour la dépendance dans le package.json. Et puis faire un git add commit push depuis le front.
 Ainsi sera cloturé le ticket 3138.
 
-29 Mars 2023.
+29 Mars 2022.
 Toujours en attente de la MR, elle est bonne sur les tests. Mais doit être vérifiée et validée. Une fois cela fait la MR front sera à faire.
 J'ai commencé à faire la page boutique, la gestion du panier est délicate cependant.
 
 
-30 Mars 2023.
+30 Mars 2022.
 Assignation d'un ticket IAM-3156 : [N1] [Ajout d'une identité] Titre erroné. 
 Ce ticket avait été répéré et réparé il y'a quelques temps. Il sera donc corrigé avec la MR du ticket précédent le 3138.
 La MR est validée, ticket 3138 et 3156 corrigé et mis à jour.
 Enfin la première version de la boutique est faite avec son panier, il me reste qu'à la peaufiner.
 
-31 Mars 2023. 
+31 Mars 2022. 
 Amélioration de la boutique sur le business case. 
 Création d'un component dashboard angular. Exercice de connexion Angular avec fichier d'exemple pour le business case.
 A utiliser avec des librairies JS pour faire des graphiques et données de mois.
 
-1 Avril 2023.
+1 Avril 2022.
 Aujourd'hui fut une journée calme, j'ai refait des exercices Angular pour comprendre les endpoints et modifié le business case.
 La page boutique est presque finie à 100%.
 La page de contact à été bien modifiée et l'utilisateur peux maintenant modifier ses informations. Des nouvelles ressources sont disponible,
 il est aussi possible de choisir une autre adresse et un pays.
 La page d'admin avec la liste des user est prête, il faudra la faire avec le dashboard angular.
 
-4 Avril 2023.
+4 Avril 2022.
 Continuer si possible le projet fil rouge. Avec mot de passe hashé à faire. Crud boutique. Gérer la facturation. Recentrer image + favicon. Dashboard.
 Aujourd'hui à 14h30 réunion avec Charlotte. J'ai avancé sur le business case et terminé les hashages de mot de passe.
 Ce week-end j'ai pu recentrer les images, faire le crud de la boutique. Il me reste la facturation dashboard et favicon. Tout le reste est amélioré, 
 le contenu de certaines choses ou modification requiert d'être connecté pour pouvoir procéder à l'action.
+
+5 Avril 2022.
+Hier soir j'ai pu faire les gestions de rôle symfony. Cela fonctionne et me permet de masquer des zones ou des pages pour le simple utilisateur. Bloquer
+certaines options. Seul l'ADMIN peux faire ce que bon lui semble sur le site.
+Aujourd'hui nouveau ticket : intégration d'un 'Stepper'.
+Création du stepper qui sera un composant générique dans la libs de beys-software. On exporter des données de la beys-software-lib-sample vers beys-software-common-lib.
+Cela permettra d'utiliser <beys-stepper></beys-stepper> qui invoquera le dit stepper.
+Découverte du PowerPoint à rendre pour le 25 Avril, sera fait après le dossier projet, entre le 15 et 25.
+
+6 Avril 2022.
