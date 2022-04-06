@@ -215,3 +215,8 @@ Cela permettra d'utiliser <beys-stepper></beys-stepper> qui invoquera le dit ste
 Découverte du PowerPoint à rendre pour le 25 Avril, sera fait après le dossier projet, entre le 15 et 25.
 
 6 Avril 2022.
+Poursuite du projet de faire un composant entier dans une librairie Angular.
+Le stepper est finalement affiché en mode DUR. Il faut le rendre dynamique, avec des status. C'est du Angular pur. Input/output. Avec des NGIF NGFOR NGCONTAINER.
+Poursuite le lendemain.
+
+7 Avril 2022.
