@@ -220,3 +220,11 @@ Le stepper est finalement affiché en mode DUR. Il faut le rendre dynamique, ave
 Poursuite le lendemain.
 
 7 Avril 2022.
+Aujourd'hui révision Angular. Création de petits projets. Une mini boutique dans un premier temps et un prototypage de dashboard afin de monter
+en compétences.
+Le JIRA à été mis à jours de mes heures effectuée. 
+Création d'une mini boutique en Angular.
+Nouvel exercice Angular qui simule un dashboard, poursuite le 8 Avril.
+
+
+8 Avril 2022.
