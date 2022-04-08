@@ -228,3 +228,10 @@ Nouvel exercice Angular qui simule un dashboard, poursuite le 8 Avril.
 
 
 8 Avril 2022.
+Début de réflexion sur le dossier projet d'Human Booster. Une petite moitiée déjà efféctuée.
+Sprint Review 58 aujourd'hui.
+Ticket d'amélioration d'interface passée en revue.
+Ticket 3107 - Ticket 3138 - Ticket 3028 - Ticket 2964
+Poursuite de la montée en compétence d'Angular. Des nouveaux exercices et parcours de la documentation pour concevoir le stepper.
+
+11 Avril 2022.
