@@ -9,6 +9,7 @@ Gérer la facturation
 Préparer le dashboard angular à l'intérieur du projet
 
 Implantation mineures :
+Faire une action 'go back' à la connexion
 Barre de recherche fonctionnelle
 Brute force security.yaml ?
 Faire une sorte de CRUD sur les catégories de produit ?
