@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9898fad-b0aa-44e8-b421-57c9a02a5001" name="Changes" comment="" />
+    <list default="true" id="c9898fad-b0aa-44e8-b421-57c9a02a5001" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/common/utility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/common/utility.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Dossier projet Meynadier Renaud.docx" beforeDir="false" afterPath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Dossier projet Meynadier Renaud.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/todo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/todo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ProductRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ProductRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/articles/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/articles/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/common/partials/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/partials/header.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product/detail.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/detail.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/type/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/type/index.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -334,18 +352,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/product" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/styles/libs" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="C:\Users\HB\Documents\Documents Human Booster\Business_case\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HB\Documents\Documents Human Booster\Business_case\assets\styles\libs" />
+      <recent name="C:\Users\HB\Documents\Documents Human Booster\Business_case\src\Controller" />
+      <recent name="C:\Users\HB\Documents\Documents Human Booster\Business_case\assets\scripts" />
       <recent name="C:\Users\HB\Documents\Documents Human Booster\Business_case\templates\product" />
       <recent name="C:\Users\rmeynadier\dev\Business_case\templates\user" />
-      <recent name="C:\Users\rmeynadier\dev\Business_case\src\Form" />
-      <recent name="C:\Users\rmeynadier\dev\Business_case\templates\product" />
-      <recent name="C:\Users\rmeynadier\dev\Business_case\templates" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -369,6 +388,9 @@
       <workItem from="1649367183985" duration="178000" />
       <workItem from="1649418662229" duration="3000" />
       <workItem from="1649429615914" duration="234000" />
+      <workItem from="1649601125271" duration="8024000" />
+      <workItem from="1649609736113" duration="14000" />
+      <workItem from="1649622410810" duration="4455000" />
     </task>
     <servers />
   </component>
