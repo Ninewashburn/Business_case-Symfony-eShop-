@@ -35,4 +35,5 @@ Un utilisateur hors role_admin ne peux effacer que ses posts ou les supprimer.
 - Possibilité pour le ["ROLE_ADMIN"] d'ajouter, voir, éditer ou supprimer des produits de la boutique = FAIT
 - Possibilité pour le ["ROLE_ADMIN"] d'accéder par la page 'La Nimes'Team' à la gestion des utilisateur par un CRUD = FAIT
 - Barre de recherche fonctionnelle = FAIT
-- Brute force security.yaml et petit bouton précédent = FAIT
+- Brute force security.yaml = FAIT
+- Bouton précédent statique sur certaines zones et dynamique à coté du back to top button = FAIT

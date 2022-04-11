@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9898fad-b0aa-44e8-b421-57c9a02a5001" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/common/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/common/home.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/common/utility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/common/utility.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Dossier projet Meynadier Renaud.docx" beforeDir="false" afterPath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Dossier projet Meynadier Renaud.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/todo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/todo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CartController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ProductRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ProductRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/articles/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/articles/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/common/partials/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/partials/header.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/product/detail.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/detail.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/product/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/type/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/type/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,7 +346,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/styles/libs" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="ts.external.directory.path" value="C:\Users\HB\Documents\Documents Human Booster\Business_case\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\rmeynadier\dev\Business_case\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -391,6 +382,11 @@
       <workItem from="1649601125271" duration="8024000" />
       <workItem from="1649609736113" duration="14000" />
       <workItem from="1649622410810" duration="4455000" />
+      <workItem from="1649664892711" duration="409000" />
+      <workItem from="1649668559006" duration="128000" />
+      <workItem from="1649668712177" duration="14000" />
+      <workItem from="1649668757033" duration="28000" />
+      <workItem from="1649668860543" duration="1218000" />
     </task>
     <servers />
   </component>

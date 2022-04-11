@@ -203,7 +203,28 @@ canvas {
 }
 
 #myBtn:hover {
-  background-color: #ffe135;
+  background-color: #ff7675;
+}
+
+#previousBtn {
+  display: none;
+  position: fixed;
+  height: 40px;
+  width: 40px;
+  bottom: 25px;
+  right: 80px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #e17055;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#previousBtn:hover {
+  background-color: #6c5ce7;
 }
 
 .cat {

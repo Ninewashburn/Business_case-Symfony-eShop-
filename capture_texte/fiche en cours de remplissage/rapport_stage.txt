@@ -235,3 +235,9 @@ Ticket 3107 - Ticket 3138 - Ticket 3028 - Ticket 2964
 Poursuite de la montée en compétence d'Angular. Des nouveaux exercices et parcours de la documentation pour concevoir le stepper.
 
 11 Avril 2022.
+Ce week-end j’ai réussi à intégrer sur le projet fil rouge de nouvelles fonctionnalités. Une barre de recherche fonctionnelle, un bouton précédent, une boutique affichée 
+par ordre alphabétique.
+Poursuite de la veille sur Angular avec simulation d’appel à une API grâce à un tutoriel. On a un sprint refinement cet après-midi, 
+pour définir les nouvelles tâches à venir, avec les tickets. Découverte d’un nouveau projet angular à faire en tutoriel, 
+un dashboard qui permet de comprendre l’utilisation de charts, et à appliquer sur le fil rouge plus tard.
+
