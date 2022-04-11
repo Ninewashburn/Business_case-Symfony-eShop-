@@ -10,8 +10,6 @@ Préparer le dashboard angular à l'intérieur du projet
 
 Implantation mineures :
 Faire une action 'go back' à la connexion
-Barre de recherche fonctionnelle
-Brute force security.yaml ?
 Faire une sorte de CRUD sur les catégories de produit ?
 Un utilisateur hors role_admin ne peux effacer que ses posts ou les supprimer.
 
@@ -36,3 +34,5 @@ Un utilisateur hors role_admin ne peux effacer que ses posts ou les supprimer.
 - Résolution d'un problème d'affichage dans la boutique et gestion de panier = FAIT
 - Possibilité pour le ["ROLE_ADMIN"] d'ajouter, voir, éditer ou supprimer des produits de la boutique = FAIT
 - Possibilité pour le ["ROLE_ADMIN"] d'accéder par la page 'La Nimes'Team' à la gestion des utilisateur par un CRUD = FAIT
+- Barre de recherche fonctionnelle = FAIT
+- Brute force security.yaml et petit bouton précédent = FAIT

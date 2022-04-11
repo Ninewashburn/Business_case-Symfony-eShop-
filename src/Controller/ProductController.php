@@ -7,6 +7,7 @@ use App\Form\ProductFormType;
 use App\Repository\ProductRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -25,6 +26,7 @@ class ProductController extends AbstractController
 
     /**
      * @param ProductRepository $productRepository
+     * @param EntityManagerInterface $entityManager
      */
     public function __construct(ProductRepository $productRepository, EntityManagerInterface $entityManager)
     {
@@ -37,7 +39,7 @@ class ProductController extends AbstractController
     public function index(ProductRepository $productRepository): Response
     {
         return $this->render('product/index.html.twig', [
-            'products' => $productRepository->findAll()
+            'products' => $this->productRepository->findBy([], ['title' => 'ASC']),
         ]);
     }
 
@@ -53,11 +55,12 @@ class ProductController extends AbstractController
         return $this->createFormFromEntity($request, new Product());
     }
 
-    #[Route('/{id}', name: 'product_detail')]
+    #[Route('/{title}', name: 'product_detail')]
     public function show(Product $products): Response
     {
         return $this->render('product/detail.html.twig', [
             'product' => $products,
+//            'relatedProduct' => $this->productRepository->findRelatedProductByCategory($products->getCategory(), 5),
         ]);
     }
 
@@ -101,4 +104,10 @@ class ProductController extends AbstractController
             'form' => $form->createView(),
         ]);
     }
+
+//    #[Route('/product/findAllNames/{title}', name: 'product_find_all_names')]
+//    public function find(string $name): JsonResponse
+//    {
+//        return new JsonResponse($this->productRepository->findAllNames($name));
+//    }
 }

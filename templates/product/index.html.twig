@@ -26,6 +26,7 @@
 
             {% endif %}
             <div class="container text-end">
+                <button class="btn btn-danger text-black" onclick="history.go(-1);"><i class="bi bi-skip-backward"></i> Précédent</button>
                 <a class="btn btn-info my-2" href="{{ path('cart_index') }}">
                     <i class="bi bi-cart"></i>
                     Voir le panier </a>
@@ -68,7 +69,7 @@
                                         <div class="fw-bold"> TTC {{ product.price * 1.20 }} €</div>
                                     </div>
                                     <span class="h5"></span>
-                                    <a href="{{ path('product_detail', {id: product.id}) }}"
+                                    <a href="{{ path('product_detail', {title: product.title}) }}"
                                        class="col-4 btn btn-danger">
                                         <i class="bi bi-box-seam"></i><br>
                                         Détails
