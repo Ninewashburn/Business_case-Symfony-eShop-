@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c9898fad-b0aa-44e8-b421-57c9a02a5001" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/common/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/common/home.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/common/utility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/common/utility.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Dossier projet Meynadier Renaud.docx" beforeDir="false" afterPath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Dossier projet Meynadier Renaud.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/todo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/todo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/common/partials/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/partials/header.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/product/detail.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/detail.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -387,6 +382,7 @@
       <workItem from="1649668712177" duration="14000" />
       <workItem from="1649668757033" duration="28000" />
       <workItem from="1649668860543" duration="1218000" />
+      <workItem from="1649708646288" duration="2120000" />
     </task>
     <servers />
   </component>
