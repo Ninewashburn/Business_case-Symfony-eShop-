@@ -7,10 +7,13 @@
     <div class="container mt-4">
         <div class="row">
             <div class="col-6">
-                <p> Vous êtes connecté en tant que : {{ app.user.username }}.</p>
                 <h2 class="bg bg-danger body-color text-center p-2 text-white fw-bold">{{ 'user.list'|trans }}</h2><br>
+                <p> Vous êtes connecté en tant que : {{ app.user.username }}.</p>
             </div>
             <div class="col-6 text-end">
+                <a class="btn btn-danger p-2 text-white" href="http://localhost:4200/dashboard" target="_blank">
+                    Tableau de bord
+                </a>
                 <a class="btn btn-info text-white p-2" href="{{ path('user_new') }}">
                     {{ 'user.index.new'|trans }}
                 </a>
