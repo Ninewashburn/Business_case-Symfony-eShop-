@@ -227,6 +227,27 @@ canvas {
   background-color: #6c5ce7;
 }
 
+#darkBtn {
+  display: none;
+  position: fixed;
+  height: 40px;
+  width: 40px;
+  bottom: 25px;
+  right: 135px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #636e72;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#darkBtn:hover {
+  background-color: #fdcb6e;
+}
+
 .cat {
   display: block;
   width: 100%;
@@ -273,4 +294,12 @@ canvas {
     cursor: pointer;
   }
 }
+.dark-mode {
+  background-color: black;
+  filter: invert(100%);
+  img {
+    filter: invert(0%);
+  }
+}
+
 

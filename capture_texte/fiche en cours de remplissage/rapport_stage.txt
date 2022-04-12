@@ -241,3 +241,20 @@ Poursuite de la veille sur Angular avec simulation d’appel à une API grâce �
 pour définir les nouvelles tâches à venir, avec les tickets. Découverte d’un nouveau projet angular à faire en tutoriel, 
 un dashboard qui permet de comprendre l’utilisation de charts, et à appliquer sur le fil rouge plus tard.
 
+12 Avril 2022.
+Aujourd'hui j'ai poursuivi ma veille pendant les réunions d'assignation de tâche dans le sprint. J'ai pu effectuer un exercice angular sur le système de dashboard et l'intégrer au projet symfony. Ce petit tableau de bord est accessible par un lien que seul l'ADMIN peux voir dans la page de gestion des utilisateurs. (Impossible d'y accéder autrement)
+Ce dashboard simule une connexion à une API en mode << dur >> grâce à un service, qui se connecte dans mon cas sur une fausse url de donnée json. (Je comprends la différence avec des endpoints à une api, en se connectant, c'est elle qui renvoie des json, ainsi les json rendu par une API seront forcément changeant et donc dynamique).
+Mes données en << dur >> montrent une liste de client, d'achat, de statistiques, des courbes, des graphiques, des diagrammes types camembert, c'est une parfaite page de contrôle admin. Voici les commandes que j'ai utilisé pour ce petit projet angular :
+ ng add @angular/material (librairie angular material)
+ npm install ng2-charts  - save (dépendance ng-2 charts qui à besoin de charts.js ci-dessous)
+ npm install chart.js --save
+ npm install  - save-dev ng2-charts-schematics (autre dépendance à chart.js)
+ ng generate @angular/material :dashboard dash (génère un dashboard responsive grâce à angular material)
+ ng generate ng2-charts-schematics :radar charts/product-sales-chart
+ ng generate ng2-charts-schematics :pie charts/sales-traffic-chart
+ ng generate ng2-charts-schematics :line charts/annual-sales-chart
+ ng generate ng2-charts-schematics :bar charts/store-sessions-chart
+    
+Cela va générer automatiquement, un radar, un camembert, une courbe et des diagrammes en bar pour le dashboard.
+ Ng generate @angular/material :table orders-table (génère automatiquement comme composant une table angular)
+Ce fut intense, mais c'est fonctionnel grâce à de fausses données.

@@ -21,7 +21,9 @@
     <button class="previousBtn" onclick="history.go(-1);" id="previousBtn" title="Précédent"><i
                 class="fa-solid fa-circle-arrow-left"></i></button>
 </div>
-
+<div>
+    <button class="btn btn-primary" onclick="darkMode()" id="darkBtn"><i class="fas fa-moon"></i></button>
+</div>
 {% block header %}
     {% include 'common/partials/header.html.twig' %}
 {% endblock %}
@@ -39,6 +41,8 @@
     //Get the button
     const mybutton = document.getElementById("myBtn");
     const previousbutton = document.getElementById("previousBtn");
+    const dark = document.getElementById("darkBtn");
+
 
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function () {
@@ -49,9 +53,11 @@
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
             mybutton.style.display = "block";
             previousbutton.style.display = "block";
+            dark.style.display = "block";
         } else {
             mybutton.style.display = "none";
             previousbutton.style.display = "none";
+            dark.style.display = "none";
         }
     }
 
@@ -61,4 +67,8 @@
         document.documentElement.scrollTop = 0;
     }
 
+    function darkMode() {
+        let element = document.body;
+        element.classList.toggle("dark-mode");
+    }
 </script>
