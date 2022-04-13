@@ -4,8 +4,10 @@
     <list default="true" id="c9898fad-b0aa-44e8-b421-57c9a02a5001" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/common/utility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/common/utility.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/planit_poker.png" beforeDir="false" afterPath="$PROJECT_DIR$/capture_ecran/capture écran beys/planit_poker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/construction_navbar1.png" beforeDir="false" afterPath="$PROJECT_DIR$/capture_ecran/capture écran business case/construction_navbar1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/end_navbar.png" beforeDir="false" afterPath="$PROJECT_DIR$/capture_ecran/capture écran business case/end_navbar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,7 +343,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/styles/libs" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="database.data.views" />
     <property name="ts.external.directory.path" value="C:\Users\rmeynadier\dev\Business_case\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -392,6 +394,7 @@
       <workItem from="1649775912216" duration="539000" />
       <workItem from="1649776740043" duration="129000" />
       <workItem from="1649795939337" duration="3266000" />
+      <workItem from="1649833750725" duration="5290000" />
     </task>
     <servers />
   </component>

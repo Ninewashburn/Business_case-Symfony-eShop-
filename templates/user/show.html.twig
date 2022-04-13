@@ -11,15 +11,15 @@
             <div class="col-lg-8">
                 <div class="card border-0. w-100">
                     <div class="card-body">
-                        <h5 class="card-title">Email: {{ user.email }}</h5>
-                        <p class="card-text">Nom de famille : {{ user.lastName }}</p>
-                        <p class="card-text">Prénom : {{ user.firstName }}</p>
-                        <p class="card-text">Adresse Postale : {{ user.address }}</p>
-                        <p class="card-text">Seconde adresse : {{ user.secondAddress }}</p>
-                        <p class="card-text">Date de naissance : {{ user.birthAt|date('d-m-Y') }}</p>
-                        <p class="card-text">Ville : {{ user.city }}</p>
-                        <p class="card-text">Pays : {{ user.country }}</p>
-                        <p class="card-text">Numéro de téléphone : {{ user.telephone }}</p>
+                        <h5 class="card-title"><div class="fw-bold underline text-uppercase">Email :</div> {{ user.email }}</h5>
+                        <div class="card-text"><div class="fw-bold underline text-uppercase">Nom de famille :</div> {{ user.lastName }}</div>
+                        <div class="card-text"><div class="fw-bold underline text-uppercase">Prénom :</div> {{ user.firstName }}</div>
+                        <div class="card-text"><div class="fw-bold underline text-uppercase">Adresse Postale :</div> {{ user.address }}</div>
+                        <div class="card-text"><div class="fw-bold underline text-uppercase">Seconde adresse :</div> {{ user.secondAddress }}</div>
+                        <div class="card-text"><div class="fw-bold underline text-uppercase">Date de naissance :</div> {{ user.birthAt|date('d-m-Y') }}</div>
+                        <div class="card-text"><div class="fw-bold underline text-uppercase">Ville :</div> {{ user.city }}</div>
+                        <div class="card-text"><div class="fw-bold underline text-uppercase">Pays :</div> {{ user.country }}</div>
+                        <div class="card-text"><div class="fw-bold underline text-uppercase">Numéro de téléphone :</div> {{ user.telephone }}</div>
                         <a class="btn btn-outline-primary my-2" href="{{ path('user_index') }}">
                             {{ 'user.home'|trans }} </a>
                     </div>
