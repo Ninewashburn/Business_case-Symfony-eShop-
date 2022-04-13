@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9898fad-b0aa-44e8-b421-57c9a02a5001" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Dossier projet Meynadier Renaud.docx" beforeDir="false" afterPath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Dossier projet Meynadier Renaud.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/~$ssier projet Meynadier Renaud.docx" beforeDir="false" afterPath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/~$ssier projet Meynadier Renaud.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/nimes_team/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nimes_team/index.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="c9898fad-b0aa-44e8-b421-57c9a02a5001" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -394,6 +389,7 @@
       <workItem from="1649795939337" duration="3266000" />
       <workItem from="1649833750725" duration="5290000" />
       <workItem from="1649849962360" duration="4841000" />
+      <workItem from="1649883297787" duration="594000" />
     </task>
     <servers />
   </component>
