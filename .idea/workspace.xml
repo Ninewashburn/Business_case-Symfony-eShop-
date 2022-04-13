@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c9898fad-b0aa-44e8-b421-57c9a02a5001" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/common/utility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/common/utility.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/planit_poker.png" beforeDir="false" afterPath="$PROJECT_DIR$/capture_ecran/capture écran beys/planit_poker.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/construction_navbar1.png" beforeDir="false" afterPath="$PROJECT_DIR$/capture_ecran/capture écran business case/construction_navbar1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/end_navbar.png" beforeDir="false" afterPath="$PROJECT_DIR$/capture_ecran/capture écran business case/end_navbar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Dossier projet Meynadier Renaud.docx" beforeDir="false" afterPath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Dossier projet Meynadier Renaud.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/~$ssier projet Meynadier Renaud.docx" beforeDir="false" afterPath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/~$ssier projet Meynadier Renaud.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nimes_team/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nimes_team/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,6 +393,7 @@
       <workItem from="1649776740043" duration="129000" />
       <workItem from="1649795939337" duration="3266000" />
       <workItem from="1649833750725" duration="5290000" />
+      <workItem from="1649849962360" duration="4841000" />
     </task>
     <servers />
   </component>
