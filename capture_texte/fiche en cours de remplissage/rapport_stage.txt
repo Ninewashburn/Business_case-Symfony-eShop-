@@ -258,3 +258,10 @@ Mes données en << dur >> montrent une liste de client, d'achat, de statistiques
 Cela va générer automatiquement, un radar, un camembert, une courbe et des diagrammes en bar pour le dashboard.
  Ng generate @angular/material :table orders-table (génère automatiquement comme composant une table angular)
 Ce fut intense, mais c'est fonctionnel grâce à de fausses données.
+
+13 Avril 2022.
+Toujours un peu de veille, mais j'ai aussi du extraire un peu de code pour mon dossier projet avec Human Booster. J'ai réussi à terminer le montage
+de ce dossier. Il me reste un powerpoint de présentation basé sur ce dit dossier. Actuellement à 40 pages. 
+
+14 Avril 2022.
+Veille Angular, avec la reprise des fondamentaux avec OpenClassroom.
