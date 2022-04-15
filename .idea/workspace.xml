@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9898fad-b0aa-44e8-b421-57c9a02a5001" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Dossier projet Meynadier Renaud.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/common/utility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/common/utility.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/dashboard_exemple_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/dashboard_exemple_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Fiche_Objectif_Examen_DWWM_2021_04.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Dossier_Professionel_Meynadier_Renaud.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Feuille de presence Entreprise_MEYNADIER_Renaud.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Fiche_Objectif_Dossier_projet_DWWM_2021_04.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Fiche_resume_meynadier_renaud.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Meynadier_Renaud_Dossier_projet.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Présentation soutenance Meynadier Renaud.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Présentation soutenance Meynadier Renaud.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/presentation_business_case.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/todo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product/detail.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/detail.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -392,6 +406,10 @@
       <workItem from="1649833750725" duration="5290000" />
       <workItem from="1649849962360" duration="4841000" />
       <workItem from="1649883297787" duration="594000" />
+      <workItem from="1650006988450" duration="106000" />
+      <workItem from="1650012298597" duration="267000" />
+      <workItem from="1650014774179" duration="434000" />
+      <workItem from="1650024671817" duration="4000000" />
     </task>
     <servers />
   </component>
