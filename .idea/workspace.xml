@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9898fad-b0aa-44e8-b421-57c9a02a5001" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Dossier projet Meynadier Renaud.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -392,6 +392,10 @@
       <workItem from="1649833750725" duration="5290000" />
       <workItem from="1649849962360" duration="4841000" />
       <workItem from="1649883297787" duration="594000" />
+      <workItem from="1650012008017" duration="9000" />
+      <workItem from="1650012136128" duration="203000" />
+      <workItem from="1650012418654" duration="545000" />
+      <workItem from="1650013557162" duration="19000" />
     </task>
     <servers />
   </component>
