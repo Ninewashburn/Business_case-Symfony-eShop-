@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Product;
 use App\Form\ProductFormType;
+use App\Repository\BrandRepository;
 use App\Repository\ProductRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -18,6 +19,7 @@ class ProductController extends AbstractController
 
     private EntityManagerInterface $entityManager;
     private ProductRepository $productRepository;
+    private BrandRepository $brandRepository;
 
     /**
      * @param EntityManagerInterface $entityManager
@@ -26,11 +28,13 @@ class ProductController extends AbstractController
 
     /**
      * @param ProductRepository $productRepository
+     * @param BrandRepository $brandRepository
      * @param EntityManagerInterface $entityManager
      */
-    public function __construct(ProductRepository $productRepository, EntityManagerInterface $entityManager)
+    public function __construct(ProductRepository $productRepository, BrandRepository $brandRepository, EntityManagerInterface $entityManager)
     {
         $this->productRepository = $productRepository;
+        $this->brandRepository = $brandRepository;
         $this->entityManager = $entityManager;
     }
 
@@ -60,6 +64,7 @@ class ProductController extends AbstractController
     {
         return $this->render('product/detail.html.twig', [
             'product' => $products,
+            'brand' => $this->brandRepository->findAll(),
 //            'relatedProduct' => $this->productRepository->findRelatedProductByCategory($products->getCategory(), 5),
         ]);
     }

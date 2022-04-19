@@ -265,3 +265,9 @@ de ce dossier. Il me reste un powerpoint de présentation basé sur ce dit dossi
 
 14 Avril 2022.
 Veille Angular, avec la reprise des fondamentaux avec OpenClassroom.
+
+15 Avril 2022.
+Poursuite de la veille Angular, doit faire de l'input output.
+
+19 Avril 2022.
+Reprise du stepper. Avec quelques améliorations, à modifier le routerlink pour la navigation entre chaques steps.

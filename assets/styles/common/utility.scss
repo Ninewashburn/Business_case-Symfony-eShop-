@@ -297,9 +297,11 @@ canvas {
 .dark-mode {
   background-color: black;
   filter: invert(100%);
+
   img {
     filter: invert(0%);
   }
+}
   //--white: #353b3f;
   //--white-rgb: 53, 59, 63;
   //--dark: #FFFFFF;
@@ -314,6 +316,18 @@ canvas {
   //--secondary-100: #353b3f;
   //--secondary-200: #272D31;
   //--secondary-300: #1f2427;
-}
+
+//{
+//  background-color: rgba(lightgreen, 0.4);
+//  color: darkgreen;
+//button {
+//  box-shadow: lightgreen 3px 3px 7px;
+//  color: darkgreen;
+//  &:active {
+//    box-shadow: lightgreen 0 0 5px;
+//  }
+//}
+//}
+
 
 
