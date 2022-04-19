@@ -270,4 +270,4 @@ Veille Angular, avec la reprise des fondamentaux avec OpenClassroom.
 Poursuite de la veille Angular, doit faire de l'input output.
 
 19 Avril 2022.
-Reprise du stepper.
+Reprise du stepper. Avec quelques améliorations, à modifier le routerlink pour la navigation entre chaques steps.
