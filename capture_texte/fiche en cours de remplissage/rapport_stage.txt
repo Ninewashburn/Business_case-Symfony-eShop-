@@ -1,7 +1,7 @@
 Majoritairement Front Angular. Participation à la refonte de IAM Front V1 vers IAM Front V2.
 Les moyens utilisés :
 Phpstorm  - planitpoker - powershell - mattermost - keycloak - chocolatey software - adobe xd - skype entreprise - fork - firefox developer - notepad 
-Jira - Outlook Pro
+Jira - Outlook Pro - boostnote
 
 Journal de bord : Stage Be-Ys Software France 2 Mars - 29 Avril 2022.
 
