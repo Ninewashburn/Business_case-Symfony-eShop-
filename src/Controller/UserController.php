@@ -15,7 +15,6 @@ use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Security\Http\Authentication\UserAuthenticatorInterface;
 
-#[IsGranted('ROLE_ADMIN', message: 'Vous n\'avez pas les autorisations nécessaires', statusCode: 404)]
 #[Route('/user')]
 class UserController extends AbstractController
 {
@@ -29,6 +28,7 @@ class UserController extends AbstractController
         $this->entityManager = $entityManager;
     }
 
+    #[IsGranted('ROLE_ADMIN', message: 'Vous n\'avez pas les autorisations nécessaires', statusCode: 404)]
     #[Route('/', name: 'user_index')]
     public function index(UserRepository $userRepository): Response
     {
@@ -38,6 +38,7 @@ class UserController extends AbstractController
         ]);
     }
 
+    #[IsGranted('ROLE_ADMIN', message: 'Vous n\'avez pas les autorisations nécessaires', statusCode: 404)]
     #[Route('/new', name: 'user_new')]
     public function new(Request $request): Response
     {
