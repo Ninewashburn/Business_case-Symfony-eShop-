@@ -58,9 +58,9 @@ class UserFormType extends AbstractType
                 ]
             ])
             ->add('birth_at', BirthdayType::class, [
-                'label' => 'user.index.table.telephone',
+                'label' => 'user.index.table.birthAt',
                 'attr' => [
-                    'placeholder' => 'user.index.table.telephone',
+                    'placeholder' => 'user.index.table.birthAt',
                 ]
             ])
             ->add('address', TextType::class, [
