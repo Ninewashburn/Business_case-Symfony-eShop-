@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9898fad-b0aa-44e8-b421-57c9a02a5001" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Présentation soutenance Meynadier Renaud.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Présentation soutenance Meynadier Renaud.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/earth_base/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/earth_base/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/post/view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post/view.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/subtype/view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/subtype/view.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/thread/view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/thread/view.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/type/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/type/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/type/view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/type/view.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="c9898fad-b0aa-44e8-b421-57c9a02a5001" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -413,6 +403,7 @@
       <workItem from="1650632159466" duration="2712000" />
       <workItem from="1650745144844" duration="2060000" />
       <workItem from="1650828939856" duration="6511000" />
+      <workItem from="1650870673682" duration="368000" />
     </task>
     <servers />
   </component>
