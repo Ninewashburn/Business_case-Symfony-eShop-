@@ -90,14 +90,11 @@ class UserController extends AbstractController
     #[Route('/delete/{id}', name: 'user_delete')]
     public function delete(User $user): Response
     {
-//        $user = $this->getUser();
-//        if ($user === null) {
-//            return $this->redirectToRoute('app_login');
-//        }
-
+        $user = $this->getUser();
+        $this->container->get('security.token_storage')->setToken(null);
         $this->entityManager->remove($user);
         $this->entityManager->flush();
-        return $this->redirectToRoute('user_index');
+        return $this->redirectToRoute('home');
     }
 
     private function createFormFromEntity(Request $request, User $user, string $template = 'user/new.html.twig'): Response

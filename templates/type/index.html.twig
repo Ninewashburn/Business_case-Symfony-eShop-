@@ -12,7 +12,7 @@
                 {% if types|length>0 %}
                     {% for type in types %}
                         <div class="text-center border col-6 border-secondary border-3 rounded my-3 py-2 px-2">
-                            <h3>{{ type.name }}</h3>
+                            <h3 class="fw-bold">{{ type.name | upper }}</h3>
                             <p>{{ type.description|slice(0, 400) ~ '...' }}</p>
                             <a class="btn btn-outline-dark" href="{{ path('type_view', {'id': type.id}) }}">Voir les
                                 sous rubriques</a>

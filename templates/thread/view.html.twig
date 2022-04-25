@@ -9,7 +9,7 @@
 
         <div class="border border-secondary border-3 rounded my-3 py-2 px-2">
             {% for thread in threadView %}
-                <h3>{{ thread.subType.name }}</h3>
+                <h3 class="fw-bold">{{ thread.subType.name | upper }}</h3>
                 <h4>{{ thread.subject }}</h4>
 
                 {% if thread.posts|length>0 %}
@@ -19,8 +19,8 @@
                             <h6>{{ post.createdAt|date('H:s d-m-Y') }}</h6>
                             <p>{{ post.content }}</p>
                             <div>
-                                <a href="{{ path('upvote_add', {'id' : post.id}) }}" class="text-decoration-none mx-2 btn btn-outline-dark" title="Upvote"><i class="fas fa-arrow-up"></i> {{ post.upvote }}</a>
-                                <a href="{{ path('downvote_add', {'id' : post.id}) }}" class="text-decoration-none mx-2 btn btn-outline-dark" title="Downvote"><i class="fas fa-arrow-down"></i> {{ post.downvote }}</a>
+                                <a href="{{ path('upvote_add', {'id' : post.id}) }}" class="text-decoration-none mx-2 btn btn-success" title="Upvote"><i class="fa-solid fa-thumbs-up"></i> {{ post.upvote }}</a>
+                                <a href="{{ path('downvote_add', {'id' : post.id}) }}" class="text-decoration-none mx-2 btn btn-danger" title="Downvote"><i class="fa-solid fa-thumbs-down"></i> {{ post.downvote }}</a>
                             </div>
                         </div>
                     {% endfor %}

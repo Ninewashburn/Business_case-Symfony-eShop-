@@ -11,7 +11,7 @@
         {% endif %}
 
         <div class="border border-secondary border-3 rounded my-3 py-2 px-2">
-            <h3>{{ typeView.name }}</h3>
+            <h3 class="fw-bold">{{ typeView.name | upper }}</h3>
             <p>{{ typeView.description }}</p>
 
             {% if typeView.subtypes|length>0 %}
