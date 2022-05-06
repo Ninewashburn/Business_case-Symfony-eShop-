@@ -1,0 +1,273 @@
+Majoritairement Front Angular. Participation à la refonte de IAM Front V1 vers IAM Front V2.
+Les moyens utilisés :
+Phpstorm  - planitpoker - powershell - mattermost - keycloak - chocolatey software - adobe xd - skype entreprise - fork - firefox developer - notepad 
+Jira - Outlook Pro - boostnote
+
+Journal de bord : Stage Be-Ys Software France 2 Mars - 29 Avril 2022.
+
+2 Mars 2022.
+Premier jour de stage, configuration de l'environnement. Connaissance du projet IAM front.
+Résolution d'un premier ticket permettant de naviguer dans l'application Angular (IAM front toujours).
+Utilisation de JavaScript dans un module Angular.
+Link de librairies personnalisées Angular. 
+Le projet à été modifié, corrigé et poussé sur la branche alpha. 
+Capture d'écran faite.
+
+3 Mars 2022.
+Journée d'installation BusinessCase. Configuration symfony, amélioration de la navbar symfony. A été assigné un ticket de correction CSS dans la
+librairie de material design d'Angular. Recherche fastidieuse et solution finalement trouvée. 
+Cette dernière fut verifiée, et ajoutée au projet IAM Front. 
+(Début tranquillement dans le stage pour bien voir la globalité du projet.)
+Ticket 3076 : Amélioration textes
+Capture d'écran faite.
+
+4 Mars 2022.
+Nouveau ticket obtenu. Correction du problème : Lorsqu'un utilisateur n'a aucun offreur de service dans ses attributs la page reste blanche.
+Recherche du problème dans le projet Angular. Problème identifié ? Utilisation de la solution adéquate.
+Apprentissage de la fonction .pipe en Observable, c'est des fonctions rxjs.
+Capture d'écran faite.
+
+7 Mars 2022.
+Ticket du 4 Mars terminé.
+Exemple de rapport sur Mattermost : 
+MR FRONT correction du ticket 3098 : Lorsqu'un utilisateur n'a aucun offreur de service dans ses attributs la page reste blanche (fixing blank page when no services providers)
+https://sources.devtools.local/gebeeiam/beiam/iam-front/-/merge_requests/139
+Correction faite dans le resolver.ts, puis le component.ts adéquat et le template html de ce dit component. (Utilisation de ngIf sur une longueur de tableau)
+En clair : Si le rôle est de 'user' nous verrons la page (avant correction la page ne chargeait pas), mais dans cette page = 0 offreurs de service.
+Si le role est admin, la page nous montrera les domaines. Si le role est super_admin, la page nous montrera tout, domaine et offreurs.
+Correction soumise et envoyée sur la branche alpha.
+Capture d'écran faite.
+
+8 Mars 2022.
+Une attaque à été faite contre les services, comme l'indique le rapport bruteforce.
+Correction de problème de pipeline et de suppression d'indentation. 
+Avancée sur le business case avec l'ajout d'un petit footer. Amélioration du site projet fil rouge, étant donné qu'aucun ticket ne fut disponible aujourd'hui.
+Capture d'écran faite.
+
+9 Mars 2022.
+Après chaque ticket traité, ne pas oublier de glisser le ticket dans les tâches effectuées.
+Problème sur Gitlab depuis quelques jours. Avancée sur le business case pendant la résolution du problème interne. (Rien que je puisse faire hélas).
+Le problème à été résolu, c'était un problème dans le framework angular de testing 'jasmine', il s'agissait d'un problème d'injection d'un service dans le
+composant testé, mais n'était pas présent dans un 'testbed'.
+Il fallait que les conditions soient remplis pour les éléments testé. Nous avons donc modifié le composant, et donc on à modifié les conditions d'affichage.
+On s'est assuré par la suite du bon déroulement des tests.
+Capture d'écran faite.
+
+10 Mars 2022.
+Pas de ticket aujourd'hui, amélioration du business case. Prise de stage dans le design en adobe XD.
+Des soucis à régler sur le site avec une barre de navigation irrégulière.
+Capture d'écran faite.
+
+11 Mars 2022.
+Des nouveaux tickets vont arriver pour les journées à venir. Amélioration du business case, page de base spatiale presque totalement terminée.
+Faire une page de forum dans la page base terrestre à renommer en 'informations' ou 'communications' terrestre ?
+Résolution du problème presque fini, un point et demi sur trois.
+Reprise du travail lundi. Faire condition NGIF dans le template approprié selon le mode dans lequel nous sommes ''[required]="true"''
+Capture d'écran faite.
+
+14 Mars 2022.
+Poursuite du ticket 3107 Corrections interface front
+Angular forms. Point du stage à faire avec un component lourd Angular à préparer en parallèle.
+2eme point du ticket traité et corrigé.
+Il s'agissait de trouver dans le projet angular le moyen de rendre le champ pour créer (ajouter/add) un utilisateur obligatoire, et l'édition, donc une fois crée
+non obligatoire.
+Commande git notée avec link de librairie.
+Prise de note faite sur les lien link de la librairie Beys au projet.
+Capture d'écran faite.
+
+15 Mars 2022.
+Pas de nouveau ticket. Vérification des pipelines. Le sprint 57 se termine le 18 Mars 2023.
+Nouvelles commandes git notées. Branche 3107 propre à présent.
+Reactive forms en angular crée. Maintenant voir la différence avec un template driven forms.
+Lancement des reactives forms, j'ai rassemblé mes anciens cours Angular d'Human Booster pour compléter.
+Forum symfony à améliorer à intégrer dans le business case.
+Pas besoin de capture d'écran ici. (Apprentissage)
+
+16 Mars 2022.
+Amélioration du forum pour intégration.
+Nouveau ticket obtenu 3123 : [N2] Navigation sur les écran de sélection de providers/domaines.
+Une sidebar qui apparait, persiste si l'on fait précédent dans le navigateur. 
+Correction du ticket terminée. Dans le ngOnInit, faire la fonction dans la condition d'affichage sur FALSE.
+Capture d'écran faite.
+
+17 Mars 2022.
+Fin de sprint. Réunion habituelle avec rapport sur le ticket 3123.
+Aucune assignation aujourd'hui, à pu réviser et continuer un peu le projet fil rouge.
+La partie du forum à été refaite. 
+Il reste donc à faire : Page d'accueil - Page boutique - Dashboard - Responsive (et ce sera terminé)
+Pas besoin de capture d'écran ici. (Apprentissage)
+
+18 Mars 2022.
+Mes tickets ont été vérifié et validé. Confirmation sur le mail de l'entreprise.
+Présentation du fin du sprint.
+Transition sur le front-v2. Demonstration IAM Gestion.
+Contenu de la sprint review : 
+Ticket 2102 : Utilisation de l'API Almerys et Swagger UI. Attribution des roles avec test sur le role admin.
+Ticket 3051 : Ajouter ou modifier un attribut via l'API. (Action avec Super_Admin / Admin) Erreur 202 non désirée au lieu d'une 204. Retour et corrections sur le FRONT.
+Ticket 1920 : En tant qu'admin ou domain_admin, je dois pouvoir supprimer une application. Création d'une application rapide par API Swagger UI. Suppression et retour 204.
+Ticket 3106 : En tant qu'utilisateur connecté à IAM Gestion, je veux configurer les préférences du profil. Dark Mode, languages ajoutés.
+Ticket 3075 : En tant qu'admin, je veux pouvoir filter les flux d'activité (tracabilité). Filtre et correction du flux historique, plus récent au plus ancien. 
+Ticket 3070 : [GEBBEID] Update filebeat role for nuta deploiement.
+Ticket 3107 : Corrections interface front. Amélioration textes et interfaces IAM Front v2. Pour rendre l'application polyvalente.
+Des rapports de tests ont été efféctué. 16 sont en échec (51.61%) et 15 sont réussi (48.39%). Réparations des échecs de tests.
+Assignation du ticket 3132 : Améliorations interface, deux points sur trois traités, poursuite lundi 21 Mars.
+Capture d'écran faite.
+
+21 Mars 2022.
+Poursuite du ticket 3132.
+Point 1 & 2 terminés.
+Pour le point 3 du ticket, peut être faire une fonction de switch dark mode qui ferait un RELOAD en dehors de l'init avec appel html ?
+Des nouveaux points ont été ajouté = 
+4 La notification d'ajout d'un groupe => doit afficher "ajouté" et non "créé"
+5 Contrôle des rôles : Alignement des boutons << < > >> entre les 2 input liste. Les recentrer verticalement.
+6 Contrôle des rôles : Les ascenseurs ne doivent pas s'afficher si pas scrollable. Dans les blocs de rôles. Chercher du côté de la librairie.
+Définition du sprint 58. Les choses sont à corriger selon le retour des testeurs. 
+Petite correction d'un problème de navbar, étude sur la conversion d'une navbar parfaitement responsive.
+Pour ce sprint 58 nous utilisons planitpoker, les votes portent sur la complexité des tâches à effectuer.
+Capture d'écran faite.
+
+22 Mars 2022.
+Poursuite du ticket 3132.
+Point 1, 2, 4, 5 & 6 terminés.
+Pour corriger les points 5 et 6 de contrôle des rôles, il à fallu donner une hauteur fixe à des div parentes qui après par une fonction de calcul, ont permis de diviser par 4
+les hauteurs pour répartir les 4 boutons de contrôles. << < > >> 
+En modifiant doncla CSS et des div parentes on à pu afficher correctement les controlleurs. Avec de plus une propriété CSS d'overflow, désactivation des ascenceurs
+sur les boites de controle.
+La barre de navigation du businesscase à été problématique mais à finalement été corrigée. Tout le business case est donc maintenant responsive.
+Le module front est donc validé normalement. Il reste à faire la boutique, l'accueil et le dashboard.
+Réunion à 16 heures pour les modifications de la librairie beys software. A chaque sprint les modifications seront faites.
+Capture d'écran faite.
+
+23 Mars 2022.
+Léger soucis sur le ticket 3076 qui à été corrigé.
+Ticket 3132 avec le DarkMode à poursuivre. Tous les autres points sont corrigés.
+Apparition d'un problème avec le ticket 3107. Résoudre le tout et pusher le correctif dans une seule branche.
+Ticket 3132 terminé. Il s'agissait d'un problème de darkmode avec la librairie personnalisée de Be-Ys Software. Cette librairie est un composent enfant de Iam Front.
+<beys-navbar></beys-navbar> en est l'exemple. Le html est appelé dans un autre template html par ces balises.
+Pour solutionner ce problème épineux il à fallu d'abord : 
+- Définir les couleurs dans une fonction ''init'', qui seront les couleurs des modes light/dark.
+- Faire un 'output' dans le composant (le navbar.component.ts dans la libs beys), ensuite le brancher sur le html. (navbar.component.html)
+- Faire des fonctions, une dans le ''ui.service.ts'', une dans le ''main.component.ts'', appel du ui.service et du setColor dans l'initData.
+- Raccorder le tout dans le main.component.html.
+IAM FRONT (html principal) -> BEYS LIB (librairie html indépendante) -> darkmode - output/emit -> main.ts IAMFRONT enableDarkMode -> uIservice 'isDarkMode' -> Dashboard
+'isDarkMode.subscribe'
+Ce petit circuit permet de vérifie dans quel état nous sommes, et par un simple boolean 'true false', changer les couleurs des éléments sur la couleur du reste du site.
+Capture d'écran faite.
+
+24 Mars 2022.
+Début de la page d'accueuil du business case.
+Début de la page résumé du projet Human Booster.
+Le ticket 3076 et le ticket 3132 sont finalement terminé et mis à jour.
+La recherche du ticket 3107 et son bug généré montre qu'il est plus complexe qu'il n'y parait. Peut être en poursuite le vendredi 25 avec de l'aide.
+Problème de Pipeline (Merge Request qui à un mauvais test de qualité), il faudra rétablir ça au plus vite.
+Pas besoin de capture d'écran aujourd'hui.
+
+25 Mars 2022.
+A l'arrivée, correction directe du Pipeline qui semble fonctionner. Il suffisait de supprimer les fichiers et imports non utilisés. Ensuite faire un ng lint + ng rest, puis 
+le git status, git add -A, git commit et git pull origin 'nom de ticket'.
+En attente de nouveau ticket. Si temps libre, page résumée à faire aujourd'hui, et avancer sur la page accueil du Business case.
+Correction d'un léger soucis de traduction suite à la découverte.
+Nouveau ticket 3138 : Changer l'affichage du bouton "retirer" en mode edit.
+Capture d'écran faite.
+
+28 Mars 2022.
+Fiche de résumé complétée et terminée. Je l'ai soumise à Human Booster et le retour fut positif. J'ai donc adopté la correction et retourné le tout.
+J'ai mis ma correction de la librairie sur la branche alpha et ma pipeline à été validé.
+Maintenant la merge est en attente d'acceptation.
+Demain si c'est validé il faudra mettre à jour la dépendance dans le package.json. Et puis faire un git add commit push depuis le front.
+Ainsi sera cloturé le ticket 3138.
+
+29 Mars 2022.
+Toujours en attente de la MR, elle est bonne sur les tests. Mais doit être vérifiée et validée. Une fois cela fait la MR front sera à faire.
+J'ai commencé à faire la page boutique, la gestion du panier est délicate cependant.
+
+
+30 Mars 2022.
+Assignation d'un ticket IAM-3156 : [N1] [Ajout d'une identité] Titre erroné. 
+Ce ticket avait été répéré et réparé il y'a quelques temps. Il sera donc corrigé avec la MR du ticket précédent le 3138.
+La MR est validée, ticket 3138 et 3156 corrigé et mis à jour.
+Enfin la première version de la boutique est faite avec son panier, il me reste qu'à la peaufiner.
+
+31 Mars 2022. 
+Amélioration de la boutique sur le business case. 
+Création d'un component dashboard angular. Exercice de connexion Angular avec fichier d'exemple pour le business case.
+A utiliser avec des librairies JS pour faire des graphiques et données de mois.
+
+1 Avril 2022.
+Aujourd'hui fut une journée calme, j'ai refait des exercices Angular pour comprendre les endpoints et modifié le business case.
+La page boutique est presque finie à 100%.
+La page de contact à été bien modifiée et l'utilisateur peux maintenant modifier ses informations. Des nouvelles ressources sont disponible,
+il est aussi possible de choisir une autre adresse et un pays.
+La page d'admin avec la liste des user est prête, il faudra la faire avec le dashboard angular.
+
+4 Avril 2022.
+Continuer si possible le projet fil rouge. Avec mot de passe hashé à faire. Crud boutique. Gérer la facturation. Recentrer image + favicon. Dashboard.
+Aujourd'hui à 14h30 réunion avec Charlotte. J'ai avancé sur le business case et terminé les hashages de mot de passe.
+Ce week-end j'ai pu recentrer les images, faire le crud de la boutique. Il me reste la facturation dashboard et favicon. Tout le reste est amélioré, 
+le contenu de certaines choses ou modification requiert d'être connecté pour pouvoir procéder à l'action.
+
+5 Avril 2022.
+Hier soir j'ai pu faire les gestions de rôle symfony. Cela fonctionne et me permet de masquer des zones ou des pages pour le simple utilisateur. Bloquer
+certaines options. Seul l'ADMIN peux faire ce que bon lui semble sur le site.
+Aujourd'hui nouveau ticket : intégration d'un 'Stepper'.
+Création du stepper qui sera un composant générique dans la libs de beys-software. On exporter des données de la beys-software-lib-sample vers beys-software-common-lib.
+Cela permettra d'utiliser <beys-stepper></beys-stepper> qui invoquera le dit stepper.
+Découverte du PowerPoint à rendre pour le 25 Avril, sera fait après le dossier projet, entre le 15 et 25.
+
+6 Avril 2022.
+Poursuite du projet de faire un composant entier dans une librairie Angular.
+Le stepper est finalement affiché en mode DUR. Il faut le rendre dynamique, avec des status. C'est du Angular pur. Input/output. Avec des NGIF NGFOR NGCONTAINER.
+Poursuite le lendemain.
+
+7 Avril 2022.
+Aujourd'hui révision Angular. Création de petits projets. Une mini boutique dans un premier temps et un prototypage de dashboard afin de monter
+en compétences.
+Le JIRA à été mis à jours de mes heures effectuée. 
+Création d'une mini boutique en Angular.
+Nouvel exercice Angular qui simule un dashboard, poursuite le 8 Avril.
+
+
+8 Avril 2022.
+Début de réflexion sur le dossier projet d'Human Booster. Une petite moitiée déjà efféctuée.
+Sprint Review 58 aujourd'hui.
+Ticket d'amélioration d'interface passée en revue.
+Ticket 3107 - Ticket 3138 - Ticket 3028 - Ticket 2964
+Poursuite de la montée en compétence d'Angular. Des nouveaux exercices et parcours de la documentation pour concevoir le stepper.
+
+11 Avril 2022.
+Ce week-end j’ai réussi à intégrer sur le projet fil rouge de nouvelles fonctionnalités. Une barre de recherche fonctionnelle, un bouton précédent, une boutique affichée 
+par ordre alphabétique.
+Poursuite de la veille sur Angular avec simulation d’appel à une API grâce à un tutoriel. On a un sprint refinement cet après-midi, 
+pour définir les nouvelles tâches à venir, avec les tickets. Découverte d’un nouveau projet angular à faire en tutoriel, 
+un dashboard qui permet de comprendre l’utilisation de charts, et à appliquer sur le fil rouge plus tard.
+
+12 Avril 2022.
+Aujourd'hui j'ai poursuivi ma veille pendant les réunions d'assignation de tâche dans le sprint. J'ai pu effectuer un exercice angular sur le système de dashboard et l'intégrer au projet symfony. Ce petit tableau de bord est accessible par un lien que seul l'ADMIN peux voir dans la page de gestion des utilisateurs. (Impossible d'y accéder autrement)
+Ce dashboard simule une connexion à une API en mode << dur >> grâce à un service, qui se connecte dans mon cas sur une fausse url de donnée json. (Je comprends la différence avec des endpoints à une api, en se connectant, c'est elle qui renvoie des json, ainsi les json rendu par une API seront forcément changeant et donc dynamique).
+Mes données en << dur >> montrent une liste de client, d'achat, de statistiques, des courbes, des graphiques, des diagrammes types camembert, c'est une parfaite page de contrôle admin. Voici les commandes que j'ai utilisé pour ce petit projet angular :
+ ng add @angular/material (librairie angular material)
+ npm install ng2-charts  - save (dépendance ng-2 charts qui à besoin de charts.js ci-dessous)
+ npm install chart.js --save
+ npm install  - save-dev ng2-charts-schematics (autre dépendance à chart.js)
+ ng generate @angular/material :dashboard dash (génère un dashboard responsive grâce à angular material)
+ ng generate ng2-charts-schematics :radar charts/product-sales-chart
+ ng generate ng2-charts-schematics :pie charts/sales-traffic-chart
+ ng generate ng2-charts-schematics :line charts/annual-sales-chart
+ ng generate ng2-charts-schematics :bar charts/store-sessions-chart
+    
+Cela va générer automatiquement, un radar, un camembert, une courbe et des diagrammes en bar pour le dashboard.
+ Ng generate @angular/material :table orders-table (génère automatiquement comme composant une table angular)
+Ce fut intense, mais c'est fonctionnel grâce à de fausses données.
+
+13 Avril 2022.
+Toujours un peu de veille, mais j'ai aussi du extraire un peu de code pour mon dossier projet avec Human Booster. J'ai réussi à terminer le montage
+de ce dossier. Il me reste un powerpoint de présentation basé sur ce dit dossier. Actuellement à 40 pages. 
+
+14 Avril 2022.
+Veille Angular, avec la reprise des fondamentaux avec OpenClassroom.
+
+15 Avril 2022.
+Poursuite de la veille Angular, doit faire de l'input output.
+
+19 Avril 2022.
+Reprise du stepper. Avec quelques améliorations, à modifier le routerlink pour la navigation entre chaques steps.
