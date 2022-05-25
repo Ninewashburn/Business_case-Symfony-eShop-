@@ -1,8 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9898fad-b0aa-44e8-b421-57c9a02a5001" name="Changes" comment="">
+    <list default="true" id="2d3eaba3-f880-4ae6-a28f-43de7c9a1d51" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_01_04_2022_17_00.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1639389518299.JPEG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1640250892881.JPEG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDD-BusinesCase.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business Case 2021.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dico-BusinessCase.ods" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCD-Business_case - v.2.mdj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCD-Business_case.mdj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/2022-04-13 14_43_52-iam-front – profile-preferences.component.ts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/2022-04-13 14_45_54-iam-front – ui.service.ts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/2022-04-13 14_47_20-iam-front – ui.service.ts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/2022-04-13 14_50_28-beys-software-common-lib – navbar.component.html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/2022-04-13 14_51_35-beys-software-common-lib – navbar.component.ts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/2022-04-13 14_58_40-beys-software-common-lib – switch.component.ts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/2022-04-13 15_06_19-beys-software-common-lib – switch.component.html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/2022-04-13 15_34_58-iam-front – profile-preferences.component.html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/Broken_pipelines.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/Dashboard_front.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/Dashboard_mirage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/Job_done_with_pipelines.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/Organisation_lib_commune.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/Ticket_merge_resolve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/complete_stepper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/example angular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/first&amp;ticket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/first_ticket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/lib_sample_stepper-beys-software-lib-sample – stepper.component.ts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/planit_poker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/stepper-beys-software-common-lib – step-item.model.ts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/stepper-beys-software-common-lib – stepper.component.html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/stepper-beys-software-common-lib – stepper.component.ts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/stepper-lib-sample-beys-software-lib-sample – stepper.component.html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/stepper_sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/stepper_sample_code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/third_ticket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket-3107.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket-fixed-3098_jasmine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket_2872.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket_3076.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket_3098.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket_3107_part1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket_3107_part2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket_3123.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket_3132.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket_3132_part1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket_3132_part2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/zone_interdite_beys.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 09_49_21-Business_case – security.yaml.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 09_52_26-Business_case – UserController.php.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 09_58_11-Business_case – earth_base_index.html.twig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 10_01_06-Business_case – product_index.html.twig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 10_03_05-Business_case – product_index.html.twig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 15_23_32-Business_case – home.ts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 16_20_43-Business_case – CartController.php.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 16_21_44-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 16_23_18-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 16_48_44-Business_case – ProductRepository.php.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 16_51_26-Business_case – PostFormType.php.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 17_15_16-Firefox Developer Edition.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/Business_case_API.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/Business_case_API_sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/MCD-Business_case.mdj — StarUML (UNREGISTERED).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/Page utilisateur la Nimes'Alerie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/Space_base_businesscase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/article_zone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/bonus_page_business_case.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/business_case_responsive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/construction_navbar1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/construction_navbar2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/construction_navbar3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/dashboard1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/dashboard2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/dashboard3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/end_navbar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/findAllNames_function_business_case.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/footer_business_case.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/maquette_adobe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/navbar_finale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/product_admin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/product_detail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/product_user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/shopping_cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/spacebase_screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/user_controller_password_hash_example.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/Attestation remise r_glement intérieur et charte informatique_meynadier_renaud.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/Dossier de candidature - backpack complet.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/Feuille de presence Entreprise_MEYNADIER_Renaud.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/Meynadier Renaud Dossier de candidature - backpack complet.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/Meynadier Renaud cv.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/Plaquettes_BACKPACK_candidats_V2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/Prototype de Renaud Meynadier icv-1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/Renaud Meynadier icv.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/Symfony.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/bookmark/bookmarks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/bookmark/bookmarks_iam.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/bookmark/hb_bookmarks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/business_case.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/conseils.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Business_Case_2021.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Consigne TP DWWM.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Convocation MEYNADIER Renaud.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Dossier_Professionel_Meynadier_Renaud.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Dossier_Professionel_Meynadier_Renaud.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Dossier_Professionel_Meynadier_Renaud_old.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Fiche Objectif Resume_DWWM_2021_04.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Fiche Objectif Stage_DWWM_2021_04.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Fiche_Objectif_Dossier_projet_DWWM_2021_04.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Fiche_resume_meynadier_renaud.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Fiche_resume_meynadier_renaud.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Grille_evaluation_stage_entreprise_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Meynadier_Renaud_Dossier_projet.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Meynadier_Renaud_Dossier_projet.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Meynadier_Renaud_Dossier_projet_old.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Fiche_Objectif_Certification_DWWM_2021_04.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Fiche_Objectif_Examen_DWWM_2021_04.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Présentation soutenance Meynadier Renaud - Copie.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Présentation soutenance Meynadier Renaud V2.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Présentation soutenance Meynadier Renaud.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Présentation soutenance Meynadier Renaud_old.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Révision soutenance Meynadier Renaud.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/logo/Humanboosternoir.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/logo/Pôle Emploi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/logo/be ys.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/logo/leuropesengageenfrance_logo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/logo/ministere du travail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/mdp hb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/memo log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/progit.fr.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/rappel/Angular-Typescript.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/rappel/Angular_-_Bases.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/rappel/Correction-Exam-21-10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/rappel/Sujet-Examen-Angular-20211102.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/rappel/Symfony-Bases.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/rapport_stage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_texte/todo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickloopingv2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20220404152832.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,419 +154,215 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/Business_case/composer.json</pharConfigPath>
-    <execution />
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
-      <path value="$PROJECT_DIR$/vendor/nelmio/cors-bundle" />
-      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
-      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
-      <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
-      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
-      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
-      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
-      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
-      <path value="$PROJECT_DIR$/vendor/symfony/notifier" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
-      <path value="$PROJECT_DIR$/vendor/theofidry/alice-data-fixtures" />
-      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
-      <path value="$PROJECT_DIR$/vendor/symfony/password-hasher" />
-      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
-      <path value="$PROJECT_DIR$/vendor/symfony/process" />
-      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
-      <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
-      <path value="$PROJECT_DIR$/vendor/symfony/proxy-manager-bridge" />
-      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
-      <path value="$PROJECT_DIR$/vendor/symfony/runtime" />
-      <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
-      <path value="$PROJECT_DIR$/vendor/symfony/security-core" />
-      <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
-      <path value="$PROJECT_DIR$/vendor/symfony/security-guard" />
-      <path value="$PROJECT_DIR$/vendor/symfony/security-http" />
-      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
-      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
-      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
-      <path value="$PROJECT_DIR$/vendor/symfony/string" />
-      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
-      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
-      <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
-      <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
-      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
-      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
-      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
-      <path value="$PROJECT_DIR$/vendor/symfony/web-link" />
-      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
-      <path value="$PROJECT_DIR$/vendor/willdurand/negotiation" />
-      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
-      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
-      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
-      <path value="$PROJECT_DIR$/vendor/api-platform/core" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
-      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/sql-formatter" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
-      <path value="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
-      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
-      <path value="$PROJECT_DIR$/vendor/friendsofphp/proxy-manager-lts" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
-      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/stella-maris/clock" />
+      <path value="$PROJECT_DIR$/vendor/friendsofphp/proxy-manager-lts" />
+      <path value="$PROJECT_DIR$/vendor/api-platform/core" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/theofidry/alice-data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/hautelook/alice-bundle" />
       <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
       <path value="$PROJECT_DIR$/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/rate-limiter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/proxy-manager-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/password-hasher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/notifier" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/lock" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
-      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/nelmio/cors-bundle" />
       <path value="$PROJECT_DIR$/vendor/nelmio/alice" />
       <path value="$PROJECT_DIR$/vendor/namshi/jose" />
-      <path value="$PROJECT_DIR$/vendor/psr/cache" />
-      <path value="$PROJECT_DIR$/vendor/psr/container" />
-      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
-      <path value="$PROJECT_DIR$/vendor/psr/link" />
-      <path value="$PROJECT_DIR$/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
-      <path value="$PROJECT_DIR$/vendor/twig/twig" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
-      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
-      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
-      <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
-      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
-      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
-      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
-      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
-      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
-      <path value="$PROJECT_DIR$/vendor/phpstan/phpdoc-parser" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
-      <path value="$PROJECT_DIR$/vendor/symfony/asset" />
-      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
-      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
-      <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
-      <path value="$PROJECT_DIR$/vendor/symfony/config" />
-      <path value="$PROJECT_DIR$/vendor/symfony/console" />
-      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
-      <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
-      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
-      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
-      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
-      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
-      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
-      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
-      <path value="$PROJECT_DIR$/vendor/hautelook/alice-bundle" />
-      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
-      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
-      <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
-      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
-      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
-      <path value="$PROJECT_DIR$/vendor/symfony/flex" />
-      <path value="$PROJECT_DIR$/vendor/symfony/form" />
-      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
-      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
-      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
-      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/theseer/tokenizer" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/phpspec/prophecy" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/hautelook/alice-bundle" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/sebastian/code-unit-reverse-lookup" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/sebastian/object-reflector" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/knplabs/knp-components" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/monolog/monolog" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/sebastian/global-state" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/knplabs/knp-paginator-bundle" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/sebastian/environment" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/sebastian/recursion-context" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/sebastian/resource-operations" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/sebastian/version" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/sebastian/complexity" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/sebastian/exporter" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/sebastian/cli-parser" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/sebastian/comparator" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/sebastian/code-unit" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/sebastian/lines-of-code" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/sebastian/object-enumerator" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/sebastian/type" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/sebastian/diff" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/theofidry/alice-data-fixtures" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/phpunit/php-timer" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/phpunit/php-invoker" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/phpunit/php-file-iterator" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/phpunit/phpunit" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/phpunit/php-text-template" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/phpunit/php-code-coverage" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/twig/extra-bundle" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/lcobucci/clock" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/twig/twig" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/lcobucci/jwt" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/phar-io/manifest" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/phar-io/version" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/lexik/jwt-authentication-bundle" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/laminas/laminas-code" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/egulias/email-validator" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/nelmio/alice" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/psr/container" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/psr/event-dispatcher" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/myclabs/deep-copy" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/psr/cache" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/nelmio/cors-bundle" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/psr/link" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/phpstan/phpdoc-parser" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/fig/link-util" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/friendsofphp/proxy-manager-lts" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/api-platform/core" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/fakerphp/faker" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/asset" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/expression-language" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/process" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/dotenv" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/twig-bridge" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/serializer" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/string" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/sensio/framework-extra-bundle" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/yaml" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/notifier" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/polyfill-intl-icu" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/http-kernel" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/browser-kit" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/console" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/security-guard" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/web-profiler-bundle" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/maker-bundle" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/polyfill-php73" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/polyfill-intl-idn" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/error-handler" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/filesystem" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/twig-bundle" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/debug-bundle" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/mailer" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/mime" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/config" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/composer" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/security-http" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/dependency-injection" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/doctrine/doctrine-migrations-bundle" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/phpunit-bridge" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/doctrine/common" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/polyfill-intl-normalizer" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/doctrine/inflector" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/doctrine-bridge" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/doctrine/migrations" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/http-client-contracts" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/doctrine/persistence" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/monolog-bridge" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/doctrine/annotations" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/intl" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/doctrine/doctrine-bundle" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/http-client" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/doctrine/collections" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/finder" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/doctrine/orm" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/routing" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/doctrine/sql-formatter" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/translation" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/doctrine/dbal" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/security-bundle" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/doctrine/cache" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/willdurand/negotiation" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/service-contracts" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/doctrine/data-fixtures" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/web-link" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/doctrine/instantiator" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/namshi/jose" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/dom-crawler" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/doctrine/deprecations" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/translation-contracts" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/doctrine/event-manager" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/polyfill-php81" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/validator" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/doctrine/lexer" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/http-foundation" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/framework-bundle" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/event-dispatcher" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/var-dumper" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/options-resolver" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/webpack-encore-bundle" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/password-hasher" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/webmozart/assert" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/flex" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/stopwatch" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/phpdocumentor/reflection-common" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/security-csrf" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/event-dispatcher-contracts" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/phpdocumentor/reflection-docblock" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/proxy-manager-bridge" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/phpdocumentor/type-resolver" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/property-info" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/property-access" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/security-core" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/polyfill-php80" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/css-selector" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/cache" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/polyfill-intl-grapheme" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/monolog-bundle" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/form" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/var-exporter" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/deprecation-contracts" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/runtime" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/cache-contracts" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/Business_case/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
     </include_path>
   </component>
-  <component name="ProjectId" id="276cIL9B5gC4x77i2E1zai6DFZC" />
+  <component name="ProjectId" id="28zcs1l63EdW4U4LXvZkb1v8wgd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/styles/libs" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="database.data.views" />
-    <property name="ts.external.directory.path" value="C:\Users\rmeynadier\dev\Business_case\node_modules\typescript\lib" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Cenar/Dev/Business_case&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\HB\Documents\Documents Human Booster\Business_case\assets\styles\libs" />
-      <recent name="C:\Users\HB\Documents\Documents Human Booster\Business_case\src\Controller" />
-      <recent name="C:\Users\HB\Documents\Documents Human Booster\Business_case\assets\scripts" />
-      <recent name="C:\Users\HB\Documents\Documents Human Booster\Business_case\templates\product" />
-      <recent name="C:\Users\rmeynadier\dev\Business_case\templates\user" />
+      <recent name="C:\Users\Cenar\Dev\Business_case" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c9898fad-b0aa-44e8-b421-57c9a02a5001" name="Changes" comment="" />
-      <created>1648643897705</created>
+      <changelist id="2d3eaba3-f880-4ae6-a28f-43de7c9a1d51" name="Changes" comment="" />
+      <created>1652223063530</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648643897705</updated>
-      <workItem from="1648643903432" duration="197000" />
-      <workItem from="1648644117739" duration="9738000" />
-      <workItem from="1648710571095" duration="18729000" />
-      <workItem from="1648796906064" duration="10387000" />
-      <workItem from="1648808343339" duration="15411000" />
-      <workItem from="1649055855022" duration="20638000" />
-      <workItem from="1649142157444" duration="3714000" />
-      <workItem from="1649237897953" duration="16000" />
-      <workItem from="1649316228242" duration="47000" />
-      <workItem from="1649342741936" duration="260000" />
-      <workItem from="1649367183985" duration="178000" />
-      <workItem from="1649418662229" duration="3000" />
-      <workItem from="1649429615914" duration="234000" />
-      <workItem from="1649601125271" duration="8024000" />
-      <workItem from="1649609736113" duration="14000" />
-      <workItem from="1649622410810" duration="4455000" />
-      <workItem from="1649664892711" duration="409000" />
-      <workItem from="1649668559006" duration="128000" />
-      <workItem from="1649668712177" duration="14000" />
-      <workItem from="1649668757033" duration="28000" />
-      <workItem from="1649668860543" duration="1218000" />
-      <workItem from="1649708646288" duration="2120000" />
-      <workItem from="1649769359584" duration="1827000" />
-      <workItem from="1649772871681" duration="131000" />
-      <workItem from="1649773059162" duration="131000" />
-      <workItem from="1649773334196" duration="947000" />
-      <workItem from="1649774526109" duration="749000" />
-      <workItem from="1649775912216" duration="539000" />
-      <workItem from="1649776740043" duration="129000" />
-      <workItem from="1649795939337" duration="3266000" />
-      <workItem from="1649833750725" duration="5290000" />
-      <workItem from="1649849962360" duration="4841000" />
-      <workItem from="1649883297787" duration="594000" />
-      <workItem from="1650006988450" duration="106000" />
-      <workItem from="1650012298597" duration="267000" />
-      <workItem from="1650014774179" duration="434000" />
-      <workItem from="1650024671817" duration="4000000" />
-      <workItem from="1650351699621" duration="787000" />
-      <workItem from="1650400573087" duration="743000" />
-      <workItem from="1650456714135" duration="309000" />
-      <workItem from="1650489853882" duration="33000" />
-      <workItem from="1650552450892" duration="443000" />
-      <workItem from="1650575143628" duration="391000" />
-      <workItem from="1650632159466" duration="2712000" />
-      <workItem from="1650745144844" duration="2060000" />
-      <workItem from="1650828939856" duration="6511000" />
-      <workItem from="1650870673682" duration="368000" />
-      <workItem from="1651043427267" duration="1252000" />
-      <workItem from="1651050601203" duration="52000" />
-      <workItem from="1651156886230" duration="195000" />
-      <workItem from="1651245379582" duration="46000" />
-      <workItem from="1651479837451" duration="2742000" />
-      <workItem from="1651583874783" duration="190000" />
-      <workItem from="1651588468496" duration="652000" />
-      <workItem from="1651589596590" duration="485000" />
-      <workItem from="1651653862644" duration="923000" />
-      <workItem from="1651737352820" duration="634000" />
-      <workItem from="1651758194612" duration="1434000" />
-      <workItem from="1651824512492" duration="158000" />
-      <workItem from="1651843300177" duration="640000" />
-      <workItem from="1652123775479" duration="12000" />
-      <workItem from="1652127575972" duration="92000" />
-      <workItem from="1652129447624" duration="16000" />
-      <workItem from="1652217186453" duration="308000" />
+      <updated>1652223063530</updated>
+      <workItem from="1652223065579" duration="392000" />
+      <workItem from="1652305570642" duration="2107000" />
+      <workItem from="1652728076500" duration="619000" />
+      <workItem from="1652730179365" duration="167000" />
+      <workItem from="1652731887288" duration="271000" />
+      <workItem from="1653316925746" duration="2932000" />
+      <workItem from="1653425755335" duration="32000" />
+      <workItem from="1653494080433" duration="554000" />
+      <workItem from="1653494711496" duration="1221000" />
     </task>
     <servers />
   </component>
@@ -439,9 +379,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
