@@ -8,7 +8,7 @@ Ceci est un site de e-commerce appellée « La_Nimes_Alerie », conçu pendant
 - Html - Sass
 - Javascript (décompte arrivé à terme 'EXPIRED'), boutons de contrôle (pendant défilement de la page), fonction de la barre de recherche
 - Responsive avec Bootstrap
-
+- Un tableau de bord ("dashboard") Angular qui nécessite l'autre projet de Dashboard pour fonctionner
 
 Nous trouvons comme contenu : 
 

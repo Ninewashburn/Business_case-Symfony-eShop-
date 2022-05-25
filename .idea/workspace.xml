@@ -2,150 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d3eaba3-f880-4ae6-a28f-43de7c9a1d51" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_01_04_2022_17_00.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1639389518299.JPEG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1640250892881.JPEG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDD-BusinesCase.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business Case 2021.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dico-BusinessCase.ods" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MCD-Business_case - v.2.mdj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MCD-Business_case.mdj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/2022-04-13 14_43_52-iam-front – profile-preferences.component.ts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/2022-04-13 14_45_54-iam-front – ui.service.ts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/2022-04-13 14_47_20-iam-front – ui.service.ts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/2022-04-13 14_50_28-beys-software-common-lib – navbar.component.html.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/2022-04-13 14_51_35-beys-software-common-lib – navbar.component.ts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/2022-04-13 14_58_40-beys-software-common-lib – switch.component.ts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/2022-04-13 15_06_19-beys-software-common-lib – switch.component.html.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/2022-04-13 15_34_58-iam-front – profile-preferences.component.html.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/Broken_pipelines.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/Dashboard_front.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/Dashboard_mirage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/Job_done_with_pipelines.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/Organisation_lib_commune.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/Ticket_merge_resolve.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/complete_stepper.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/example angular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/first&amp;ticket.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/first_ticket.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/lib_sample_stepper-beys-software-lib-sample – stepper.component.ts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/planit_poker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/stepper-beys-software-common-lib – step-item.model.ts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/stepper-beys-software-common-lib – stepper.component.html.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/stepper-beys-software-common-lib – stepper.component.ts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/stepper-lib-sample-beys-software-lib-sample – stepper.component.html.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/stepper_sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/stepper_sample_code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/third_ticket.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket-3107.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket-fixed-3098_jasmine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket_2872.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket_3076.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket_3098.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket_3107_part1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket_3107_part2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket_3123.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket_3132.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket_3132_part1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/ticket_3132_part2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran beys/zone_interdite_beys.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 09_49_21-Business_case – security.yaml.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 09_52_26-Business_case – UserController.php.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 09_58_11-Business_case – earth_base_index.html.twig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 10_01_06-Business_case – product_index.html.twig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 10_03_05-Business_case – product_index.html.twig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 15_23_32-Business_case – home.ts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 16_20_43-Business_case – CartController.php.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 16_21_44-.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 16_23_18-.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 16_48_44-Business_case – ProductRepository.php.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 16_51_26-Business_case – PostFormType.php.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/2022-04-13 17_15_16-Firefox Developer Edition.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/Business_case_API.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/Business_case_API_sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/MCD-Business_case.mdj — StarUML (UNREGISTERED).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/Page utilisateur la Nimes'Alerie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/Space_base_businesscase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/article_zone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/bonus_page_business_case.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/business_case_responsive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/construction_navbar1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/construction_navbar2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/construction_navbar3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/dashboard1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/dashboard2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/dashboard3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/end_navbar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/findAllNames_function_business_case.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/footer_business_case.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/maquette_adobe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/navbar_finale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/product_admin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/product_detail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/product_user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/shopping_cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/spacebase_screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_ecran/capture écran business case/user_controller_password_hash_example.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/Attestation remise r_glement intérieur et charte informatique_meynadier_renaud.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/Dossier de candidature - backpack complet.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/Feuille de presence Entreprise_MEYNADIER_Renaud.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/Meynadier Renaud Dossier de candidature - backpack complet.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/Meynadier Renaud cv.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/Plaquettes_BACKPACK_candidats_V2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/Prototype de Renaud Meynadier icv-1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/Renaud Meynadier icv.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/Symfony.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/bookmark/bookmarks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/bookmark/bookmarks_iam.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/bookmark/hb_bookmarks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/business_case.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/conseils.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Business_Case_2021.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Consigne TP DWWM.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Convocation MEYNADIER Renaud.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Dossier_Professionel_Meynadier_Renaud.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Dossier_Professionel_Meynadier_Renaud.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Dossier_Professionel_Meynadier_Renaud_old.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Fiche Objectif Resume_DWWM_2021_04.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Fiche Objectif Stage_DWWM_2021_04.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Fiche_Objectif_Dossier_projet_DWWM_2021_04.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Fiche_resume_meynadier_renaud.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Fiche_resume_meynadier_renaud.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Grille_evaluation_stage_entreprise_1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Meynadier_Renaud_Dossier_projet.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Meynadier_Renaud_Dossier_projet.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/examen hb/Meynadier_Renaud_Dossier_projet_old.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Fiche_Objectif_Certification_DWWM_2021_04.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Fiche_Objectif_Examen_DWWM_2021_04.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Présentation soutenance Meynadier Renaud - Copie.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Présentation soutenance Meynadier Renaud V2.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Présentation soutenance Meynadier Renaud.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Présentation soutenance Meynadier Renaud_old.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/fiche en cours de remplissage/Révision soutenance Meynadier Renaud.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/logo/Humanboosternoir.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/logo/Pôle Emploi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/logo/be ys.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/logo/leuropesengageenfrance_logo.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/logo/ministere du travail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/mdp hb.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/memo log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/progit.fr.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/rappel/Angular-Typescript.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/rappel/Angular_-_Bases.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/rappel/Correction-Exam-21-10.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/rappel/Sujet-Examen-Angular-20211102.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/rappel/Symfony-Bases.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/rapport_stage.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/capture_texte/todo.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clickloopingv2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20220404152832.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/user/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -362,7 +219,9 @@
       <workItem from="1653316925746" duration="2932000" />
       <workItem from="1653425755335" duration="32000" />
       <workItem from="1653494080433" duration="554000" />
-      <workItem from="1653494711496" duration="1221000" />
+      <workItem from="1653494711496" duration="1851000" />
+      <workItem from="1653511307488" duration="779000" />
+      <workItem from="1653513772519" duration="138000" />
     </task>
     <servers />
   </component>
