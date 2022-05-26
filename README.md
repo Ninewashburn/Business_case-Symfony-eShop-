@@ -26,3 +26,5 @@ Nous trouvons comme contenu :
 - Le pied de page (footer)
 
 L'idée était que ce site ne soit pas simplement qu'une boutique en ligne mais un réseau social, une communauté qui tiendrait ses utilisateurs informés et partagerait du contenu.
+
+![responsive_nimesalerie](https://user-images.githubusercontent.com/79519650/170511167-07da9e9a-cab4-4aa3-b3b5-e04da1e4ee81.png)
