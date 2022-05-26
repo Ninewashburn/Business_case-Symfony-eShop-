@@ -1,6 +1,8 @@
 ﻿« Business_case » 
 Meynadier Renaud Human Booster session 2021 2022.
 
+![NimesAlerie_description](https://user-images.githubusercontent.com/79519650/170510247-1b4f0146-7c68-4986-bc9f-f1f234f84d6b.png)
+
 Ceci est un site de e-commerce appellée « La_Nimes_Alerie », conçu pendant le cursus de formation développeur web et web mobile.
 
 - Principalement conçu en Symfony (Php)
