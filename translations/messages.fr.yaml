@@ -1,0 +1,77 @@
+article:
+  home: 'Accueil'
+  edit:
+    title: 'Éditer cet article'
+  new:
+    title: 'Nouvel article'
+  show:
+    title: 'Détail de cet article %name%'
+  index:
+    new: 'Nouvel article'
+    table:
+      empty: 'Aucun article'
+      name: 'Titre'
+      content: 'Contenu'
+  list: 'Liste des articles'
+  detail: 'Détails'
+general:
+  button:
+    submit: 'Valider'
+home:
+  menu:
+    type: 'Rubrique'
+    post: 'Poste'
+thread:
+  add: 'Ajouter un sujet'
+  new:
+    title: 'Titre de votre sujet'
+type:
+  add: 'Ajouter une rubrique'
+  new:
+    title: 'Titre de votre rubrique'
+subtype:
+  add: 'Ajouter une sous-rubrique'
+  new:
+    title: 'Titre de votre sous-rubrique'
+post:
+  add: 'Ajouter un message'
+  new:
+    title: 'Contenu de votre message'
+user:
+  new:
+    title: 'Nouvel utilisateur'
+  home: 'Gestion des utilisateurs'
+  list: 'Liste des utilisateurs'
+  show:
+    title: 'Voir les données'
+  edit:
+    title: 'Changement de données'
+  index:
+    new: 'Ajouter un utilisateur'
+    table:
+      email: 'Adresse Email'
+      password: 'Mot de passe'
+      firstName: 'Prénom'
+      lastName: 'Nom'
+      telephone: 'Telephone'
+      address: 'Adresse'
+      secondAddress: 'Adresse secondaire'
+      birthAt: 'Date de naissance'
+      country: 'Pays'
+      city: 'Ville'
+product:
+  new:
+    title: 'Nouveau produit'
+  index:
+    new: 'Nouveau produit'
+    table:
+      title: 'Nom du produit'
+      description: 'Description du produit'
+      price: 'Prix du produit'
+      quantity: 'Quantité du produit'
+      image: 'Image du produit'
+      cover: 'Photo du produit'
+  edit:
+    title: 'Modifier produit'
+
+

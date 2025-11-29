@@ -1,0 +1,3 @@
+App\Entity\CartLine:
+  cartLine{1..300}:
+    quantity: '<numberBetween(1, 10)>'
